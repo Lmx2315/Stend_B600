@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MainPage1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-11-6T12:17:12</timestamp>
+    <pin polarity="Input" x="0" y="32" name="data_ppi8" />
+    <pin polarity="Input" x="0" y="32" name="MOSI_BF" />
+    <pin polarity="Input" x="0" y="32" name="MISO_w5100" />
+    <pin polarity="Input" x="0" y="-112" name="f5MHz" />
+    <pin polarity="Input" x="0" y="-272" name="F20MHz" />
+    <pin polarity="Input" x="0" y="-192" name="F64MHz" />
+    <pin polarity="Input" x="0" y="32" name="TKONTR2" />
+    <pin polarity="Input" x="0" y="-352" name="data_ppi(7:0)" />
+    <pin polarity="Input" x="0" y="32" name="TSCLK" />
+    <pin polarity="Input" x="0" y="32" name="TFS0" />
+    <pin polarity="Input" x="0" y="32" name="DT0SEC" />
+    <pin polarity="Input" x="0" y="32" name="DT0PRI" />
+    <pin polarity="Input" x="0" y="-432" name="fs3" />
+    <pin polarity="Input" x="0" y="32" name="INT_w5100" />
+    <pin polarity="Input" x="0" y="32" name="CLK_SPI_BF" />
+    <pin polarity="Input" x="0" y="32" name="data_ppi13" />
+    <pin polarity="Input" x="384" y="32" name="data8_spi(7:0)" />
+    <pin polarity="Input" x="0" y="32" name="data_ppi9" />
+    <pin polarity="Input" x="0" y="32" name="TX_DSP" />
+    <pin polarity="Input" x="0" y="32" name="TX_FTDI_1" />
+    <pin polarity="Input" x="0" y="32" name="RX_485_mg" />
+    <pin polarity="Input" x="0" y="-32" name="T_5MIN_sinhro" />
+    <pin polarity="Input" x="0" y="32" name="timer_bf" />
+    <pin polarity="Input" x="0" y="32" name="TKONTR1" />
+    <pin polarity="Input" x="0" y="32" name="TKONTR3" />
+    <pin polarity="Input" x="384" y="32" name="UART_RX" />
+    <pin polarity="Input" x="0" y="32" name="data_ppi11" />
+    <pin polarity="Input" x="0" y="32" name="data_ppi10" />
+    <pin polarity="Input" x="0" y="32" name="bus_int3" />
+    <pin polarity="Input" x="0" y="32" name="bus_int4" />
+    <pin polarity="Input" x="0" y="32" name="bus_int2" />
+    <pin polarity="Input" x="0" y="32" name="bus_int1" />
+    <pin polarity="Output" x="384" y="-672" name="clk8_spi" />
+    <pin polarity="Output" x="0" y="-672" name="clk_ppi" />
+    <pin polarity="Output" x="384" y="32" name="BUS_WR" />
+    <pin polarity="Output" x="384" y="32" name="BUS_ADDR(7:0)" />
+    <pin polarity="Output" x="384" y="32" name="MOSI_w5100" />
+    <pin polarity="Output" x="384" y="32" name="CS_SPI1_w5100" />
+    <pin polarity="Output" x="384" y="32" name="CLK_SPI_w5100" />
+    <pin polarity="Output" x="384" y="32" name="CS_SPI2_w5100" />
+    <pin polarity="Output" x="384" y="32" name="MISO_BF" />
+    <pin polarity="Output" x="384" y="-224" name="Tkp" />
+    <pin polarity="Output" x="384" y="-288" name="Tnp" />
+    <pin polarity="Output" x="384" y="-352" name="Tki" />
+    <pin polarity="Output" x="384" y="-416" name="Tni" />
+    <pin polarity="Output" x="384" y="-480" name="Tnc" />
+    <pin polarity="Output" x="384" y="32" name="TOBM" />
+    <pin polarity="Output" x="384" y="-544" name="Tno" />
+    <pin polarity="Output" x="0" y="-592" name="fs1" />
+    <pin polarity="Output" x="384" y="32" name="RFS0" />
+    <pin polarity="Output" x="384" y="32" name="RSCLK0" />
+    <pin polarity="Output" x="384" y="32" name="DR0PRI" />
+    <pin polarity="Output" x="384" y="32" name="Rezerv_out" />
+    <pin polarity="Output" x="384" y="32" name="RZV3" />
+    <pin polarity="Output" x="384" y="32" name="t1_4" />
+    <pin polarity="Output" x="384" y="32" name="wd_supervisor" />
+    <pin polarity="Output" x="0" y="32" name="CS_SPI_BF" />
+    <pin polarity="Output" x="384" y="32" name="T_TEST1" />
+    <pin polarity="Output" x="384" y="32" name="T_TEST2" />
+    <pin polarity="Output" x="384" y="32" name="T_TEST3" />
+    <pin polarity="Output" x="384" y="32" name="T_TEST4" />
+    <pin polarity="Output" x="0" y="32" name="ppi15" />
+    <pin polarity="Output" x="0" y="-512" name="fs2" />
+    <pin polarity="Output" x="384" y="32" name="reset_mk" />
+    <pin polarity="Output" x="384" y="32" name="led1" />
+    <pin polarity="Output" x="384" y="32" name="INT1_BfPPI14" />
+    <pin polarity="Output" x="384" y="32" name="RTS_485" />
+    <pin polarity="Output" x="384" y="32" name="Re_485" />
+    <pin polarity="Output" x="384" y="32" name="RX_FTDI_1" />
+    <pin polarity="Output" x="384" y="32" name="TX_485_mg" />
+    <pin polarity="Output" x="384" y="32" name="RZV4" />
+    <pin polarity="Output" x="384" y="32" name="BUS_RD" />
+    <pin polarity="Output" x="384" y="32" name="RX_DSP" />
+    <pin polarity="Output" x="384" y="32" name="led4" />
+    <pin polarity="Output" x="384" y="32" name="bus_t" />
+    <pin polarity="Output" x="384" y="32" name="ENABLE_BUS_OUT" />
+    <pin polarity="Output" x="384" y="32" name="ENABLE_BUS_IN" />
+    <pin polarity="Output" x="384" y="32" name="cs_ALE1" />
+    <pin polarity="Output" x="384" y="32" name="cs_ALE2" />
+    <pin polarity="Output" x="384" y="32" name="cs_ALE3" />
+    <pin polarity="Output" x="0" y="32" name="UART_TX" />
+    <pin polarity="Output" x="384" y="32" name="led3" />
+    <pin polarity="Output" x="384" y="32" name="led2" />
+    <pin polarity="Output" x="384" y="32" name="pwm2" />
+    <pin polarity="Output" x="384" y="32" name="pwm1" />
+    <pin polarity="Output" x="0" y="32" name="data_ppi12" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi8" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin MOSI_BF" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin MISO_w5100" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin f5MHz" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-272" type="pin F20MHz" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-192" type="pin F64MHz" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TKONTR2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin data_ppi(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TSCLK" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TFS0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin DT0SEC" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin DT0PRI" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-432" type="pin fs3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin INT_w5100" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin CLK_SPI_BF" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi13" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin data8_spi(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi9" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TX_DSP" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TX_FTDI_1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin RX_485_mg" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin T_5MIN_sinhro" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin timer_bf" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TKONTR1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin TKONTR3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin UART_RX" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi11" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi10" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin bus_int3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin bus_int4" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin bus_int2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin bus_int1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-672" type="pin clk8_spi" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin clk_ppi" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin BUS_WR" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin BUS_ADDR(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin MOSI_w5100" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin CS_SPI1_w5100" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin CLK_SPI_w5100" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin CS_SPI2_w5100" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin MISO_BF" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin Tkp" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin Tnp" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin Tki" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin Tni" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin Tnc" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin TOBM" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-544" type="pin Tno" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-592" type="pin fs1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RFS0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RSCLK0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin DR0PRI" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin Rezerv_out" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RZV3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin t1_4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin wd_supervisor" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin CS_SPI_BF" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin T_TEST1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin T_TEST2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin T_TEST3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin T_TEST4" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin ppi15" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-512" type="pin fs2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin reset_mk" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin led1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin INT1_BfPPI14" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RTS_485" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin Re_485" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RX_FTDI_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin TX_485_mg" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RZV4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin BUS_RD" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin RX_DSP" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin led4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin bus_t" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin ENABLE_BUS_OUT" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin ENABLE_BUS_IN" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin cs_ALE1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin cs_ALE2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin cs_ALE3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin UART_TX" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin led3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin led2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin pwm2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin pwm1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin data_ppi12" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <rect width="64" x="320" y="20" height="24" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <rect width="64" x="320" y="20" height="24" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-592" y2="-592" x1="64" />
+        <line x2="0" y1="-512" y2="-512" x1="64" />
+        <line x2="0" y1="-432" y2="-432" x1="64" />
+        <rect width="64" x="0" y="-364" height="24" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <line x2="0" y1="-192" y2="-192" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="384" y1="-672" y2="-672" x1="320" />
+        <line x2="384" y1="-544" y2="-544" x1="320" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <rect width="256" x="64" y="-704" height="928" />
+    </graph>
+</symbol>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">bx/z</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">bx/z</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;0&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;0&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;1&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;1&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;2&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;2&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;3&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;3&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;4&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;4&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;5&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;5&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;6&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;6&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">ppi_rcv1/ppi_data_reg&lt;7&gt;</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;7&gt;</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bx/z</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block bx/z with type FDE_1,
+  pin PAD on block bx/z.PAD with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="462" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">bx/z</arg>&apos; drives multiple buffers<arg fmt="%s" index="3">:
+  pin I on block IBUF_3 with type IBUF,
+  pin I on block DR0PRI_OBUF with type OBUF</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">bx/z</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block bx/z with type FDE_1</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="947" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">bx/z</arg>&apos; is driving non-input buffer(s)<arg fmt="%s" index="3">:
+  pin Q on block bx/z with type FDE_1</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;0&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_0 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;0&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;0&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_0 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;1&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_1 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;1&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;1&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_1 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;2&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_2 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;2&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;2&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_2 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;3&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_3 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;3&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;3&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_3 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;4&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_4 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;4&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;4&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_4 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;5&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_5 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;5&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;5&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_5 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;6&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_6 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;6&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;6&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_6 with type FD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="455" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;7&gt;</arg>&apos; has multiple driver(s)<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_7 with type FD,
+  pin PAD on block ppi_rcv1/ppi_data_reg&lt;7&gt; with type PAD</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="924" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">ppi_rcv1/ppi_data_reg&lt;7&gt;</arg>&apos; is driving non-buffer primitives<arg fmt="%s" index="3">:
+  pin Q on block ppi_rcv1/ppi_data_reg_7 with type FD</arg>
+</msg>
+
+</messages>
+

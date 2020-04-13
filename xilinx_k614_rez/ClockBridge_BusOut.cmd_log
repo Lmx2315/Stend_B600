@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/CDC1.v -lang verilog -prj B610_sinhron -o ClockBridge_BusOut.spl -module ClockBridge_BusOut -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ClockBridge_BusOut.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ClockBridge_BusOut.sym 

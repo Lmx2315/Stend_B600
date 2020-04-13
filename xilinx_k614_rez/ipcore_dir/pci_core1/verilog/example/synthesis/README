@@ -1,0 +1,11 @@
+================================================================================
+The files in this directory are (c) 2005-2008 Xilinx, Incorporated.  These files
+may not be modified other than as intended by Xilinx.  No part of these files
+may be transmitted to any third party, or used without a Xilinx programmable or
+hardwire device, without the prior written permission of Xilinx, Incorporated.
+================================================================================
+
+This directory contains files required for synthesis of the example design.
+You may not require all files depending on your synthesis tool.  Consult the
+implementation guide for more information about supported synthesis tools
+and their use.

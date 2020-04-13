@@ -1,0 +1,13 @@
+[Inputs]
+clk20mhz
+clk64
+[Outputs]
+t1us_64
+t1us_20
+t1us_tau10
+tst_1sec
+t1_min
+[BiDir]
+[ATTRIBUTES]
+VeriModel time_1us_2us
+

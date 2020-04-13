@@ -1,0 +1,130 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/Xilinx_project/B610_sinhron/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi_32bx2.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi32p2.v -lang verilog -prj B610_sinhron -o spi_32bx2.spl -module spi_32bx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w spi_32bx2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/spi_32bx2.sym 

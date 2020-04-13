@@ -1,0 +1,13 @@
+[Inputs]
+clk
+start
+=q1[15:0]=
+=q2[15:0]=
+[Outputs]
+clk8_spi
+=addr_rd[7:0]=
+=data8_spi[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ram_read_control_dds
+

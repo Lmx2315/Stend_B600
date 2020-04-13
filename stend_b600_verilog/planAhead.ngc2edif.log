@@ -1,0 +1,60 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_list.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_list.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus int1/Mcompar_INT1_reg_cmp_gt0000_lut<5 :
+   0> on block top_list is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   rst_init1/Mcompar_flag_r_cmp_gt0000_lut<10 : 0> on block top_list is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tick1/Mcompar_a_cmp_lt0000_lut<12 : 1>
+   on block top_list is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file top_list.edif ...
+ngc2edif: Total memory usage is 80616 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_list.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_list.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus int1/Mcompar_INT1_reg_cmp_gt0000_lut<5 :
+   0> on block top_list is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   rst_init1/Mcompar_flag_r_cmp_gt0000_lut<10 : 0> on block top_list is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tick1/Mcompar_a_cmp_lt0000_lut<12 : 1>
+   on block top_list is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file top_list.edif ...
+ngc2edif: Total memory usage is 80360 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_list.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_list.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus int1/Mcompar_INT1_reg_cmp_gt0000_lut<5 :
+   0> on block top_list is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   rst_init1/Mcompar_flag_r_cmp_gt0000_lut<10 : 0> on block top_list is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tick1/Mcompar_a_cmp_lt0000_lut<12 : 1>
+   on block top_list is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file top_list.edif ...
+ngc2edif: Total memory usage is 80360 kilobytes
+

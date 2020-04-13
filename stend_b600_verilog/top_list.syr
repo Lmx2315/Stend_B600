@@ -1,0 +1,1983 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: top_list.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_list.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_list"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-pq208
+
+---- Source Options
+Top Module Name                    : top_list
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "OBUF8.v" in library work
+Compiling verilog file "IBUF8.v" in library work
+Module <OBUF8> compiled
+Compiling verilog file "uart_all.v" in library work
+Module <IBUF8> compiled
+Compiling verilog file "time_1us_2us.v" in library work
+Module <uart_all> compiled
+Compiling verilog file "tick_tack.v" in library work
+Module <time_1us_2us> compiled
+Compiling verilog file "spi32p2.v" in library work
+Module <tick_tack> compiled
+Compiling verilog file "rst.v" in library work
+Module <spi_32bx2> compiled
+Compiling verilog file "reset_init.v" in library work
+Module <rst> compiled
+Compiling verilog file "ppi_rcv.v" in library work
+Module <reset_init> compiled
+Compiling verilog file "OBUF4.v" in library work
+Module <PPI_recv> compiled
+Compiling verilog file "OBUF16.v" in library work
+Module <OBUF4> compiled
+Compiling verilog file "led_test.v" in library work
+Module <OBUF16> compiled
+Compiling verilog file "dcm_clk.v" in library work
+Module <led_test> compiled
+Compiling verilog file "INT_control.v" in library work
+Module <dcm_clk> compiled
+Compiling verilog file "IBUF16.v" in library work
+Module <INT_control> compiled
+Compiling verilog file "eth_bf_spi_upr.v" in library work
+Module <IBUF16> compiled
+Compiling verilog file "top_list.v" in library work
+Module <eth_bf_spi_upr> compiled
+Module <top_list> compiled
+No errors in compilation
+Analysis of file <"top_list.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top_list> in library <work>.
+
+Analyzing hierarchy for module <OBUF8> in library <work>.
+
+Analyzing hierarchy for module <OBUF4> in library <work>.
+
+Analyzing hierarchy for module <OBUF16> in library <work>.
+
+Analyzing hierarchy for module <IBUF8> in library <work>.
+
+Analyzing hierarchy for module <IBUF16> in library <work>.
+
+Analyzing hierarchy for module <rst> in library <work>.
+
+Analyzing hierarchy for module <dcm_clk> in library <work>.
+
+Analyzing hierarchy for module <reset_init> in library <work>.
+
+Analyzing hierarchy for module <tick_tack> in library <work>.
+
+Analyzing hierarchy for module <eth_bf_spi_upr> in library <work>.
+
+Analyzing hierarchy for module <led_test> in library <work>.
+
+Analyzing hierarchy for module <uart_all> in library <work>.
+
+Analyzing hierarchy for module <time_1us_2us> in library <work>.
+
+Analyzing hierarchy for module <INT_control> in library <work>.
+
+Analyzing hierarchy for module <spi_32bx2> in library <work>.
+
+Analyzing hierarchy for module <PPI_recv> in library <work> with parameters.
+	dataN = "00000000000000000000000000100010"
+
+Analyzing hierarchy for module <OBUF8> in library <work>.
+
+Analyzing hierarchy for module <IBUF8> in library <work>.
+
+Analyzing hierarchy for module <IBUF8> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top_list>.
+WARNING:Xst:852 - "top_list.v" line 496: Unconnected input port 'rts' of instance 'u1' is tied to GND.
+WARNING:Xst:852 - "top_list.v" line 496: Unconnected input port 'slave1_tx' of instance 'u1' is tied to GND.
+WARNING:Xst:852 - "top_list.v" line 496: Unconnected input port 'slave2_tx' of instance 'u1' is tied to GND.
+WARNING:Xst:852 - "top_list.v" line 496: Unconnected input port 'slave3_tx' of instance 'u1' is tied to GND.
+WARNING:Xst:852 - "top_list.v" line 496: Unconnected input port 'slave4_tx' of instance 'u1' is tied to GND.
+WARNING:Xst:852 - "top_list.v" line 517: Unconnected input port 'clk64' of instance 'time1_1us' is tied to GND.
+Module <top_list> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_1> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_1> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_1> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_1> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_2> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_2> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_2> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_2> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_3> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_3> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_3> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_3> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_4> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_4> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_4> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_4> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_5> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_5> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_5> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_5> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_1> in unit <top_list>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_1> in unit <top_list>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_1> in unit <top_list>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_1> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_1> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_2> in unit <top_list>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_2> in unit <top_list>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_2> in unit <top_list>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_2> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_2> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_3> in unit <top_list>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_3> in unit <top_list>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_3> in unit <top_list>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_3> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_3> in unit <top_list>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUFT_inst1> in unit <top_list>.
+    Set user-defined property "DRIVE =  12" for instance <OBUFT_inst1> in unit <top_list>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUFT_inst1> in unit <top_list>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUFT_inst1> in unit <top_list>.
+Analyzing module <OBUF8> in library <work>.
+Module <OBUF8> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_0> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_0> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_0> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_0> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_1> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_1> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_1> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_1> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_2> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_2> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_2> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_2> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_3> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_3> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_3> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_3> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_4> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_4> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_4> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_4> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_5> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_5> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_5> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_5> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_6> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_6> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_6> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_6> in unit <OBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_7> in unit <OBUF8>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_7> in unit <OBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_7> in unit <OBUF8>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_7> in unit <OBUF8>.
+Analyzing module <OBUF4> in library <work>.
+Module <OBUF4> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_0> in unit <OBUF4>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_0> in unit <OBUF4>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_0> in unit <OBUF4>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_0> in unit <OBUF4>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_1> in unit <OBUF4>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_1> in unit <OBUF4>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_1> in unit <OBUF4>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_1> in unit <OBUF4>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_2> in unit <OBUF4>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_2> in unit <OBUF4>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_2> in unit <OBUF4>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_2> in unit <OBUF4>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <OBUF_3> in unit <OBUF4>.
+    Set user-defined property "DRIVE =  12" for instance <OBUF_3> in unit <OBUF4>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <OBUF_3> in unit <OBUF4>.
+    Set user-defined property "SLEW =  SLOW" for instance <OBUF_3> in unit <OBUF4>.
+Analyzing module <OBUF16> in library <work>.
+Module <OBUF16> is correct for synthesis.
+ 
+Analyzing module <IBUF8> in library <work>.
+Module <IBUF8> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_0> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_0> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_0> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_0> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_0> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_1> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_1> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_1> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_1> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_1> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_2> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_2> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_2> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_2> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_2> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_3> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_3> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_3> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_3> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_3> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_4> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_4> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_4> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_4> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_4> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_5> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_5> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_5> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_5> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_5> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_6> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_6> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_6> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_6> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_6> in unit <IBUF8>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUF_7> in unit <IBUF8>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUF_7> in unit <IBUF8>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUF_7> in unit <IBUF8>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IBUF_7> in unit <IBUF8>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUF_7> in unit <IBUF8>.
+Analyzing module <IBUF16> in library <work>.
+Module <IBUF16> is correct for synthesis.
+ 
+Analyzing module <rst> in library <work>.
+Module <rst> is correct for synthesis.
+ 
+Analyzing module <dcm_clk> in library <work>.
+Module <dcm_clk> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm_clk>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm_clk>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm_clk>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKDV_DIVIDE =  4.000000" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKFX_MULTIPLY =  5" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKIN_PERIOD =  50.000000" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <dcm_clk>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <dcm_clk>.
+Analyzing module <reset_init> in library <work>.
+Module <reset_init> is correct for synthesis.
+ 
+Analyzing module <tick_tack> in library <work>.
+Module <tick_tack> is correct for synthesis.
+ 
+Analyzing module <eth_bf_spi_upr> in library <work>.
+Module <eth_bf_spi_upr> is correct for synthesis.
+ 
+Analyzing module <led_test> in library <work>.
+Module <led_test> is correct for synthesis.
+ 
+Analyzing module <uart_all> in library <work>.
+Module <uart_all> is correct for synthesis.
+ 
+Analyzing module <time_1us_2us> in library <work>.
+Module <time_1us_2us> is correct for synthesis.
+ 
+Analyzing module <INT_control> in library <work>.
+Module <INT_control> is correct for synthesis.
+ 
+Analyzing module <spi_32bx2> in library <work>.
+Module <spi_32bx2> is correct for synthesis.
+ 
+Analyzing module <PPI_recv> in library <work>.
+	dataN = 32'sb00000000000000000000000000100010
+INFO:Xst:1433 - Contents of array <Massiv> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <PPI_recv> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <rst>.
+    Related source file is "rst.v".
+    Found 32-bit register for signal <a>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <rst> synthesized.
+
+
+Synthesizing Unit <reset_init>.
+    Related source file is "reset_init.v".
+    Found 32-bit up counter for signal <a>.
+    Found 1-bit register for signal <flag_pwr>.
+    Found 32-bit comparator less for signal <flag_pwr$cmp_lt0000> created at line 50.
+    Found 1-bit register for signal <flag_r>.
+    Found 32-bit comparator greater for signal <flag_r$cmp_gt0000> created at line 48.
+    Found 32-bit comparator less for signal <flag_r$cmp_lt0000> created at line 48.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <reset_init> synthesized.
+
+
+Synthesizing Unit <tick_tack>.
+    Related source file is "tick_tack.v".
+    Found 33-bit up counter for signal <a>.
+    Found 33-bit comparator less for signal <a$cmp_lt0000> created at line 37.
+    Found 1-bit register for signal <flag_r>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <tick_tack> synthesized.
+
+
+Synthesizing Unit <eth_bf_spi_upr>.
+    Related source file is "eth_bf_spi_upr.v".
+WARNING:Xst:647 - Input <MOSI_BF> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <eth_bf_spi_upr> synthesized.
+
+
+Synthesizing Unit <led_test>.
+    Related source file is "led_test.v".
+WARNING:Xst:646 - Signal <c<22:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 25-bit up counter for signal <a>.
+    Found 25-bit down counter for signal <b>.
+    Found 25-bit register for signal <c>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  25 D-type flip-flop(s).
+Unit <led_test> synthesized.
+
+
+Synthesizing Unit <uart_all>.
+    Related source file is "uart_all.v".
+WARNING:Xst:647 - Input <slave4_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <slave1_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rts> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <slave3_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <slave2_tx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <uart_all> synthesized.
+
+
+Synthesizing Unit <time_1us_2us>.
+    Related source file is "time_1us_2us.v".
+WARNING:Xst:647 - Input <clk64> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <tik2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fr2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <a> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <fr1>.
+    Found 9-bit comparator greater for signal <fr1$cmp_gt0000> created at line 72.
+    Found 9-bit comparator less for signal <fr1$cmp_lt0000> created at line 72.
+    Found 1-bit register for signal <t1us_tau10_reg>.
+    Found 16-bit comparator greater for signal <t1us_tau10_reg$cmp_gt0000> created at line 76.
+    Found 16-bit comparator less for signal <t1us_tau10_reg$cmp_lt0000> created at line 76.
+    Found 16-bit up counter for signal <tau_reg>.
+    Found 16-bit comparator less for signal <tau_reg$cmp_lt0000> created at line 74.
+    Found 32-bit up counter for signal <tick1>.
+    Found 32-bit comparator less for signal <tick1$cmp_lt0000> created at line 78.
+    Found 8-bit up counter for signal <tick_min>.
+    Found 9-bit up counter for signal <tik1>.
+    Found 1-bit register for signal <tst1_min>.
+    Found 1-bit register for signal <tst1sec_reg>.
+    Found 32-bit comparator greater for signal <tst1sec_reg$cmp_gt0000> created at line 80.
+    Found 32-bit comparator less for signal <tst1sec_reg$cmp_lt0000> created at line 80.
+    Found 1-bit register for signal <tst1sec_reg5>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <time_1us_2us> synthesized.
+
+
+Synthesizing Unit <INT_control>.
+    Related source file is "INT_control.v".
+    Found 1-bit register for signal <FLAG1_reg>.
+    Found 1-bit register for signal <FLAG2_reg>.
+    Found 5-bit register for signal <fr1_reg>.
+    Found 5-bit register for signal <fr2_reg>.
+    Found 1-bit register for signal <INT1_reg>.
+    Found 16-bit comparator greater for signal <INT1_reg$cmp_gt0000> created at line 77.
+    Found 16-bit comparator less for signal <INT1_reg$cmp_lt0000> created at line 77.
+    Found 1-bit register for signal <INT2_reg>.
+    Found 16-bit comparator greater for signal <INT2_reg$cmp_gt0000> created at line 86.
+    Found 16-bit comparator less for signal <INT2_reg$cmp_lt0000> created at line 86.
+    Found 16-bit up counter for signal <sch>.
+    Found 17-bit register for signal <sch1>.
+    Found 17-bit adder for signal <sch1$addsub0000> created at line 80.
+    Found 17-bit comparator greatequal for signal <sch1$cmp_ge0000> created at line 80.
+    Found 17-bit comparator less for signal <sch1$cmp_lt0000> created at line 80.
+    Found 17-bit register for signal <sch2>.
+    Found 17-bit adder for signal <sch2$addsub0000> created at line 89.
+    Found 17-bit comparator greatequal for signal <sch2$cmp_ge0000> created at line 89.
+    Found 17-bit comparator less for signal <sch2$cmp_lt0000> created at line 89.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <INT_control> synthesized.
+
+
+Synthesizing Unit <spi_32bx2>.
+    Related source file is "spi32p2.v".
+WARNING:Xst:647 - Input <d32p1<31:22>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <d32p2<31:27>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <flag<15:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <y> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <w4> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <w3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rst> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <mosi_z> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <front_send> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <front_sck> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <flag1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <c3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Mosi_reg<31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 64-bit register for signal <a>.
+    Found 1-bit register for signal <ALE1_reg>.
+    Found 1-bit register for signal <ALE2_reg>.
+    Found 1-bit register for signal <ALE3_reg>.
+    Found 32-bit register for signal <b>.
+    Found 1-bit register for signal <cs_reg>.
+    Found 8-bit comparator less for signal <cs_reg$cmp_lt0000> created at line 196.
+    Found 1-bit register for signal <ERROR_reg>.
+    Found T flip-flop for signal <flag_rst>.
+    Found 1-bit register for signal <GBR_reg>.
+    Found 8-bit register for signal <Mosi_reg<7:0>>.
+    Found T flip-flop for signal <sch>.
+    Found 8-bit up counter for signal <sch_reg>.
+    Found 1-bit register for signal <upr1_reg>.
+    Found 1-bit register for signal <upr2_reg>.
+    Found 32-bit register for signal <w1>.
+    Found 8-bit comparator greater for signal <w1$cmp_gt0000> created at line 145.
+    Found 32-bit register for signal <w2>.
+    Found 1-bit register for signal <z>.
+    Found 8-bit comparator greatequal for signal <z$cmp_ge0000> created at line 196.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 T-type flip-flop(s).
+	inferred 177 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <spi_32bx2> synthesized.
+
+
+Synthesizing Unit <PPI_recv>.
+    Related source file is "ppi_rcv.v".
+WARNING:Xst:647 - Input <fs1_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <w_reg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sch_fs1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sch_adr_n> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ppi_fs1_reg2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fs2_r> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fs1_end_reg> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <data_reg_n> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Massiv<64:35>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit up accumulator for signal <crc_reg>.
+    Found 9-bit comparator greatequal for signal <crc_reg$cmp_ge0000> created at line 185.
+    Found 8-bit register for signal <data_reg>.
+    Found 1-bit register for signal <flag_CRC_FAIL>.
+    Found 1-bit register for signal <flag_OK>.
+    Found 8-bit comparator equal for signal <flag_OK$cmp_eq0002> created at line 196.
+    Found 8-bit comparator not equal for signal <flag_OK$cmp_ne0002> created at line 196.
+    Found 1-bit register for signal <flag_z>.
+    Found 1-bit register for signal <fs11_r>.
+    Found 1-bit register for signal <fs12_r>.
+    Found 4-bit register for signal <fs_fr1>.
+    Found 4-bit register for signal <fs_fr2>.
+    Found 520-bit register for signal <Massiv>.
+    Found 8-bit register for signal <ppi_data_reg>.
+    Found 1-bit register for signal <ppi_fs1_reg>.
+    Found 1-bit register for signal <ppi_fs1_reg3>.
+    Found 32-bit register for signal <Rzv_rg>.
+    Found 9-bit up counter for signal <sch_adr>.
+    Found 1-bit register for signal <start>.
+    Found 32-bit register for signal <TKI_rg>.
+    Found 32-bit register for signal <TKP_rg>.
+    Found 32-bit register for signal <TNC_rg>.
+    Found 32-bit register for signal <TNI_rg>.
+    Found 32-bit register for signal <TNO_rg>.
+    Found 32-bit register for signal <TNP_rg>.
+    Found 32-bit register for signal <TOBM_rg>.
+INFO:Xst:738 - HDL ADVISOR - 520 flip-flops were inferred for signal <Massiv>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Accumulator(s).
+	inferred 808 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <PPI_recv> synthesized.
+
+
+Synthesizing Unit <OBUF8>.
+    Related source file is "OBUF8.v".
+Unit <OBUF8> synthesized.
+
+
+Synthesizing Unit <OBUF4>.
+    Related source file is "OBUF4.v".
+Unit <OBUF4> synthesized.
+
+
+Synthesizing Unit <IBUF8>.
+    Related source file is "IBUF8.v".
+Unit <IBUF8> synthesized.
+
+
+Synthesizing Unit <dcm_clk>.
+    Related source file is "dcm_clk.v".
+Unit <dcm_clk> synthesized.
+
+
+Synthesizing Unit <OBUF16>.
+    Related source file is "OBUF16.v".
+Unit <OBUF16> synthesized.
+
+
+Synthesizing Unit <IBUF16>.
+    Related source file is "IBUF16.v".
+Unit <IBUF16> synthesized.
+
+
+Synthesizing Unit <top_list>.
+    Related source file is "top_list.v".
+WARNING:Xst:647 - Input <RS232_TX_VDD> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TX_485_MG> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <ENABLE_EXT_VDD> is never assigned.
+WARNING:Xst:647 - Input <RX_485_MG> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TKP> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RZV1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RZV2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CLK_5_CMOS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TIMER_BF> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <RZV3> is never assigned.
+WARNING:Xst:1306 - Output <RD_W5100> is never assigned.
+WARNING:Xst:647 - Input <data_PPI15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TNP> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <T_5MIN_3V3> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PPI_FS3> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TX_FTDI_1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <BUS_ADDR> is never assigned.
+WARNING:Xst:647 - Input <TKP1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CS_SPARTAN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MOSI> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RS232_RX_VDD> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <WR_W5100> is never assigned.
+WARNING:Xst:1306 - Output <CS_W5100> is never assigned.
+WARNING:Xst:1306 - Output <SCLK> is never assigned.
+WARNING:Xst:647 - Input <EXT_A0> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <EXT_A7> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <TX_DSP> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <w_RUN> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_PPI_fail> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wUART_TX> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wUART_RX> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wT_TEST4_VDD> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wT_TEST3_VDD> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wT_TEST2_VDD> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wT_TEST1_VDD> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTX_FTDI_1> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTX_DSP> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wTX_485_MG> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wTSCLK> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wTOBM_FPGA> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTOBM> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTNO> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTNI_1> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTNI> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTNC> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wTKONTR3_3V3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wTKONTR2_3V3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wTKONTR1_3V3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wTKI_1> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wTKI> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <wTIMER_BF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wT1_4> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wSCLK> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wRZV4> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wRZV3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wRZV2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wRZV1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wRX_DSP> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wRX_485_MG> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wRSCLK0> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wREZERV_33V> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wRESET_USB11> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wPPI_F_SYN2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wPPI_FS3> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <wPPI_FRAM_SYN1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wPPI> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wMOSI> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <wMISO> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wINT_W5100> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wEXT_A7> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wEXT_A4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wEXT_A3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wEXT_A2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wEXT_A0> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wENABLE_HM_DR> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <wENABLE_EXT_VDD> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wENABLE_BUS_OUT> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wDT0SEC> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wDT0PRI> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wDR0PRI> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wCS_SPARTAN> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wBUS_WR> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wBUS_INT4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wBUS_INT3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wBUS_INT2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wBUS_DATA> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wBUS_CLK> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <wBUS_ALE3> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wBUS_ALE2> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <wBUS_ALE1> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <DCM_locked> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK_20Mhz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK_100MHz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <top_list> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 17-bit adder                                          : 2
+# Counters                                             : 11
+ 16-bit up counter                                     : 2
+ 25-bit down counter                                   : 1
+ 25-bit up counter                                     : 1
+ 32-bit up counter                                     : 2
+ 33-bit up counter                                     : 1
+ 8-bit up counter                                      : 2
+ 9-bit up counter                                      : 2
+# Accumulators                                         : 1
+ 8-bit up accumulator                                  : 1
+# Registers                                            : 95
+ 1-bit register                                        : 37
+ 17-bit register                                       : 2
+ 25-bit register                                       : 1
+ 32-bit register                                       : 14
+ 4-bit register                                        : 2
+ 5-bit register                                        : 2
+ 8-bit register                                        : 37
+# Toggle Registers                                     : 2
+ T flip-flop                                           : 2
+# Comparators                                          : 26
+ 16-bit comparator greater                             : 3
+ 16-bit comparator less                                : 4
+ 17-bit comparator greatequal                          : 2
+ 17-bit comparator less                                : 2
+ 32-bit comparator greater                             : 2
+ 32-bit comparator less                                : 4
+ 33-bit comparator less                                : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greatequal                           : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 8-bit comparator not equal                            : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <w1_0> in Unit <bx> is equivalent to the following 62 FFs/Latches, which will be removed : <w1_1> <w1_2> <w1_3> <w1_4> <w1_5> <w1_6> <w1_7> <w1_8> <w1_9> <w1_10> <w1_11> <w1_12> <w1_13> <w1_14> <w1_15> <w1_16> <w1_17> <w1_18> <w1_19> <w1_20> <w1_21> <w1_22> <w1_23> <w1_24> <w1_25> <w1_26> <w1_27> <w1_28> <w1_29> <w1_30> <w1_31> <w2_0> <w2_1> <w2_2> <w2_3> <w2_4> <w2_5> <w2_6> <w2_7> <w2_8> <w2_9> <w2_10> <w2_11> <w2_12> <w2_13> <w2_14> <w2_15> <w2_16> <w2_17> <w2_18> <w2_19> <w2_20> <w2_21> <w2_22> <w2_23> <w2_24> <w2_25> <w2_26> <w2_27> <w2_28> <w2_29> <w2_30> 
+INFO:Xst:2261 - The FF/Latch <a_1_0> in Unit <bx> is equivalent to the following 62 FFs/Latches, which will be removed : <a_1_1> <a_1_2> <a_1_3> <a_1_4> <a_1_5> <a_1_6> <a_1_7> <a_1_8> <a_1_9> <a_1_10> <a_1_11> <a_1_12> <a_1_13> <a_1_14> <a_1_15> <a_1_16> <a_1_17> <a_1_18> <a_1_19> <a_1_20> <a_1_21> <a_1_22> <a_1_23> <a_1_24> <a_1_25> <a_1_26> <a_1_27> <a_1_28> <a_1_29> <a_1_30> <a_1_31> <a_0_0> <a_0_1> <a_0_2> <a_0_3> <a_0_4> <a_0_5> <a_0_6> <a_0_7> <a_0_8> <a_0_9> <a_0_10> <a_0_11> <a_0_12> <a_0_13> <a_0_14> <a_0_15> <a_0_16> <a_0_17> <a_0_18> <a_0_19> <a_0_20> <a_0_21> <a_0_22> <a_0_23> <a_0_24> <a_0_25> <a_0_26> <a_0_27> <a_0_28> <a_0_29> <a_0_30> 
+WARNING:Xst:1426 - The value init of the FF/Latch a_31 hinder the constant cleaning in the block reset1.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <w1_0> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_30> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_29> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_28> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_27> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_26> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_25> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_24> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_23> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_22> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_21> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_20> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_19> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_18> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_17> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_16> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_0> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_1> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_2> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_3> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_4> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_5> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_6> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_7> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_8> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_9> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_10> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_11> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_12> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_13> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_14> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b_15> has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_0> (without init value) has a constant value of 0 in block <bx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <c_0> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_1> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_2> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_3> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_4> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_5> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_6> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_7> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_8> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_9> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_10> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_11> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_12> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_13> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_14> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_15> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_16> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_17> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_18> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_19> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_20> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_21> of sequential type is unconnected in block <led_test>.
+WARNING:Xst:2677 - Node <c_22> of sequential type is unconnected in block <led_test>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 17-bit adder                                          : 2
+# Counters                                             : 11
+ 16-bit up counter                                     : 2
+ 25-bit down counter                                   : 1
+ 25-bit up counter                                     : 1
+ 32-bit up counter                                     : 2
+ 33-bit up counter                                     : 1
+ 8-bit up counter                                      : 2
+ 9-bit up counter                                      : 2
+# Accumulators                                         : 1
+ 8-bit up accumulator                                  : 1
+# Registers                                            : 837
+ Flip-Flops                                            : 837
+# Comparators                                          : 26
+ 16-bit comparator greater                             : 3
+ 16-bit comparator less                                : 4
+ 17-bit comparator greatequal                          : 2
+ 17-bit comparator less                                : 2
+ 32-bit comparator greater                             : 2
+ 32-bit comparator less                                : 4
+ 33-bit comparator less                                : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greatequal                           : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 8-bit comparator not equal                            : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch a_31 hinder the constant cleaning in the block rst.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <w2_6> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_5> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_4> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_3> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_2> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_1> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_0> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_31> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_30> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_29> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_28> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_27> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_26> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_25> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_24> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_23> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_22> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_21> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_20> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_19> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_18> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_17> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_16> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_30> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_29> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_28> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_27> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_26> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_25> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_24> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_23> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_22> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_21> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_20> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_19> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_18> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_17> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_16> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_15> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_14> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_13> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_12> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_11> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_10> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_9> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_8> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w2_7> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_22> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_21> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_20> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_19> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_18> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_17> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_16> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_15> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_14> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_13> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_12> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_11> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_10> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_9> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_8> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_7> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_6> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_5> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_4> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_3> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_2> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_1> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_0> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_15> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_14> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_13> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_12> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_11> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_10> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_9> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_8> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_7> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_6> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_5> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_4> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_23> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_24> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_25> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_26> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_27> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_28> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_29> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b_30> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_0> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_1> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_2> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w1_3> has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_14> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_13> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_12> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_11> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_10> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_9> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_8> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_7> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_6> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_5> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_4> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_3> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_2> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_1> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_0> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_15> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_16> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_17> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_18> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_19> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_20> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_21> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_22> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_23> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_24> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_25> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_26> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_27> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_28> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_29> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_0_30> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_0> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_1> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_2> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_3> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_4> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_5> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_6> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_7> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_8> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_9> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_10> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_11> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_12> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_13> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_14> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_15> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_16> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_17> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_18> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_19> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_20> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_21> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_22> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_23> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_24> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_25> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_26> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_27> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_28> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_29> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_30> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <a_1_31> (without init value) has a constant value of 0 in block <spi_32bx2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <led1/c_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/c_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <time1_1us/tst1sec_reg5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <time1_1us/tst1_min> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <time1_1us/tst1sec_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <time1_1us/t1us_tau10_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/b_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/b_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/a_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/a_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <led1/a_24> of sequential type is unconnected in block <top_list>.
+
+Optimizing unit <top_list> ...
+
+Optimizing unit <rst> ...
+
+Optimizing unit <INT_control> ...
+
+Optimizing unit <PPI_recv> ...
+
+Optimizing unit <OBUF8> ...
+
+Optimizing unit <IBUF8> ...
+
+Optimizing unit <spi_32bx2> ...
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/crc_reg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/sch_adr_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Rzv_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKP_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNP_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TKI_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNI_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TOBM_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNC_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_31> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_30> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_29> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_28> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_27> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_26> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_25> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_24> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_23> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_22> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_21> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_20> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_19> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_18> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_17> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_16> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_15> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_14> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_13> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_12> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_11> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_10> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_9> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_8> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/TNO_rg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_0_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_1_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_2_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_3_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_4_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_5_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_6_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_7_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_8_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_9_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_10_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_11_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_13_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_14_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_12_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_15_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_16_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_17_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_18_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_19_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_20_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_21_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_22_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_23_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_24_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_25_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_26_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_28_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_29_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_27_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_30_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_31_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_32_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_33_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/Massiv_34_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/flag_CRC_FAIL> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/flag_OK> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/flag_z> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/start> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <ppi_rcv1/data_reg_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/flag_rst_0> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/GBR_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_7> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_6> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/upr2_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_5> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/upr1_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_4> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/ERROR_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_3> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/ALE3_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/ALE2_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/ALE1_reg> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_2> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_1> of sequential type is unconnected in block <top_list>.
+WARNING:Xst:2677 - Node <bx/Mosi_reg_0> of sequential type is unconnected in block <top_list>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top_list, actual ratio is 5.
+FlipFlop ppi_rcv1/ppi_data_reg_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop ppi_rcv1/ppi_data_reg_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+Processing Unit <top_list> :
+	Found 32-bit shift register for signal <reset1/a_0>.
+	Found 3-bit shift register for signal <int1/fr2_reg_2>.
+	Found 3-bit shift register for signal <int1/fr1_reg_2>.
+	Found 2-bit shift register for signal <ppi_rcv1/ppi_fs1_reg>.
+	Found 2-bit shift register for signal <ppi_rcv1/fs_fr2_1>.
+	Found 2-bit shift register for signal <ppi_rcv1/fs_fr1_1>.
+Unit <top_list> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 217
+ Flip-Flops                                            : 217
+# Shift Registers                                      : 6
+ 2-bit shift register                                  : 3
+ 3-bit shift register                                  : 2
+ 32-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top_list.ngr
+Top Level Output File Name         : top_list
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 123
+
+Cell Usage :
+# BELS                             : 795
+#      GND                         : 1
+#      INV                         : 47
+#      LUT1                        : 165
+#      LUT2                        : 27
+#      LUT3                        : 17
+#      LUT3_D                      : 1
+#      LUT4                        : 87
+#      LUT4_L                      : 2
+#      MUXCY                       : 270
+#      VCC                         : 1
+#      XORCY                       : 177
+# FlipFlops/Latches                : 223
+#      FD                          : 75
+#      FDE                         : 99
+#      FDE_1                       : 5
+#      FDR                         : 13
+#      FDR_1                       : 2
+#      FDRE                        : 25
+#      FDSE                        : 3
+#      FDSE_1                      : 1
+# Shift Registers                  : 7
+#      SRL16                       : 6
+#      SRLC16                      : 1
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 99
+#      IBUF                        : 40
+#      IBUFG                       : 1
+#      OBUF                        : 57
+#      OBUFT                       : 1
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500epq208-4 
+
+ Number of Slices:                      196  out of   4656     4%  
+ Number of Slice Flip Flops:            207  out of   9312     2%  
+ Number of 4 input LUTs:                353  out of   9312     3%  
+    Number used as logic:               346
+    Number used as Shift registers:       7
+ Number of IOs:                         123
+ Number of bonded IOBs:                  89  out of    158    56%  
+    IOB Flip Flops:                      16
+ Number of GCLKs:                         5  out of     24    20%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK20MHz                           | IBUFG+BUFG             | 217   |
+TSCLK                              | BUFGP                  | 13    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.123ns (Maximum Frequency: 140.390MHz)
+   Minimum input arrival time before clock: 4.055ns
+   Maximum output required time after clock: 5.609ns
+   Maximum combinational path delay: 6.478ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK20MHz'
+  Clock period: 7.123ns (frequency: 140.390MHz)
+  Total number of paths / destination ports: 7322 / 341
+-------------------------------------------------------------------------
+Delay:               7.123ns (Levels of Logic = 8)
+  Source:            int1/sch_1 (FF)
+  Destination:       int1/sch2_16 (FF)
+  Source Clock:      CLK20MHz rising
+  Destination Clock: CLK20MHz rising
+
+  Data Path: int1/sch_1 to int1/sch2_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.591   0.808  int1/sch_1 (int1/sch_1)
+     LUT2:I0->O            1   0.704   0.000  int1/Mcompar_INT1_reg_cmp_gt0000_lut<0>1 (int1/Mcompar_INT1_reg_cmp_gt0000_lut<0>1)
+     MUXCY:S->O            1   0.464   0.000  int1/Mcompar_INT1_reg_cmp_gt0000_cy<0>_0 (int1/Mcompar_INT1_reg_cmp_gt0000_cy<0>1)
+     MUXCY:CI->O           1   0.059   0.000  int1/Mcompar_INT1_reg_cmp_gt0000_cy<1>_0 (int1/Mcompar_INT1_reg_cmp_gt0000_cy<1>1)
+     MUXCY:CI->O           1   0.059   0.000  int1/Mcompar_INT1_reg_cmp_gt0000_cy<2>_0 (int1/Mcompar_INT1_reg_cmp_gt0000_cy<2>1)
+     MUXCY:CI->O           1   0.059   0.000  int1/Mcompar_INT1_reg_cmp_gt0000_cy<3>_0 (int1/Mcompar_INT1_reg_cmp_gt0000_cy<3>1)
+     MUXCY:CI->O           1   0.459   0.455  int1/Mcompar_INT1_reg_cmp_gt0000_cy<4>_0 (int1/Mcompar_INT1_reg_cmp_gt0000_cy<4>1)
+     LUT4:I2->O            2   0.704   0.451  int1/INT2_reg_and00001 (int1/INT2_reg_and0000)
+     LUT4:I3->O           17   0.704   1.051  int1/sch2_not00021 (int1/sch2_not0002)
+     FDE:CE                    0.555          int1/sch2_0
+    ----------------------------------------
+    Total                      7.123ns (4.358ns logic, 2.765ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TSCLK'
+  Clock period: 3.761ns (frequency: 265.887MHz)
+  Total number of paths / destination ports: 74 / 23
+-------------------------------------------------------------------------
+Delay:               3.761ns (Levels of Logic = 8)
+  Source:            bx/sch_reg_1 (FF)
+  Destination:       bx/sch_reg_7 (FF)
+  Source Clock:      TSCLK falling
+  Destination Clock: TSCLK falling
+
+  Data Path: bx/sch_reg_1 to bx/sch_reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.591   0.595  bx/sch_reg_1 (bx/sch_reg_1)
+     LUT1:I0->O            1   0.704   0.000  bx/Mcount_sch_reg_cy<1>_rt (bx/Mcount_sch_reg_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  bx/Mcount_sch_reg_cy<1> (bx/Mcount_sch_reg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  bx/Mcount_sch_reg_cy<2> (bx/Mcount_sch_reg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  bx/Mcount_sch_reg_cy<3> (bx/Mcount_sch_reg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  bx/Mcount_sch_reg_cy<4> (bx/Mcount_sch_reg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  bx/Mcount_sch_reg_cy<5> (bx/Mcount_sch_reg_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  bx/Mcount_sch_reg_cy<6> (bx/Mcount_sch_reg_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  bx/Mcount_sch_reg_xor<7> (bx/Result<7>)
+     FDRE:D                    0.308          bx/sch_reg_7
+    ----------------------------------------
+    Total                      3.761ns (3.166ns logic, 0.595ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK20MHz'
+  Total number of paths / destination ports: 19 / 19
+-------------------------------------------------------------------------
+Offset:              2.059ns (Levels of Logic = 1)
+  Source:            BUS_INT1 (PAD)
+  Destination:       int1/Mshreg_fr1_reg_2 (FF)
+  Destination Clock: CLK20MHz rising
+
+  Data Path: BUS_INT1 to int1/Mshreg_fr1_reg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  IBUF16_3/IBUF8_0/IBUF_6 (wBUS_INT1)
+     SRL16:D                   0.421          int1/Mshreg_fr1_reg_2
+    ----------------------------------------
+    Total                      2.059ns (1.639ns logic, 0.420ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'TSCLK'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              4.055ns (Levels of Logic = 2)
+  Source:            TFS0 (PAD)
+  Destination:       bx/z (FF)
+  Destination Clock: TSCLK falling
+
+  Data Path: TFS0 to bx/z
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   1.218   1.158  IBUF_1 (wTFS0)
+     LUT4:I0->O            1   0.704   0.420  bx/z_not00011 (bx/z_not0001)
+     FDE_1:CE                  0.555          bx/z
+    ----------------------------------------
+    Total                      4.055ns (2.477ns logic, 1.578ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK20MHz'
+  Total number of paths / destination ports: 20 / 19
+-------------------------------------------------------------------------
+Offset:              5.609ns (Levels of Logic = 2)
+  Source:            ppi_rcv1/fs11_r (FF)
+  Destination:       PPI_FRAM_SYN1 (PAD)
+  Source Clock:      CLK20MHz falling
+
+  Data Path: ppi_rcv1/fs11_r to PPI_FRAM_SYN1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.591   0.622  ppi_rcv1/fs11_r (ppi_rcv1/fs11_r)
+     LUT2:I0->O            1   0.704   0.420  ppi_rcv1/fs11 (PPI_FRAM_SYN1_OBUF)
+     OBUF:I->O                 3.272          PPI_FRAM_SYN1_OBUF (PPI_FRAM_SYN1)
+    ----------------------------------------
+    Total                      5.609ns (4.567ns logic, 1.042ns route)
+                                       (81.4% logic, 18.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TSCLK'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            bx/z (FF)
+  Destination:       DR0PRI (PAD)
+  Source Clock:      TSCLK falling
+
+  Data Path: bx/z to DR0PRI
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            2   0.591   0.447  bx/z (bx/z)
+     OBUF:I->O                 3.272          DR0PRI_OBUF (DR0PRI)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9 / 7
+-------------------------------------------------------------------------
+Delay:               6.478ns (Levels of Logic = 2)
+  Source:            CLK20MHz (PAD)
+  Destination:       BUS_CLK (PAD)
+
+  Data Path: CLK20MHz to BUS_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            3   2.675   0.531  dcm1/CLKIN_IBUFG_INST (PPI_CLK_OBUF1)
+     OBUF:I->O                 3.272          BUS_CLK_OBUF (BUS_CLK)
+    ----------------------------------------
+    Total                      6.478ns (5.947ns logic, 0.531ns route)
+                                       (91.8% logic, 8.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.89 secs
+ 
+--> 
+
+Total memory usage is 280820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  953 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

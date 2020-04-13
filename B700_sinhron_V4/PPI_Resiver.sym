@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="PPI_Resiver">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-10-29T7:44:43</timestamp>
+    <attr value="PPI_Resiver" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-800" name="clk" />
+    <pin polarity="Input" x="0" y="-704" name="clk_ppi" />
+    <pin polarity="Input" x="0" y="-176" name="data_ppi2" />
+    <pin polarity="Input" x="0" y="-112" name="data_ppi3" />
+    <pin polarity="Input" x="0" y="-48" name="data_ppi4" />
+    <pin polarity="Input" x="0" y="16" name="data_ppi5" />
+    <pin polarity="Input" x="0" y="80" name="data_ppi6" />
+    <pin polarity="Input" x="0" y="144" name="data_ppi7" />
+    <pin polarity="Input" x="0" y="208" name="data_ppi1(7:0)" />
+    <pin polarity="Output" x="0" y="-512" name="fs1" />
+    <pin polarity="Output" x="0" y="-368" name="fs2" />
+    <pin polarity="Output" x="0" y="-224" name="fs3" />
+    <pin polarity="Output" x="448" y="-800" name="we_a" />
+    <pin polarity="Output" x="448" y="-736" name="time_setup" />
+    <pin polarity="Output" x="448" y="-672" name="we_dds" />
+    <pin polarity="Output" x="448" y="-608" name="dds_update" />
+    <pin polarity="Output" x="448" y="-544" name="cs_izl" />
+    <pin polarity="Output" x="448" y="-480" name="cs_get" />
+    <pin polarity="Output" x="448" y="-416" name="cs_615" />
+    <pin polarity="Output" x="448" y="96" name="out_fs1" />
+    <pin polarity="Output" x="448" y="-352" name="data_ram(15:0)" />
+    <pin polarity="Output" x="448" y="-288" name="addr_ram(7:0)" />
+    <pin polarity="Output" x="448" y="-224" name="s(7:0)" />
+    <pin polarity="Output" x="448" y="-160" name="min(7:0)" />
+    <pin polarity="Output" x="448" y="-96" name="h(7:0)" />
+    <pin polarity="Output" x="448" y="-32" name="dni(7:0)" />
+    <pin polarity="Output" x="448" y="32" name="bus8(7:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="224" y="-840" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-800" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="80" y="-704" type="pin clk_ppi" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin data_ppi2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin data_ppi3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin data_ppi4" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="16" type="pin data_ppi5" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="80" type="pin data_ppi6" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="144" type="pin data_ppi7" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="208" type="pin data_ppi1(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-512" type="pin fs1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-368" type="pin fs2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin fs3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-800" type="pin we_a" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-736" type="pin time_setup" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-672" type="pin we_dds" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-608" type="pin dds_update" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-544" type="pin cs_izl" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-480" type="pin cs_get" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-416" type="pin cs_615" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="96" type="pin out_fs1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-352" type="pin data_ram(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-288" type="pin addr_ram(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-224" type="pin s(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-160" type="pin min(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-96" type="pin h(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-32" type="pin dni(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="32" type="pin bus8(7:0)" />
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <line x2="0" y1="-512" y2="-512" x1="64" />
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="448" y1="-800" y2="-800" x1="384" />
+        <line x2="448" y1="-736" y2="-736" x1="384" />
+        <line x2="448" y1="-672" y2="-672" x1="384" />
+        <line x2="448" y1="-608" y2="-608" x1="384" />
+        <line x2="448" y1="-544" y2="-544" x1="384" />
+        <line x2="448" y1="-480" y2="-480" x1="384" />
+        <line x2="448" y1="-416" y2="-416" x1="384" />
+        <rect width="64" x="384" y="-364" height="24" />
+        <line x2="448" y1="-352" y2="-352" x1="384" />
+        <rect width="64" x="384" y="-300" height="24" />
+        <line x2="448" y1="-288" y2="-288" x1="384" />
+        <rect width="64" x="384" y="-236" height="24" />
+        <line x2="448" y1="-224" y2="-224" x1="384" />
+        <rect width="64" x="384" y="-172" height="24" />
+        <line x2="448" y1="-160" y2="-160" x1="384" />
+        <rect width="64" x="384" y="-108" height="24" />
+        <line x2="448" y1="-96" y2="-96" x1="384" />
+        <rect width="64" x="384" y="-44" height="24" />
+        <line x2="448" y1="-32" y2="-32" x1="384" />
+        <line x2="0" y1="-704" y2="-704" x1="64" />
+        <rect width="320" x="64" y="-832" height="1076" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <line x2="0" y1="16" y2="16" x1="64" />
+        <line x2="0" y1="80" y2="80" x1="64" />
+        <line x2="0" y1="144" y2="144" x1="64" />
+        <rect width="64" x="0" y="196" height="24" />
+        <line x2="0" y1="208" y2="208" x1="64" />
+        <line x2="448" y1="96" y2="96" x1="384" />
+        <rect width="64" x="384" y="20" height="24" />
+        <line x2="448" y1="32" y2="32" x1="384" />
+    </graph>
+</symbol>

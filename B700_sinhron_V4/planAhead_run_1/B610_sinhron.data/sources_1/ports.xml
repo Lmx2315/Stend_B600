@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="data_ppi">
+			<Port Id="15" Dir="IN"/>
+			<Port Id="14" Dir="IN"/>
+			<Port Id="13" Dir="IN"/>
+			<Port Id="12" Dir="IN"/>
+			<Port Id="11" Dir="IN"/>
+			<Port Id="10" Dir="IN"/>
+			<Port Id="9" Dir="IN"/>
+			<Port Id="8" Dir="IN"/>
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="data8_spi">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk_ppi" Dir="IN"/>
+		<Port Id="fs1" Dir="IN"/>
+		<Port Id="fs2" Dir="IN"/>
+		<Port Id="fs3" Dir="IN"/>
+		<Port Id="f5MHz" Dir="IN"/>
+		<Port Id="F20MHz" Dir="IN"/>
+		<Port Id="F64MHz" Dir="IN"/>
+		<Port Id="T_5MIN_sinhro" Dir="IN"/>
+		<Port Id="clk8_spi" Dir="OUT"/>
+		<Port Id="cs_get" Dir="OUT"/>
+		<Port Id="cs_izl" Dir="OUT"/>
+		<Port Id="cs_615" Dir="OUT"/>
+		<Port Id="Tki" Dir="OUT"/>
+		<Port Id="Tkp" Dir="OUT"/>
+		<Port Id="Tnc" Dir="OUT"/>
+		<Port Id="Tni" Dir="OUT"/>
+		<Port Id="Tno" Dir="OUT"/>
+		<Port Id="Tnp" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mem8x256v3.v -lang verilog -prj B610_sinhron -o ram8x8_clk.spl -module ram8x8_clk -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram8x8_clk.spl C:/Xilinx_project/B610_sinhron/ram8x8_clk.sym 

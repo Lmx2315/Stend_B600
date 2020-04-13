@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Oct 30 15:17:52 2018
+# Process ID: 9904
+# Log file: C:/Work/Stend_B600/stend_b600/planAhead_run_2/planAhead.log
+# Journal file: C:/Work/Stend_B600/stend_b600/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Work/Stend_B600/stend_b600/pa.fromNetlist.tcl
+# create_project -name stend_b600 -dir "C:/Work/Stend_B600/stend_b600/planAhead_run_3" -part xc3s500epq208-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Work/Stend_B600/stend_b600/top_list.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Work/Stend_B600/stend_b600} }
+# set_property target_constrs_file "top_list.ucf" [current_fileset -constrset]
+Adding file 'C:/Work/Stend_B600/stend_b600/top_list.ucf' to fileset 'constrs_1'
+# add_files [list {top_list.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500epq208-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_list.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_list.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus int1/Mcompar_INT1_reg_cmp_gt0000_lut<5 :
+   0> on block top_list is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   rst_init1/Mcompar_flag_r_cmp_gt0000_lut<10 : 0> on block top_list is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tick1/Mcompar_a_cmp_lt0000_lut<12 : 1>
+   on block top_list is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file top_list.edif ...
+ngc2edif: Total memory usage is 80616 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/stend_b600.data/cache/top_list_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/stend_b600.data/cache/top_list_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+WARNING: [Constraints 18-505] Could not create 'DRIVE' constraint because cell 'OBUF16_2/OBUF8_2/OBUF_7' is not directly connected to top level port. 'DRIVE' is ignored by planAhead but preserved for implementation tool [C:/Work/Stend_B600/stend_b600/top_list.ngc:3572]
+WARNING: [Constraints 18-505] Could not create 'SLEW' constraint because cell 'OBUF16_2/OBUF8_2/OBUF_7' is not directly connected to top level port. 'SLEW' is ignored by planAhead but preserved for implementation tool [C:/Work/Stend_B600/stend_b600/top_list.ngc:3574]
+WARNING: [Constraints 18-505] Could not create 'DRIVE' constraint because cell 'OBUF8_1/OBUF_7' is not directly connected to top level port. 'DRIVE' is ignored by planAhead but preserved for implementation tool [C:/Work/Stend_B600/stend_b600/top_list.ngc:3700]
+WARNING: [Constraints 18-505] Could not create 'SLEW' constraint because cell 'OBUF8_1/OBUF_7' is not directly connected to top level port. 'SLEW' is ignored by planAhead but preserved for implementation tool [C:/Work/Stend_B600/stend_b600/top_list.ngc:3702]
+Parsing UCF File [C:/Work/Stend_B600/stend_b600/top_list.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[9]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:115]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[9]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:116]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[8]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:205]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[8]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:206]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[15]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:286]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[15]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:287]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[13]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:298]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[13]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:299]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[11]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:301]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[11]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:302]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[10]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:304]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[10]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:305]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[14]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:307]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[14]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:308]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[12]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:310]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'PPI[12]' [C:/Work/Stend_B600/stend_b600/top_list.ucf:311]
+Finished Parsing UCF File [C:/Work/Stend_B600/stend_b600/top_list.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 61f51e34
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 630.129 ; gain = 125.789
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Work/Stend_B600/stend_b600\planAhead_pid9904.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 30 15:18:40 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

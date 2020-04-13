@@ -1,0 +1,3 @@
+INFO:encore:314 - Created non-GUI application for batch mode execution.
+Wrote CGP file for project 'coregen'.
+ERROR:sim - Invalid command: cset atd2_pin_loc =

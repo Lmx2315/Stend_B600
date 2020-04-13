@@ -1,0 +1,16 @@
+[Inputs]
+clk
+rdy_in
+tx_rdy_in
+=data_in[7:0]=
+[Outputs]
+rst_uart
+send
+flag_t
+=data_out[7:0]=
+=test[11:0]=
+=test8[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel uart_serv_v2
+

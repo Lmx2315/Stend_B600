@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/tst1_sig1.v -lang verilog -prj B610_sinhron -o tst1_sig1.spl -module tst1_sig1 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tst1_sig1.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/tst1_sig1.sym 

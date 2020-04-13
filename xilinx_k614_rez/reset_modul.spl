@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+reset
+[BiDir]
+[ATTRIBUTES]
+VeriModel reset_modul
+

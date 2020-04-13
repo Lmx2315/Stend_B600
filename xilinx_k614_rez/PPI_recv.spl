@@ -1,0 +1,26 @@
+[Inputs]
+clk
+sync_FS1
+clk_ppi
+ppi_8_pf11
+fs1_in
+=ppi_data[7:0]=
+[Outputs]
+ppi_fs1
+fs1
+run
+FAIL
+tst
+=data_bus[7:0]=
+=TNO[31:0]=
+=TNC[31:0]=
+=TOBM[31:0]=
+=TNI[31:0]=
+=TKI[31:0]=
+=TNP[31:0]=
+=TKP[31:0]=
+=Rzv[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel PPI_recv
+

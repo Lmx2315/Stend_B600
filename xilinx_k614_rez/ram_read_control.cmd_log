@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/B610_sinhron/ram_read_control.v -lang verilog -prj B610_sinhron -o ram_read_control.spl -module ram_read_control -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ram_read_control.spl C:/B610_sinhron/ram_read_control.sym 
+vhdtdtfi -lib work C:/B610_sinhron/ram_read_control.v -lang verilog -prj B610_sinhron -o ram_read_control.spl -module ram_read_control -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ram_read_control.spl C:/B610_sinhron/ram_read_control.sym 
+vhdtdtfi -lib work C:/B610_sinhron/ram_read_control.v -lang verilog -prj B610_sinhron -o ram_read_control.spl -module ram_read_control -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ram_read_control.spl C:/B610_sinhron/ram_read_control.sym 

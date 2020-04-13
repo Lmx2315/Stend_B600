@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/arbitr_dcm.v -lang verilog -prj B610_sinhron -o arbitr_dcm.spl -module arbitr_dcm -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e arbitr_dcm.spl C:/B610_sinhron/arbitr_dcm.sym 

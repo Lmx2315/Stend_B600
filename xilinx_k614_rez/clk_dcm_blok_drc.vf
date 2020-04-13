@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : clk_dcm_blok_drc.vf
+// /___/   /\     Timestamp : 06/03/2015 19:07:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -sympath C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/ipcore_dir -sympath C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/ipcore_dir/pci_core1/verilog/src/xpci -intstyle ise -family spartan3e -verilog clk_dcm_blok_drc.vf -w C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/clk_dcm_blok.sch
+//Design Name: clk_dcm_blok
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module clk_dcm_blok(F5MHZ_in, 
+                    f20MHz_in, 
+                    F64MHz_in, 
+                    T_5MIN, 
+                    f5MHZ_out, 
+                    F16MHz, 
+                    f20MHz, 
+                    F32MHz, 
+                    INVF64MHz, 
+                    T_5MIN_OUT);
+
+    input F5MHZ_in;
+    input f20MHz_in;
+    input F64MHz_in;
+    input T_5MIN;
+   output f5MHZ_out;
+   output F16MHz;
+   output f20MHz;
+   output F32MHz;
+   output INVF64MHz;
+   output T_5MIN_OUT;
+   
+   wire XLXN_139;
+   wire XLXN_141;
+   wire XLXN_144;
+   wire XLXN_145;
+   wire INVF64MHz_DUMMY;
+   
+   assign INVF64MHz = INVF64MHz_DUMMY;
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_46 (.I(T_5MIN), 
+                  .O(T_5MIN_OUT));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_64 (.I(F5MHZ_in), 
+                  .O(f5MHZ_out));
+   BUFG  XLXI_69 (.I(XLXN_141), 
+                 .O(F32MHz));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_80 (.I(f20MHz_in), 
+                  .O(f20MHz));
+   FD #( .INIT(1'b0) ) XLXI_92 (.C(INVF64MHz_DUMMY), 
+               .D(XLXN_141), 
+               .Q(XLXN_139));
+   INV  XLXI_94 (.I(XLXN_139), 
+                .O(XLXN_141));
+   FD #( .INIT(1'b0) ) XLXI_98 (.C(XLXN_141), 
+               .D(XLXN_145), 
+               .Q(XLXN_144));
+   INV  XLXI_99 (.I(XLXN_144), 
+                .O(XLXN_145));
+   BUFG  XLXI_101 (.I(XLXN_145), 
+                  .O(F16MHz));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_102 (.I(F64MHz_in), 
+                   .O(INVF64MHz_DUMMY));
+endmodule

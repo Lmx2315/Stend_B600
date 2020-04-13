@@ -1,0 +1,141 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (WinNT; U) [Netscape]">
+   <title>CompactPCI Implementation Information</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>
+<a NAME="CompactPCI"></a>CompactPCI Implementation Information&nbsp;
+<hr ALIGN=LEFT NOSHADE WIDTH="596"></h1>
+
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+Table of Contents</h2>
+
+<blockquote><a href="#10">1.0.&nbsp; Introduction</a>
+<br><a href="#20">2.0.&nbsp; Guidelines</a>
+<blockquote><a href="#21">2.1.&nbsp; Physical Differences</a>
+<br><a href="#22">2.2.&nbsp; Interface Differences</a>
+<br><a href="#23">2.3.&nbsp; Functional Differences</a>
+<br><a href="#24">2.4.&nbsp; Electrical Differences</a></blockquote>
+<a href="#30">3.0.&nbsp; Summary</a></blockquote>
+
+<h4>
+<a href="#CompactPCI">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<hr ALIGN=LEFT NOSHADE WIDTH="596">
+<br>&nbsp;
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+1.0.<a NAME="10"></a> Introduction</h2>
+The Xilinx PCI and PCI-X interfaces support CompactPCI implementations.&nbsp;
+CompactPCI is derived from standard PCI and PCI-X interfaces.&nbsp; This
+document addresses design issues specific to CompactPCI.&nbsp; If you are
+implementing a CompactPCI design, please read this document carefully.
+<p>For additional information, please refer to the <i>CompactPCI Specification
+PICMG 2.0 R3.0</i> and <i>CompactPCI Hot Swap Specification PICMG 2.1 R2.0</i>.&nbsp;
+These documents are published by, and available from, the <a href="http://www.picmg.org">PICMG
+special interest group</a>.
+<h4>
+<a href="#CompactPCI">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+2.0.&nbsp;<a NAME="20"></a>Guidelines</h2>
+The the <i>CompactPCI Specification PICMG 2.0 R3.0</i> and <i>CompactPCI
+Hot Swap Specification PICMG 2.1 R2.0 </i>provide guidelines for CompactPCI
+implementations.&nbsp; The material presented in this document is intended
+for reference only; for complete specifications, please consult the original
+documents.
+<h3>
+2.1.&nbsp;<a NAME="21"></a>Physical Differences</h3>
+CompactPCI applications have unique physical&nbsp; and mechanical requirements.&nbsp;
+Consult the <i>CompactPCI Specification PICMG 2.0 R3.0</i> for specific
+information regarding these requirements.&nbsp; These are beyond the scope
+of this document and do not materially impact the implementation of such
+an interface using the Xilinx interfaces.
+<h3>
+2.2.&nbsp;<a NAME="22"></a>Interface Differences</h3>
+The logical implementation of a CompactPCI interface, in its basic form
+(Non Hot Swap), is no different than a comparable standard PCI implementation.&nbsp;
+Some differences do exist in the board level implementation.&nbsp; Note
+that the CompactPCI Hot Swap specification defines three levels of Hot
+Swap boards, and three levels of Hot Swap systems:
+<blockquote><b>Boards</b>:
+<br>Non Hot Swap
+<br>Basic Hot Swap
+<br>Full Hot Swap
+<p><b>Systems</b>:
+<br>Non Hot Swap
+<br>Hot Swap
+<br>High Availability</blockquote>
+For Hot Swap implementations, the Hot Swap Register Block must be implemented
+in user configuration space as a capabilities list item.&nbsp; The Hot
+Swap Register Block is discussed in Chapter 7.2 of the <i>CompactPCI Hot
+Swap Specification PICMG 2.1 R2.0.</i>&nbsp; After implementing the user
+configuration space register and the associated functionality, link the
+capability list item into the capabilities list by adjusting the capabilities
+pointer and / or the next item pointers of other capabilities list items.&nbsp;
+User configuration space and the capabilities pointer are described in
+the User Guide shipped with the Xilinx interface.
+<h3>
+2.3.&nbsp;<a NAME="23"></a>Functional Differences</h3>
+There are no differences between CompactPCI functionality and standard
+PCI functionality.
+<h3>
+2.4.&nbsp;<a NAME="24"></a>Electrical Differences</h3>
+There are no differences between the Non Hot Swap CompactPCI device electrical
+specifications and standard PCI electrical specifications.&nbsp; However,
+CompactPCI places a number of additional specifications on the actual board
+implementation.&nbsp; You <i>must</i> obtain and carefully read the implementation
+instructions provided in the relevant PICMG documents to ensure implementation
+compliance.
+<p>For Hot Swap implementations, the implementation technology must provide
+low quiescent leakage current.&nbsp; Silicon requirements are discussed
+in Chapter 7.1 of the <i>CompactPCI Hot Swap Specification PICMG 2.1 R2.0.</i>&nbsp;
+Most FPGA devices supported by this Xilinx interface support HotSwap implementations.&nbsp;
+Consult the relevant FPGA device datasheet for additional information on
+leakage current and how to disable the device I/O pullups before and during the FPGA device
+configuration process.
+<h4>
+<a href="#CompactPCI">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<table COLS=1 WIDTH="597" >
+<tr>
+<td>
+<h2>
+3.0.&nbsp;<a NAME="30"></a>Summary</h2>
+The Xilinx PCI and PCI-X interfaces support CompactPCI implementations.&nbsp;
+However, some extra design work may be required depending on the specific
+requirements of your CompactPCI implementation.&nbsp; No modifications
+to the standard Xilinx interface are required.
+<p>For additional information, please refer to the <i>CompactPCI Specification
+PICMG 2.0 R3.0</i> and <i>CompactPCI Hot Swap Specification PICMG 2.1 R2.0</i>.&nbsp;
+These documents are published by, and available from, the <a href="http://www.picmg.org">PICMG
+special interest group</a>.
+<h4>
+<a href="#CompactPCI">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

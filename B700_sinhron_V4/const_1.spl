@@ -1,0 +1,8 @@
+[Inputs]
+[Outputs]
+one
+zero
+[BiDir]
+[ATTRIBUTES]
+VeriModel const_1
+

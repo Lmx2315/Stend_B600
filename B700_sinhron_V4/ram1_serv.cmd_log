@@ -1,0 +1,86 @@
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.v -lang verilog -prj B610_sinhron -o ram1_serv.spl -module ram1_serv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w ram1_serv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ram1_serv.sym 

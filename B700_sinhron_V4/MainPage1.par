@@ -1,0 +1,206 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+LMX2315::  Fri Nov 02 17:14:11 2018
+
+par -w -intstyle ise -pl high -rl high -xe n -t 1 MainPage1_map.ncd
+MainPage1.ncd MainPage1.pcf 
+
+
+Constraints file: MainPage1.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "MainPage1" is an NCD, version 3.2, device xc3s500e, package pq208, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          84 out of 158    53%
+
+   Number of External Input IOBs                 28
+
+      Number of External Input IBUFs             28
+        Number of LOCed External Input IBUFs     28 out of 28    100%
+
+
+   Number of External Output IOBs                56
+
+      Number of External Output IOBs             56
+        Number of LOCed External Output IOBs     56 out of 56    100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        3 out of 24     12%
+   Number of Slices                       1698 out of 4656   36%
+      Number of SLICEMs                      5 out of 2328    1%
+
+
+
+Overall effort level (-ol):   Not applicable because -pl and -rl switches are used
+Router effort level (-rl):    High 
+
+WARNING:Timing:3224 - The clock CLK_SPI_BF associated with OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "CLK_SPI_BF"
+   "RISING"; does not clock any registered input components.
+WARNING:Timing:3225 - Timing constraint OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "CLK_SPI_BF" "RISING"; ignored during
+   timing analysis
+WARNING:Timing:3224 - The clock CLK_SPI_BF associated with TIMEGRP "spi_bf" OFFSET = IN 50 ns VALID 50 ns BEFORE COMP
+   "CLK_SPI_BF"        "RISING"; does not clock any registered input components.
+WARNING:Timing:3225 - Timing constraint TIMEGRP "spi_bf" OFFSET = IN 50 ns VALID 50 ns BEFORE COMP "CLK_SPI_BF"       
+   "RISING"; ignored during timing analysis
+WARNING:Timing:3224 - The clock TSCLK associated with TIMEGRP "SPORT_in" OFFSET = IN 15 ns VALID 15 ns BEFORE COMP
+   "TSCLK" "RISING"; does not clock any registered input components.
+WARNING:Timing:3225 - Timing constraint TIMEGRP "SPORT_in" OFFSET = IN 15 ns VALID 15 ns BEFORE COMP "TSCLK" "RISING";
+   ignored during timing analysis
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please
+   consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
+
+Starting Router
+
+
+Phase  1  : 8992 unrouted;      REAL time: 9 secs 
+
+Phase  2  : 7384 unrouted;      REAL time: 9 secs 
+
+Phase  3  : 1638 unrouted;      REAL time: 10 secs 
+
+Phase  4  : 1638 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 10 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 11 secs 
+
+Updating file: MainPage1.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 12 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 13 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 14 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 14 secs 
+
+Phase 11  : 0 unrouted; (Setup:0, Hold:1407, Component Switching Limit:0)     REAL time: 14 secs 
+
+Phase 12  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+
+Phase 13  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+WARNING:Route:455 - CLK Net:XLXN_1141 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:XLXI_467/upr2_reg may have excessive skew because 
+      1 CLK pins and 7 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 15 secs 
+Total CPU time to Router completion: 14 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           XLXN_2057 | BUFGMUX_X1Y11| No   | 1391 |  0.077     |  0.179      |
++---------------------+--------------+------+------+------------+-------------+
+|           XLXN_1141 |  BUFGMUX_X2Y0| No   |  107 |  0.065     |  0.174      |
++---------------------+--------------+------+------+------------+-------------+
+|   XLXI_467/upr2_reg |         Local|      |    9 |  0.636     |  2.493      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 3
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TIMEGRP "SPORT_out" OFFSET = OUT 15 ns AF | MAXDELAY    |     0.945ns|    14.055ns|       0|           0
+  TER COMP "TSCLK"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_TSCLK = PERIOD TIMEGRP "TSCLK" 15 ns H | SETUP       |     9.459ns|     5.541ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.772ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_F20MHz = PERIOD TIMEGRP "F20MHz" 50 ns | SETUP       |    15.056ns|    19.888ns|       0|           0
+   HIGH 50%                                 | HOLD        |     0.806ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 20 ns VALID 20 ns BEFORE COMP | SETUP       |    16.042ns|     3.958ns|       0|           0
+   "F20MHz" "RISING"                        | HOLD        |     0.775ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TIMEGRP "ppi" OFFSET = IN 50 ns VALID 50  | SETUP       |    43.944ns|     6.056ns|       0|           0
+  ns BEFORE COMP "F20MHz" "RISING"          | HOLD        |     0.298ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TIMEGRP "BUS_PPI_OUT" OFFSET = OUT 50 ns  | MAXDELAY    |    44.216ns|     5.784ns|       0|           0
+  AFTER COMP "F20MHz"                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 20 ns VALID 20 ns BEFORE COMP | N/A         |         N/A|         N/A|     N/A|         N/A
+   "CLK_SPI_BF" "RISING"                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TIMEGRP "spi_bf" OFFSET = IN 50 ns VALID  | N/A         |         N/A|         N/A|     N/A|         N/A
+  50 ns BEFORE COMP "CLK_SPI_BF"         "R |             |            |            |        |            
+  ISING"                                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TIMEGRP "SPORT_in" OFFSET = IN 15 ns VALI | N/A         |         N/A|         N/A|     N/A|         N/A
+  D 15 ns BEFORE COMP "TSCLK" "RISING"      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 16 secs 
+Total CPU time to PAR completion: 15 secs 
+
+Peak Memory Usage:  423 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 8
+Number of info messages: 1
+
+Writing design to file MainPage1.ncd
+
+
+
+PAR done!

@@ -1,0 +1,500 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'top_list'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off
+-c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 30 15:22:38 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   74
+Logic Utilization:
+  Number of Slice Flip Flops:           166 out of   9,312    1%
+  Number of 4 input LUTs:               131 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:            150 out of   4,656    3%
+    Number of Slices containing only related logic:     150 out of     150 100%
+    Number of Slices containing unrelated logic:          0 out of     150   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         269 out of   9,312    2%
+    Number used as logic:               127
+    Number used as a route-thru:        138
+    Number used as Shift registers:       4
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 97 out of     158   61%
+  Number of BUFGMUXs:                     3 out of      24   12%
+  Number of DCMs:                         1 out of       4   25%
+
+Average Fanout of Non-Clock Nets:                2.08
+
+Peak Memory Usage:  333 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:701 - Signal TFS0 connected to top level port TFS0 has been
+   removed.
+WARNING:MapLib:701 - Signal UART_RX connected to top level port UART_RX has been
+   removed.
+WARNING:MapLib:701 - Signal DR0PRI connected to top level port DR0PRI has been
+   removed.
+WARNING:MapLib:701 - Signal BUS_INT4 connected to top level port BUS_INT4 has
+   been removed.
+WARNING:MapLib:701 - Signal ENABLE_BUS_OUT connected to top level port
+   ENABLE_BUS_OUT has been removed.
+WARNING:MapLib:701 - Signal INT_W5100 connected to top level port INT_W5100 has
+   been removed.
+WARNING:MapLib:701 - Signal EXT_A2 connected to top level port EXT_A2 has been
+   removed.
+WARNING:MapLib:701 - Signal EXT_A3 connected to top level port EXT_A3 has been
+   removed.
+WARNING:MapLib:701 - Signal EXT_A4 connected to top level port EXT_A4 has been
+   removed.
+WARNING:MapLib:701 - Signal RESET_USB11 connected to top level port RESET_USB11
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR3_3V3 connected to top level port TKONTR3_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR1_3V3 connected to top level port TKONTR1_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR2_3V3 connected to top level port TKONTR2_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal DT0SEC connected to top level port DT0SEC has been
+   removed.
+WARNING:MapLib:701 - Signal DT0PRI connected to top level port DT0PRI has been
+   removed.
+WARNING:MapLib:701 - Signal BUS_INT2 connected to top level port BUS_INT2 has
+   been removed.
+WARNING:MapLib:701 - Signal BUS_INT3 connected to top level port BUS_INT3 has
+   been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<7> connected to top level port BUS_DATA<7>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<6> connected to top level port BUS_DATA<6>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<5> connected to top level port BUS_DATA<5>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<4> connected to top level port BUS_DATA<4>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<3> connected to top level port BUS_DATA<3>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<2> connected to top level port BUS_DATA<2>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<1> connected to top level port BUS_DATA<1>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<0> connected to top level port BUS_DATA<0>
+   has been removed.
+WARNING:PhysDesignRules:368 - The signal <RD_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_FS3_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TIMER_BF_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TKP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TNP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <SCLK_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <MOSI_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TKP1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI8_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RZV1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RZV2_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <RZV3_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <WR_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_F_SYN2_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RX_485_MG_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_FRAM_SYN1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_485_MG_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI11_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI15_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TSCLK_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<0>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<1>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<2>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<3>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<4>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<5>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<6>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<7>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <ENABLE_EXT_VDD_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_FTDI_1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CLK_5_CMOS_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <BUS_WR_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<0>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<1>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<2>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<3>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<4>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<5>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<6>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<7>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <EXT_A0_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <EXT_A7_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_DSP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CS_SPARTAN_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <CS_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <RS232_RX_VDD_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RS232_TX_VDD_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <BUS_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network T_5MIN_3V3 has no load.
+INFO:LIT:395 - The above info message is repeated 36 more times for the
+   following (max. 5 shown):
+   data_PPI8_IBUF,
+   RS232_TX_VDD_IBUF,
+   TX_485_MG_IBUF,
+   PPI_F_SYN2_IBUF,
+   RX_485_MG_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  53 block(s) removed
+   6 block(s) optimized away
+  27 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "IBUF16_3/IBUF8_0/IBUF_0" (BUF) removed.
+ The signal "EXT_A4" is loadless and has been removed.
+  Loadless block "EXT_A4" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_0/IBUF_1" (BUF) removed.
+ The signal "EXT_A3" is loadless and has been removed.
+  Loadless block "EXT_A3" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_0/IBUF_2" (BUF) removed.
+ The signal "EXT_A2" is loadless and has been removed.
+  Loadless block "EXT_A2" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_0/IBUF_4" (BUF) removed.
+ The signal "INT_W5100" is loadless and has been removed.
+  Loadless block "INT_W5100" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_0/IBUF_5" (BUF) removed.
+ The signal "ENABLE_BUS_OUT" is loadless and has been removed.
+  Loadless block "ENABLE_BUS_OUT" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_0/IBUF_7" (BUF) removed.
+ The signal "BUS_INT4" is loadless and has been removed.
+  Loadless block "BUS_INT4" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_0" (BUF) removed.
+ The signal "BUS_INT3" is loadless and has been removed.
+  Loadless block "BUS_INT3" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_1" (BUF) removed.
+ The signal "BUS_INT2" is loadless and has been removed.
+  Loadless block "BUS_INT2" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_2" (BUF) removed.
+ The signal "DT0PRI" is loadless and has been removed.
+  Loadless block "DT0PRI" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_3" (BUF) removed.
+ The signal "DT0SEC" is loadless and has been removed.
+  Loadless block "DT0SEC" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_4" (BUF) removed.
+ The signal "TKONTR2_3V3" is loadless and has been removed.
+  Loadless block "TKONTR2_3V3" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_5" (BUF) removed.
+ The signal "TKONTR1_3V3" is loadless and has been removed.
+  Loadless block "TKONTR1_3V3" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_6" (BUF) removed.
+ The signal "TKONTR3_3V3" is loadless and has been removed.
+  Loadless block "TKONTR3_3V3" (PAD) removed.
+Loadless block "IBUF16_3/IBUF8_1/IBUF_7" (BUF) removed.
+ The signal "RESET_USB11" is loadless and has been removed.
+  Loadless block "RESET_USB11" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_0" (BUF) removed.
+ The signal "BUS_DATA<0>" is loadless and has been removed.
+  Loadless block "BUS_DATA<0>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_1" (BUF) removed.
+ The signal "BUS_DATA<1>" is loadless and has been removed.
+  Loadless block "BUS_DATA<1>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_2" (BUF) removed.
+ The signal "BUS_DATA<2>" is loadless and has been removed.
+  Loadless block "BUS_DATA<2>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_3" (BUF) removed.
+ The signal "BUS_DATA<3>" is loadless and has been removed.
+  Loadless block "BUS_DATA<3>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_4" (BUF) removed.
+ The signal "BUS_DATA<4>" is loadless and has been removed.
+  Loadless block "BUS_DATA<4>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_5" (BUF) removed.
+ The signal "BUS_DATA<5>" is loadless and has been removed.
+  Loadless block "BUS_DATA<5>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_6" (BUF) removed.
+ The signal "BUS_DATA<6>" is loadless and has been removed.
+  Loadless block "BUS_DATA<6>" (PAD) removed.
+Loadless block "IBUF8_1/IBUF_7" (BUF) removed.
+ The signal "BUS_DATA<7>" is loadless and has been removed.
+  Loadless block "BUS_DATA<7>" (PAD) removed.
+Loadless block "IBUF_1" (BUF) removed.
+ The signal "TFS0" is loadless and has been removed.
+  Loadless block "TFS0" (PAD) removed.
+Loadless block "IBUF_2" (BUF) removed.
+ The signal "UART_RX" is loadless and has been removed.
+  Loadless block "UART_RX" (PAD) removed.
+Loadless block "IBUF_3" (BUF) removed.
+ The signal "DR0PRI" is loadless and has been removed.
+  Loadless block "DR0PRI" (PAD) removed.
+Loadless block "OBUF16_2/OBUF8_2/OBUF_7" (BUF) removed.
+Loadless block "OBUF8_1/OBUF_7" (BUF) removed.
+Loadless block "dcm1/CLKFX_BUFG_INST" (CKBUF) removed.
+ The signal "dcm1/CLKFX_BUF" is loadless and has been removed.
+The signal "reset1/Mshreg_a_0_0/Q" is sourceless and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| BUS_ADDR<0>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<1>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<2>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<3>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<4>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<5>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<6>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ADDR<7>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ALE1                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ALE2                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_ALE3                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_CLK                            | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| BUS_INT1                           | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| BUS_RD                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_T_SEC                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| BUS_WR                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| CLK20MHz                           | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| CLK_5_CMOS                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| CS_SPARTAN                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| CS_W5100                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| DEBAG_LED4                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| DEBAG_PWM1                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| DEBAG_PWM2                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| ENABLE_BUS_IN                      | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| ENABLE_EXT_VDD                     | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| ENABLE_HM_DR                       | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| EXT_A0                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| EXT_A7                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| MISO                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| MISO_W5100                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| MOSI                               | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| MOSI_W5100                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| PPI<0>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<1>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<2>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<3>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<4>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<5>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<6>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI<7>                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI_CLK                            | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI_FRAM_SYN1                      | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI_FS3                            | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PPI_F_SYN2                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RD_W5100                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RESET_MK_PLIS                      | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| REZERV_33V                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RE_485                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RFS0                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RS232_RX_VDD                       | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RS232_TX_VDD                       | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RSCLK0                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RTS_485                            | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RX_485_MG                          | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RX_DSP                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RX_FTDI_1                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RZV1                               | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RZV2                               | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| RZV3                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| RZV4                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| SCLK                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| SCLK_W5100                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| SCS_W5100                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| T1_4                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TIMER_BF                           | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TKI                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TKI_1                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TKP                                | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TKP1                               | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TNC                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TNI                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TNI_1                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TNO                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TNP                                | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TOBM                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| TSCLK                              | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TX_485_MG                          | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TX_DSP                             | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| TX_FTDI_1                          | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| T_TEST1_VDD                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| T_TEST2_VDD                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| T_TEST3_VDD                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| T_TEST4_VDD                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| UART_TX                            | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| VS0                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| VS1                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| VS2                                | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| WD_SUPERVISOR                      | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| WR_W5100                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| data_PPI8                          | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| data_PPI9                          | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| data_PPI10                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| data_PPI11                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| data_PPI12                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| data_PPI13                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| data_PPI14                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          | 0 / 0    |
+| data_PPI15                         | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

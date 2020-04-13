@@ -1,0 +1,17 @@
+ if ((priznak==1)&&(SS_ETALON_upd==1))  
+   
+   {
+   
+     SS_ETALON=1;
+     SS_ETALON_upd=0;
+   
+   for(i=10; i<64; i++)  Korrel_etalon[i]=(float) s [i];
+   
+   porog_delta=3;
+   
+   //send("запомнили эталонный - признак B\r");
+   //zputs(wn,1);
+            
+   }
+   
+   else

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/St_m_SS.v -lang verilog -prj B610_sinhron -o St_m_SS.spl -module St_m_SS -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e St_m_SS.spl C:/B610_sinhron/St_m_SS.sym 

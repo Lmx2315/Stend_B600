@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx_project/B610_sinhron/MainPage1_isim_beh.exe" -prj "C:/Xilinx_project/B610_sinhron/MainPage1_beh.prj" "work.MainPage1" "work.glbl" 

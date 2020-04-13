@@ -1,0 +1,16 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_control.v -lang verilog -prj B610_sinhron -o mk_control.spl -module mk_control -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_control.spl C:/Xilinx_project/B610_sinhron/mk_control.sym 

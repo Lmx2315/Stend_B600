@@ -1,0 +1,21 @@
+[Inputs]
+clk
+start
+reset
+FS
+A1in
+A2in
+A3in
+=in_data[7:0]=
+[Outputs]
+we
+A1out
+A2out
+A3out
+=out_data[7:0]=
+=adr_wr[7:0]=
+=adr_rd[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ram1_serv
+

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.49d
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.49d
+DATE            10/22/2013 - 17:53
+SOURCE          C:\Xilinx_project\B610_sinhron\synhr1.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x04081779
+START_ADDRESS   0x00000000 END_ADDRESS 0x0004547F DIRECTION_UP   "C:/Xilinx_project/B610_sinhron/mainpage1.bit" 3s500epq208

@@ -1,0 +1,42 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/Xilinx_project/B610_sinhron/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/control_TNO_TNC.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ctrl_tno_tnc.v -lang verilog -prj B610_sinhron -o control_TNO_TNC.spl -module control_TNO_TNC -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w control_TNO_TNC.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/control_TNO_TNC.sym 

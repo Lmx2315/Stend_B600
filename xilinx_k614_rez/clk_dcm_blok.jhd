@@ -1,0 +1,3 @@
+MODULE clk_dcm_blok
+	SUBMODULE dcm2
+		INSTANCE XLXI_103

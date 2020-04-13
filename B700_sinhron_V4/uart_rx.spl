@@ -1,0 +1,12 @@
+[Inputs]
+rst_in
+clk_in
+baud_in
+rxd_in
+[Outputs]
+ready_out
+=data_out[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel uart_rx
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/uart_ctr2.v -lang verilog -prj B610_sinhron -o uart_ctr2.spl -module uart_ctr2 -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e uart_ctr2.spl C:/B610_sinhron/uart_ctr2.sym 

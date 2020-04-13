@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/reset_m.v -lang verilog -prj B610_sinhron -o reset_modul.spl -module reset_modul -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e reset_modul.spl C:/B610_sinhron/reset_modul.sym 

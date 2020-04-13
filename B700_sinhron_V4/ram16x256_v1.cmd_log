@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/ram16x256_v1.v -lang verilog -prj B610_sinhron -o ram16x256_v1.spl -module ram16x256_v1 -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ram16x256_v1.spl C:/B610_sinhron/ram16x256_v1.sym 

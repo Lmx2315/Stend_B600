@@ -1,0 +1,16 @@
+[Inputs]
+clk
+clk_ppi
+ppi_8_pf11
+=ppi_data[7:0]=
+[Outputs]
+we_a
+fs1
+run
+=data_ram[7:0]=
+=addr_ram[7:0]=
+=data_bus[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel PPI_rcv
+

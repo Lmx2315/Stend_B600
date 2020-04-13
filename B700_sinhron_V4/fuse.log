@@ -1,0 +1,70 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx_project/B610_sinhron/MainPage1_isim_beh.exe" -prj "C:/Xilinx_project/B610_sinhron/MainPage1_beh.prj" "work.MainPage1" "work.glbl" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/time_1us_2us.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/p_reset.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/dcm2.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/uart_all.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/tick_tack.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/test_led.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/TEST_BLOK.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/reset_init.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/read_and_work.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ppi_rcv.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mk_easy.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mem1_8x8.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mailer.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ipcore_dir/mem_32x16_v2.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/const_1.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/Clock_watcher.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/clock_nuke.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/clk_dcm_blok.vf" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/MainPage1.vf" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module p_reset
+Compiling module IBUFG
+Compiling module time_1us_2us
+Compiling module BUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKDV_DIVIDE=4.0,CLKFX_DI...
+Compiling module dcm2
+Compiling module INV
+Compiling module clk_dcm_blok_MUSER_MainPage1
+Compiling module clock_nuke
+Compiling module OBUF
+Compiling module Clock_watcher
+Compiling module led_test
+Compiling module IBUF
+Compiling module IBUF8_MXILINX_MainPage1
+Compiling module uart_all
+Compiling module TEST_BLOK
+Compiling module OBUF8_MXILINX_MainPage1
+Compiling module reset_init
+Compiling module OBUFT
+Compiling module tick_tack
+Compiling module const_1
+Compiling module mem1_8x8
+Compiling module mailer
+Compiling module mk_easy
+Compiling module read_and_work
+Compiling module PPI_recv
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module mem_32x16_v2
+Compiling module MainPage1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 37 Verilog Units
+Built simulation executable C:/Xilinx_project/B610_sinhron/MainPage1_isim_beh.exe
+Fuse Memory Usage: 36952 KB
+Fuse CPU Usage: 935 ms

@@ -1,0 +1,404 @@
+*******************************************************************************
+*
+*                      IMPORT XISE SUMMARY REPORT
+*
+*                       (import_ise_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ON THE DATA THAT
+*  WAS PARSED FROM THE ISE PROJECT AND IMPORTED INTO THE CURRENT PROJECT.
+*
+*
+* The report is divided into following three sections:-
+*
+* Section (1) - ISE PROJECT INFORMATION
+*
+*  This section provides the details of the ISE project that was imported
+*
+* Section (2) - EXCEPTIONS
+*
+*  This section summarizes the ISE project data that was either not imported or
+*  not mapped into the current project
+*
+* Section (3) - MAPPED DATA
+*
+*  This section summarizes the Vivado project information that was imported
+*  from the ISE project data
+*
+*******************************************************************************
+
+Section (1) - ISE PROJECT INFORMATION
+-------------------------------------
+
+The following items describes the information about the ISE project that was imported:-
+
+Project Name    = B610_sinhron
+Project File    = C:/Xilinx_project/B610_sinhron/B610_sinhron.xise
+Project Version = 14.4
+Device Family   = Spartan3E
+Part Name       = xc3s500e-5-pq208*
+
+*This part is not supported in Vivado and is replaced with the default part in the new project.
+ Please see Section (3.1) - "Target Device" below for more details.
+
+
+Section (2) - EXCEPTIONS
+------------------------
+
+The following sub-sections describes the list of items that were NOT mapped from the
+XISE file contents into the current project:-
+
+Section (2.1) - Missing Sources
+-------------------------------
+None
+
+
+Section (2.2) - Unknown Sources
+-------------------------------
+
+The following ISE design sources referenced in the XISE file are not recognizable in the
+current version of Vivado. Please read the recommendation on how to resolve this issue:-
+
+<ISE Filename>              <File Type>  <Recommendation>
+"MainPage1.sch"             'SCH'        Locate the associated top-level HDL file for this schematic source in the ISE project
+                                         and import it into the current project as RTL source. In case this associated HDL
+                                         functional model 'MainPage1.vf/vhf' is not present in the ISE Project, you may
+                                         want to generate this model in ISE by running the "View HDL Functional Model" process
+                                         under "Design Utilities" and add the generated file to the current project.
+                                         
+"ipcore_dir/dcm_main1.xaw"  'XAW'        Locate the associated top-level HDL file for this ArchWiz source in the ISE project
+                                         and import it into the current project as RTL source. In case this associated HDL
+                                         instantiation model 'dcm_main1.v/vhd' is not present in the ISE Project, you may
+                                         want to generate this model in ISE by running the "View HDL Instantiation Template"
+                                         process by first selecting the 'dcm_main1.xaw' source and add the generated
+                                         file to the current project.
+                                         
+"clk_dcm_blok.sch"          'SCH'        Locate the associated top-level HDL file for this schematic source in the ISE project
+                                         and import it into the current project as RTL source. In case this associated HDL
+                                         functional model 'clk_dcm_blok.vf/vhf' is not present in the ISE Project, you may
+                                         want to generate this model in ISE by running the "View HDL Functional Model" process
+                                         under "Design Utilities" and add the generated file to the current project.
+                                         
+"ipcore_dir/dcm2.xaw"       'XAW'        Locate the associated top-level HDL file for this ArchWiz source in the ISE project
+                                         and import it into the current project as RTL source. In case this associated HDL
+                                         instantiation model 'dcm2.v/vhd' is not present in the ISE Project, you may
+                                         want to generate this model in ISE by running the "View HDL Instantiation Template"
+                                         process by first selecting the 'dcm2.xaw' source and add the generated
+                                         file to the current project.
+                                         
+
+
+Section (2.3) - IP Import Issues
+--------------------------------
+
+The following ISE IP cores referenced in the XISE file were not imported into the current project.
+Please read the fail reasons for more details:-
+
+<IP Core Filename>          <File Type>  <Fail Reason(s)>
+"ipcore_dir/pci_core1.xco"  'XCO'         1. Could not find IP definition in IP file 'C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1.xco'. IP file may be corrupt, or IP not found in the IP catalog.
+                                          2. Failed to add IP. Invalid IP file 'C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1.xco'.
+                                         
+                                         
+
+
+Section (2.4) - Unknown Properties
+----------------------------------
+
+The following ISE properties were not mapped into the current project:-
+
+Note: The "Property Specification in Project File" property in the ISE project was set to "Store non-default values only".
+      To make the ISE default properties available for import into Vivado, please set the value to "Store all values" in
+      ISE Project Design Properties and create a new project.
+
+<ISE Property Name>          <ISE Property Value>
+"Overwrite Existing Symbol"  'true'
+"Target UCF File Name"       'list1.ucf'
+
+
+Section (3) - MAPPED DATA
+-------------------------
+
+The following sub-sections describes the list of items that were imported from the
+ISE properties and sources and mapped into the current project:-
+
+Section (3.1) - Target Device
+-----------------------------
+
+Default Part = xc7vx485tffg1157-1
+Family       = virtex7
+Package      = ffg1157
+Speed Grade  = -1
+
+
+Section (3.2) - Filesets
+------------------------
+
+<sources_1>
+FILESET_TYPE   = DesignSrcs
+TOP            = MainPage1
+DESIGN_MODE    = RTL
+VERILOG_DIR    = 
+VERILOG_DEFINE = 
+VHDL_GENERICS  = 
+
+File(s):-
+NAME      = mem_32x16_v2.xco
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/mem_32x16_v2.xco
+FILE_TYPE = IP
+LIBRARY   = work
+
+NAME      = pci_lc_i.ngo
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pci_lc_i.ngo
+FILE_TYPE = NGO
+LIBRARY   = work
+
+NAME      = userapp.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/userapp.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = pcim_top.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pcim_top.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = pci_lc_i.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pci_lc_i.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = cfg.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/cfg.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = pcim_lc_66_3_s.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ipcore_dir/pci_core1/verilog/src/wrap/pcim_lc_66_3_s.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram_xlx.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram_xlx.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram16x256_v1.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram16x256_v1.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = win_sin.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/win_sin.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = uart_service.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/uart_service.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = uart_ctr2.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/uart_ctr2.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = uart.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/uart.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = test_ppi.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/test_ppi.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = test_mem.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/test_mem.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = St_m_SS.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/St_m_SS.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = spi_slave.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/spi_slave.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = spi.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/spi.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = reset_m.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/reset_m.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram_read_control_dds.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram_read_control_dds.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram_read_control.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram_read_control.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = PPI_Resiver.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/PPI_Resiver.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram32x16.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram32x16.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = arbitr_dcm.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/arbitr_dcm.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ram32x256.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ram32x256.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = time_1us_2us.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/time_1us_2us.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = p_reset.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/p_reset.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = uart_all.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/uart_all.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = tick_tack.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/tick_tack.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = test_led.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/test_led.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = TEST_BLOK.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/TEST_BLOK.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = reset_init.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/reset_init.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = read_and_work.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/read_and_work.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = ppi_rcv.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/ppi_rcv.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = mk_easy.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/mk_easy.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = mem1_8x8.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/mem1_8x8.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = mailer.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/mailer.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = const_1.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/const_1.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = Clock_watcher.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/Clock_watcher.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = clock_nuke.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/clock_nuke.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+NAME      = test1.v
+FILE PATH = C:/Xilinx_project/B610_sinhron/test1.v
+FILE_TYPE = Verilog
+LIBRARY   = work
+
+
+<constrs_1>
+FILESET_TYPE   = Constrs
+
+Note: During the import operation, any constraint file(s) that are found in the ISE project will be added to the current Vivado project.
+      However, please note that none of these files will be automatically marked as a "Target Constraint File". To set a constraint file
+      as target, select the file in the GUI "Sources" window, right-click on this file and then select "Set Target UCF". Alternatively,
+      the target constraint file can be set using the "set_property target_constrs_file <filename> <fileset>" Tcl command.
+
+File(s):-
+NAME      = list1.ucf
+FILE PATH = C:/Xilinx_project/B610_sinhron/list1.ucf
+FILE_TYPE = Unknown
+
+
+<sim_1>
+FILESET_TYPE   = SimulationSrcs
+
+File(s):-
+None
+
+Section (3.3) - Design Runs(s)
+------------------------------
+
+<synth_1>
+FLOW      = Vivado Synthesis 2012
+PART      = xc7vx485tffg1157-1
+SRCSET    = sources_1
+CONSTRSET = constrs_1
+STRATEGY  = Vivado Synthesis Defaults
+
+Options:-
+
+Note: The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+
+
+
+<impl_1>
+FLOW      = Vivado Implementation 2012
+PART      = xc7vx485tffg1157-1
+SRCSET    = sources_1
+CONSTRSET = constrs_1
+STRATEGY  = Vivado Implementation Defaults
+
+Options:-
+
+Note: The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+
+
+
+<sim_1>
+TOP  = 
+SOURCE_SET  = sources_1
+
+Options:-
+        

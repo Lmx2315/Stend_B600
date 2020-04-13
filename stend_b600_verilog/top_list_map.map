@@ -1,0 +1,219 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'top_list'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off
+-c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+Target Device  : xc3s500e
+Target Package : pq208
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 30 15:22:38 2018
+
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal TFS0 connected to top level port TFS0 has been
+   removed.
+WARNING:MapLib:701 - Signal UART_RX connected to top level port UART_RX has been
+   removed.
+WARNING:MapLib:701 - Signal DR0PRI connected to top level port DR0PRI has been
+   removed.
+WARNING:MapLib:701 - Signal BUS_INT4 connected to top level port BUS_INT4 has
+   been removed.
+WARNING:MapLib:701 - Signal ENABLE_BUS_OUT connected to top level port
+   ENABLE_BUS_OUT has been removed.
+WARNING:MapLib:701 - Signal INT_W5100 connected to top level port INT_W5100 has
+   been removed.
+WARNING:MapLib:701 - Signal EXT_A2 connected to top level port EXT_A2 has been
+   removed.
+WARNING:MapLib:701 - Signal EXT_A3 connected to top level port EXT_A3 has been
+   removed.
+WARNING:MapLib:701 - Signal EXT_A4 connected to top level port EXT_A4 has been
+   removed.
+WARNING:MapLib:701 - Signal RESET_USB11 connected to top level port RESET_USB11
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR3_3V3 connected to top level port TKONTR3_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR1_3V3 connected to top level port TKONTR1_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal TKONTR2_3V3 connected to top level port TKONTR2_3V3
+   has been removed.
+WARNING:MapLib:701 - Signal DT0SEC connected to top level port DT0SEC has been
+   removed.
+WARNING:MapLib:701 - Signal DT0PRI connected to top level port DT0PRI has been
+   removed.
+WARNING:MapLib:701 - Signal BUS_INT2 connected to top level port BUS_INT2 has
+   been removed.
+WARNING:MapLib:701 - Signal BUS_INT3 connected to top level port BUS_INT3 has
+   been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<7> connected to top level port BUS_DATA<7>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<6> connected to top level port BUS_DATA<6>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<5> connected to top level port BUS_DATA<5>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<4> connected to top level port BUS_DATA<4>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<3> connected to top level port BUS_DATA<3>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<2> connected to top level port BUS_DATA<2>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<1> connected to top level port BUS_DATA<1>
+   has been removed.
+WARNING:MapLib:701 - Signal BUS_DATA<0> connected to top level port BUS_DATA<0>
+   has been removed.
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:368 - The signal <RD_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_FS3_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TIMER_BF_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TKP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TNP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <SCLK_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <MOSI_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TKP1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI8_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RZV1_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RZV2_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <RZV3_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <WR_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_F_SYN2_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RX_485_MG_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI_FRAM_SYN1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_485_MG_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI11_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_PPI15_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TSCLK_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<0>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<1>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<2>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<3>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<4>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<5>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<6>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <BUS_ADDR<7>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <ENABLE_EXT_VDD_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_FTDI_1_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CLK_5_CMOS_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <BUS_WR_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<0>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<1>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<2>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<3>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<4>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<5>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<6>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PPI<7>_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <EXT_A0_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <EXT_A7_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <TX_DSP_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CS_SPARTAN_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <CS_W5100_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <RS232_RX_VDD_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <RS232_TX_VDD_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <BUS_CLK_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   74
+Logic Utilization:
+  Number of Slice Flip Flops:           166 out of   9,312    1%
+  Number of 4 input LUTs:               131 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:            150 out of   4,656    3%
+    Number of Slices containing only related logic:     150 out of     150 100%
+    Number of Slices containing unrelated logic:          0 out of     150   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         269 out of   9,312    2%
+    Number used as logic:               127
+    Number used as a route-thru:        138
+    Number used as Shift registers:       4
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 97 out of     158   61%
+  Number of BUFGMUXs:                     3 out of      24   12%
+  Number of DCMs:                         1 out of       4   25%
+
+Average Fanout of Non-Clock Nets:                2.08
+
+Peak Memory Usage:  333 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "top_list_map.mrp" for details.

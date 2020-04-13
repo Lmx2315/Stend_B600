@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf
+-ucf top_list.ucf
+
+Design file:              top_list.ncd
+Physical constraint file: top_list.pcf
+Device,package,speed:     xc3s500e,pq208,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK20MHz
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+BUS_INT1    |    0.808(R)|    0.973(R)|CLK               |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK20MHz to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+MISO         |   13.035(R)|CLK               |   0.000|
+MOSI_W5100   |    9.928(R)|CLK               |   0.000|
+RESET_MK_PLIS|    8.943(R)|CLK               |   0.000|
+SCS_W5100    |    8.738(R)|CLK               |   0.000|
+VS0          |    8.870(R)|CLK               |   0.000|
+VS1          |    9.466(R)|CLK               |   0.000|
+VS2          |    9.328(R)|CLK               |   0.000|
+data_PPI12   |    9.572(R)|CLK               |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK20MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK20MHz       |    6.037|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CLK20MHz       |WD_SUPERVISOR  |    8.089|
+MISO_W5100     |MISO           |    9.559|
+MISO_W5100     |MOSI_W5100     |    7.676|
+data_PPI9      |RE_485         |    9.466|
+data_PPI9      |RTS_485        |    8.060|
+data_PPI10     |DEBAG_PWM2     |    8.739|
+data_PPI13     |MISO           |   10.181|
+data_PPI13     |MOSI_W5100     |    8.235|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 30 15:23:00 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 169 MB
+
+
+

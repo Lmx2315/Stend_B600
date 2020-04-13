@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/test_ppi.v -lang verilog -prj B610_sinhron -o test_ppi.spl -module test_ppi -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e test_ppi.spl C:/B610_sinhron/test_ppi.sym 

@@ -1,0 +1,996 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MainPage1.vf
+// /___/   /\     Timestamp : 11/02/2018 17:12:45
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Work/old_b660/fpga/B700_sinhron_V4/ipcore_dir -sympath C:/Work/old_b660/fpga/B700_sinhron_V4/ipcore_dir/pci_core1/verilog/src/xpci -intstyle ise -family spartan3e -verilog C:/Work/old_b660/fpga/B700_sinhron_V4/MainPage1.vf -w C:/Work/old_b660/fpga/B700_sinhron_V4/MainPage1.sch
+//Design Name: MainPage1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module IFD_MXILINX_MainPage1(C, 
+                             D, 
+                             Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire D_IN;
+   wire XLXN_1;
+   wire XLXN_2;
+   
+   (* IOB = "TRUE" *) 
+   FDCE  I_36_15 (.C(C), 
+                 .CE(XLXN_2), 
+                 .CLR(XLXN_1), 
+                 .D(D_IN), 
+                 .Q(Q));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_24 (.I(D), 
+                 .O(D_IN));
+   VCC  I_36_26 (.P(XLXN_2));
+   GND  I_36_29 (.G(XLXN_1));
+endmodule
+`timescale 1ns / 1ps
+
+module IFD8_MXILINX_MainPage1(C, 
+                              D, 
+                              Q);
+
+    input C;
+    input [7:0] D;
+   output [7:0] Q;
+   
+   
+   (* HU_SET = "I_Q0_7" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q0 (.C(C), 
+                               .D(D[0]), 
+                               .Q(Q[0]));
+   (* HU_SET = "I_Q1_6" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q1 (.C(C), 
+                               .D(D[1]), 
+                               .Q(Q[1]));
+   (* HU_SET = "I_Q2_5" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q2 (.C(C), 
+                               .D(D[2]), 
+                               .Q(Q[2]));
+   (* HU_SET = "I_Q3_4" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q3 (.C(C), 
+                               .D(D[3]), 
+                               .Q(Q[3]));
+   (* HU_SET = "I_Q4_3" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q4 (.C(C), 
+                               .D(D[4]), 
+                               .Q(Q[4]));
+   (* HU_SET = "I_Q5_2" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q5 (.C(C), 
+                               .D(D[5]), 
+                               .Q(Q[5]));
+   (* HU_SET = "I_Q6_1" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q6 (.C(C), 
+                               .D(D[6]), 
+                               .Q(Q[6]));
+   (* HU_SET = "I_Q7_0" *) 
+   IFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q7 (.C(C), 
+                               .D(D[7]), 
+                               .Q(Q[7]));
+endmodule
+`timescale 1ns / 1ps
+
+module OFD_MXILINX_MainPage1(C, 
+                             D, 
+                             Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire Q_OUT;
+   wire XLXN_5;
+   wire XLXN_6;
+   
+   (* IOB = "TRUE" *) 
+   FDCE  I_36_15 (.C(C), 
+                 .CE(XLXN_5), 
+                 .CLR(XLXN_6), 
+                 .D(D), 
+                 .Q(Q_OUT));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  I_36_29 (.I(Q_OUT), 
+                 .O(Q));
+   GND  I_36_31 (.G(XLXN_6));
+   VCC  I_36_36 (.P(XLXN_5));
+endmodule
+`timescale 1ns / 1ps
+
+module OFD8_MXILINX_MainPage1(C, 
+                              D, 
+                              Q);
+
+    input C;
+    input [7:0] D;
+   output [7:0] Q;
+   
+   
+   (* HU_SET = "I_Q0_15" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q0 (.C(C), 
+                               .D(D[0]), 
+                               .Q(Q[0]));
+   (* HU_SET = "I_Q1_14" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q1 (.C(C), 
+                               .D(D[1]), 
+                               .Q(Q[1]));
+   (* HU_SET = "I_Q2_13" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q2 (.C(C), 
+                               .D(D[2]), 
+                               .Q(Q[2]));
+   (* HU_SET = "I_Q3_12" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q3 (.C(C), 
+                               .D(D[3]), 
+                               .Q(Q[3]));
+   (* HU_SET = "I_Q4_11" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q4 (.C(C), 
+                               .D(D[4]), 
+                               .Q(Q[4]));
+   (* HU_SET = "I_Q5_10" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q5 (.C(C), 
+                               .D(D[5]), 
+                               .Q(Q[5]));
+   (* HU_SET = "I_Q6_9" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q6 (.C(C), 
+                               .D(D[6]), 
+                               .Q(Q[6]));
+   (* HU_SET = "I_Q7_8" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) I_Q7 (.C(C), 
+                               .D(D[7]), 
+                               .Q(Q[7]));
+endmodule
+`timescale 1ns / 1ps
+
+module clk_dcm_blok_MUSER_MainPage1(F5MHZ_in, 
+                                    f20MHz_in, 
+                                    F64MHz_in, 
+                                    reset_DCM, 
+                                    T_5MIN, 
+                                    f5MHZ_out, 
+                                    f20MHz, 
+                                    F20MHz_dcm, 
+                                    F21MHz, 
+                                    F64Mhz, 
+                                    T_5MIN_OUT);
+
+    input F5MHZ_in;
+    input f20MHz_in;
+    input F64MHz_in;
+    input reset_DCM;
+    input T_5MIN;
+   output f5MHZ_out;
+   output f20MHz;
+   output F20MHz_dcm;
+   output F21MHz;
+   output F64Mhz;
+   output T_5MIN_OUT;
+   
+   wire INVF64MHz;
+   wire XLXN_160;
+   wire XLXN_178;
+   wire XLXN_182;
+   wire XLXN_183;
+   
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_46 (.I(T_5MIN), 
+                  .O(T_5MIN_OUT));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_64 (.I(F5MHZ_in), 
+                  .O(f5MHZ_out));
+   BUFG  XLXI_69 (.I(XLXN_178), 
+                 .O(F20MHz_dcm));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_80 (.I(f20MHz_in), 
+                  .O(f20MHz));
+   BUFG  XLXI_101 (.I(XLXN_160), 
+                  .O(F21MHz));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_102 (.I(F64MHz_in), 
+                   .O(INVF64MHz));
+   dcm2  XLXI_103 (.CLKIN_IN(INVF64MHz), 
+                  .RST_IN(XLXN_182), 
+                  .CLKDV_OUT(XLXN_160), 
+                  .CLKFX_OUT(XLXN_178), 
+                  .CLK0_OUT(XLXN_183));
+   INV  XLXI_106 (.I(reset_DCM), 
+                 .O(XLXN_182));
+   BUFG  XLXI_107 (.I(XLXN_183), 
+                  .O(F64Mhz));
+endmodule
+`timescale 1ns / 1ps
+
+module IBUF8_MXILINX_MainPage1(I, 
+                               O);
+
+    input [7:0] I;
+   output [7:0] O;
+   
+   
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_30 (.I(I[4]), 
+                 .O(O[4]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_31 (.I(I[5]), 
+                 .O(O[5]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_32 (.I(I[6]), 
+                 .O(O[6]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_33 (.I(I[7]), 
+                 .O(O[7]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_34 (.I(I[3]), 
+                 .O(O[3]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_35 (.I(I[2]), 
+                 .O(O[2]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_36 (.I(I[1]), 
+                 .O(O[1]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  I_36_37 (.I(I[0]), 
+                 .O(O[0]));
+endmodule
+`timescale 1ns / 1ps
+
+module MainPage1(bus_int1, 
+                 bus_int2, 
+                 bus_int3, 
+                 bus_int4, 
+                 CLK_SPI_BF, 
+                 data_ppi, 
+                 data_ppi8, 
+                 data_ppi9, 
+                 data_ppi10, 
+                 data_ppi11, 
+                 data_ppi13, 
+                 data8_spi, 
+                 DT0PRI, 
+                 DT0SEC, 
+                 fs3, 
+                 f5MHz, 
+                 F20MHz, 
+                 F64MHz, 
+                 INT_w5100, 
+                 MISO_w5100, 
+                 MOSI_BF, 
+                 RX_485_mg, 
+                 TFS0, 
+                 timer_bf, 
+                 TKONTR1, 
+                 TKONTR2, 
+                 TKONTR3, 
+                 TSCLK, 
+                 TX_DSP, 
+                 TX_FTDI_1, 
+                 T_5MIN_sinhro, 
+                 UART_RX, 
+                 BUS_ADDR, 
+                 BUS_RD, 
+                 bus_t, 
+                 BUS_WR, 
+                 clk_ppi, 
+                 CLK_SPI_w5100, 
+                 clk8_spi, 
+                 cs_ALE1, 
+                 cs_ALE2, 
+                 cs_ALE3, 
+                 CS_SPI_BF, 
+                 CS_SPI1_w5100, 
+                 CS_SPI2_w5100, 
+                 data_ppi12, 
+                 DR0PRI, 
+                 ENABLE_BUS_IN, 
+                 ENABLE_BUS_OUT, 
+                 fs1, 
+                 fs2, 
+                 INT1_BfPPI14, 
+                 led1, 
+                 led2, 
+                 led3, 
+                 led4, 
+                 MISO_BF, 
+                 MOSI_w5100, 
+                 ppi15, 
+                 pwm1, 
+                 pwm2, 
+                 reset_mk, 
+                 Rezerv_out, 
+                 Re_485, 
+                 RFS0, 
+                 RSCLK0, 
+                 RTS_485, 
+                 RX_DSP, 
+                 RX_FTDI_1, 
+                 RZV3, 
+                 RZV4, 
+                 Tki, 
+                 Tkp, 
+                 Tnc, 
+                 Tni, 
+                 Tno, 
+                 Tnp, 
+                 TOBM, 
+                 TX_485_mg, 
+                 T_TEST1, 
+                 T_TEST2, 
+                 T_TEST3, 
+                 T_TEST4, 
+                 t1_4, 
+                 UART_TX, 
+                 wd_supervisor);
+
+    input bus_int1;
+    input bus_int2;
+    input bus_int3;
+    input bus_int4;
+    input CLK_SPI_BF;
+    input [7:0] data_ppi;
+    input data_ppi8;
+    input data_ppi9;
+    input data_ppi10;
+    input data_ppi11;
+    input data_ppi13;
+    input [7:0] data8_spi;
+    input DT0PRI;
+    input DT0SEC;
+    input fs3;
+    input f5MHz;
+    input F20MHz;
+    input F64MHz;
+    input INT_w5100;
+    input MISO_w5100;
+    input MOSI_BF;
+    input RX_485_mg;
+    input TFS0;
+    input timer_bf;
+    input TKONTR1;
+    input TKONTR2;
+    input TKONTR3;
+    input TSCLK;
+    input TX_DSP;
+    input TX_FTDI_1;
+    input T_5MIN_sinhro;
+    input UART_RX;
+   output [7:0] BUS_ADDR;
+   output BUS_RD;
+   output bus_t;
+   output BUS_WR;
+   output clk_ppi;
+   output CLK_SPI_w5100;
+   output clk8_spi;
+   output cs_ALE1;
+   output cs_ALE2;
+   output cs_ALE3;
+   output CS_SPI_BF;
+   output CS_SPI1_w5100;
+   output CS_SPI2_w5100;
+   output data_ppi12;
+   output DR0PRI;
+   output ENABLE_BUS_IN;
+   output ENABLE_BUS_OUT;
+   output fs1;
+   output fs2;
+   output INT1_BfPPI14;
+   output led1;
+   output led2;
+   output led3;
+   output led4;
+   output MISO_BF;
+   output MOSI_w5100;
+   output ppi15;
+   output pwm1;
+   output pwm2;
+   output reset_mk;
+   output Rezerv_out;
+   output Re_485;
+   output RFS0;
+   output RSCLK0;
+   output RTS_485;
+   output RX_DSP;
+   output RX_FTDI_1;
+   output RZV3;
+   output RZV4;
+   output Tki;
+   output Tkp;
+   output Tnc;
+   output Tni;
+   output Tno;
+   output Tnp;
+   output TOBM;
+   output TX_485_mg;
+   output T_TEST1;
+   output T_TEST2;
+   output T_TEST3;
+   output T_TEST4;
+   output t1_4;
+   output UART_TX;
+   output wd_supervisor;
+   
+   wire XLXN_193;
+   wire XLXN_335;
+   wire XLXN_340;
+   wire XLXN_346;
+   wire XLXN_379;
+   wire XLXN_816;
+   wire XLXN_869;
+   wire [31:0] XLXN_1029;
+   wire XLXN_1091;
+   wire XLXN_1092;
+   wire XLXN_1093;
+   wire XLXN_1094;
+   wire XLXN_1097;
+   wire XLXN_1098;
+   wire XLXN_1109;
+   wire XLXN_1128;
+   wire XLXN_1130;
+   wire XLXN_1131;
+   wire XLXN_1139;
+   wire XLXN_1141;
+   wire XLXN_1357;
+   wire [7:0] XLXN_1478;
+   wire [31:0] XLXN_1481;
+   wire [31:0] XLXN_1482;
+   wire [31:0] XLXN_1483;
+   wire [31:0] XLXN_1484;
+   wire [31:0] XLXN_1485;
+   wire [31:0] XLXN_1486;
+   wire [31:0] XLXN_1487;
+   wire XLXN_1492;
+   wire XLXN_1497;
+   wire XLXN_1498;
+   wire XLXN_1502;
+   wire XLXN_1503;
+   wire [15:0] XLXN_1528;
+   wire XLXN_1577;
+   wire [31:0] XLXN_1581;
+   wire XLXN_1598;
+   wire XLXN_1614;
+   wire XLXN_1618;
+   wire XLXN_1663;
+   wire XLXN_1700;
+   wire XLXN_1711;
+   wire XLXN_1712;
+   wire XLXN_1724;
+   wire XLXN_1729;
+   wire XLXN_1735;
+   wire [31:0] XLXN_1736;
+   wire XLXN_1778;
+   wire XLXN_1779;
+   wire XLXN_1856;
+   wire XLXN_1867;
+   wire XLXN_1874;
+   wire XLXN_1881;
+   wire XLXN_1884;
+   wire XLXN_1887;
+   wire XLXN_1888;
+   wire XLXN_1889;
+   wire [7:0] XLXN_1890;
+   wire XLXN_1899;
+   wire XLXN_1903;
+   wire [7:0] XLXN_1904;
+   wire [7:0] XLXN_1905;
+   wire XLXN_1931;
+   wire XLXN_2008;
+   wire XLXN_2014;
+   wire XLXN_2023;
+   wire XLXN_2034;
+   wire XLXN_2038;
+   wire XLXN_2039;
+   wire XLXN_2040;
+   wire XLXN_2057;
+   wire XLXN_2079;
+   wire XLXN_2080;
+   wire XLXN_2081;
+   wire XLXN_2082;
+   wire XLXN_2086;
+   wire XLXN_2087;
+   wire XLXN_2119;
+   wire XLXN_2121;
+   wire XLXN_2122;
+   wire XLXN_2123;
+   wire XLXN_2124;
+   wire XLXN_2129;
+   wire XLXN_2130;
+   wire XLXN_2131;
+   wire XLXN_2133;
+   wire XLXN_2134;
+   wire XLXN_2135;
+   wire XLXN_2136;
+   wire XLXN_2137;
+   wire XLXN_2139;
+   wire XLXN_2142;
+   
+   clk_dcm_blok_MUSER_MainPage1  XLXI_6 (.F5MHZ_in(f5MHz), 
+                                        .f20MHz_in(F20MHz), 
+                                        .F64MHz_in(F64MHz), 
+                                        .reset_DCM(XLXN_1779), 
+                                        .T_5MIN(TKONTR2), 
+                                        .f5MHZ_out(), 
+                                        .f20MHz(XLXN_2057), 
+                                        .F20MHz_dcm(), 
+                                        .F21MHz(), 
+                                        .F64Mhz(XLXN_1867), 
+                                        .T_5MIN_OUT(XLXN_1735));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_27 (.I(XLXN_2057), 
+                 .O(clk8_spi));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_44 (.I(XLXN_2008), 
+                 .O(cs_ALE3));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_45 (.I(XLXN_2014), 
+                 .O(cs_ALE2));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_46 (.I(XLXN_2023), 
+                 .O(cs_ALE1));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_52 (.I(XLXN_2057), 
+                 .O(clk_ppi));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_53 (.I(XLXN_1903), 
+                 .O(BUS_WR));
+   led_test  XLXI_54 (.avariya(XLXN_1492), 
+                     .clk(XLXN_2057), 
+                     .led1(XLXN_1497), 
+                     .led2(XLXN_1498), 
+                     .led3(), 
+                     .led4(), 
+                     .pwr1(XLXN_1502), 
+                     .pwr2(XLXN_1503));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_55 (.I(XLXN_1778), 
+                 .O(led1));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_56 (.I(XLXN_1497), 
+                 .O(led2));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_57 (.I(XLXN_1498), 
+                 .O(led3));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_58 (.I(XLXN_869), 
+                 .O(led4));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_59 (.I(XLXN_1502), 
+                 .O(pwm1));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_60 (.I(XLXN_1503), 
+                 .O(pwm2));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_63 (.I(MISO_w5100), 
+                 .O(XLXN_1887));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_66 (.I(MOSI_BF), 
+                 .O(XLXN_1874));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_70 (.I(INT_w5100), 
+                 .O(XLXN_193));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_71 (.I(XLXN_193), 
+                 .O(INT1_BfPPI14));
+   (* HU_SET = "XLXI_72_20" *) 
+   IBUF8_MXILINX_MainPage1  XLXI_72 (.I(data_ppi[7:0]), 
+                                    .O(XLXN_1478[7:0]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_75 (.I(data_ppi11), 
+                 .O(XLXN_2039));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_76 (.I(data_ppi8), 
+                 .O(XLXN_2038));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_77 (.I(data_ppi9), 
+                 .O(XLXN_2142));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_78 (.I(data_ppi10), 
+                 .O(XLXN_1492));
+   uart_all  XLXI_137 (.FTDI_TX(XLXN_346), 
+                      .master_tx(XLXN_335), 
+                      .rts(), 
+                      .slave1_tx(), 
+                      .slave2_tx(), 
+                      .slave3_tx(), 
+                      .slave4_tx(), 
+                      .slave5_tx(XLXN_1109), 
+                      .slave6_tx(XLXN_816), 
+                      .FTDI_RX(XLXN_1931), 
+                      .master_rx(XLXN_340), 
+                      .slave_rx(XLXN_2139));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_138 (.I(TX_DSP), 
+                  .O(XLXN_335));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_140 (.I(bus_int2), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_141 (.I(bus_int3), 
+                  .O(XLXN_1663));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_142 (.I(bus_int4), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_143 (.I(XLXN_340), 
+                  .O(RX_DSP));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_144 (.I(XLXN_2139), 
+                  .O(TX_485_mg));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_145 (.I(TX_FTDI_1), 
+                  .O(XLXN_346));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_146 (.I(XLXN_1931), 
+                  .O(RX_FTDI_1));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_150 (.I(), 
+                  .O(T_TEST3));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_151 (.I(), 
+                  .O(T_TEST4));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_159 (.I(XLXN_2034), 
+                  .O(ENABLE_BUS_OUT));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_160 (.I(XLXN_1618), 
+                  .O(ENABLE_BUS_IN));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_161 (.I(), 
+                  .O(UART_TX));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_165 (.I(XLXN_1139), 
+                  .O(RFS0));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_166 (.I(XLXN_1141), 
+                  .O(RSCLK0));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_169 (.I(XLXN_2139), 
+                  .O(BUS_RD));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_170 (.I(UART_RX), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_175 (.I(TFS0), 
+                  .O(XLXN_1131));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_176 (.I(DT0SEC), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_177 (.I(DT0PRI), 
+                  .O(XLXN_1128));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_181 (.I(XLXN_2057), 
+                  .O(wd_supervisor));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_188 (.I(timer_bf), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_194 (.I(fs3), 
+                  .O(XLXN_379));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_195 (.I(XLXN_1779), 
+                  .O(reset_mk));
+   reset_init  XLXI_196 (.clk(XLXN_2057), 
+                        .pwrdwn(XLXN_1778), 
+                        .reset_init(XLXN_1779));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUFT  XLXI_200 (.I(XLXN_1881), 
+                   .T(XLXN_1097), 
+                   .O(MISO_BF));
+   tick_tack  XLXI_205 (.clk(XLXN_2057), 
+                       .flag1(XLXN_1097), 
+                       .flag2(XLXN_1098));
+   read_and_work  XLXI_300 (.clk(XLXN_2057), 
+                           .clk5mhz(XLXN_2057), 
+                           .CMND(XLXN_1581[31:0]), 
+                           .event_rst(XLXN_1711), 
+                           .PPI_fail(XLXN_1712), 
+                           .RCV(XLXN_1711), 
+                           .sync_in(XLXN_1735), 
+                           .TKI(XLXN_1485[31:0]), 
+                           .TKP(XLXN_1487[31:0]), 
+                           .TNC(XLXN_1482[31:0]), 
+                           .TNI(XLXN_1484[31:0]), 
+                           .TNO(XLXN_1481[31:0]), 
+                           .TNP(XLXN_1486[31:0]), 
+                           .TOBM(XLXN_1483[31:0]), 
+                           .T1us(XLXN_1357), 
+                           .flg_control(XLXN_1528[15:0]), 
+                           .reset_contol_TNO(XLXN_1729), 
+                           .time_rst(XLXN_1700), 
+                           .TKI_f(XLXN_2134), 
+                           .TKI_o(XLXN_2082), 
+                           .TKP_f(XLXN_2131), 
+                           .TKP_o(XLXN_2079), 
+                           .TNC_f(XLXN_2133), 
+                           .TNI_f(XLXN_2129), 
+                           .TNI_o(XLXN_2080), 
+                           .TNO_f(XLXN_2124), 
+                           .TNP_f(XLXN_2130), 
+                           .TNP_o(XLXN_2081), 
+                           .TOBM_f(XLXN_1577), 
+                           .TOBM_plis(XLXN_2123), 
+                           .tst_32());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_384 (.I(TKONTR1), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_386 (.I(TKONTR3), 
+                  .O());
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_394 (.I(XLXN_2142), 
+                  .O(RTS_485));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_395 (.I(RX_485_mg), 
+                  .O(XLXN_816));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_400 (.I(XLXN_1130), 
+                  .O(DR0PRI));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_402 (.I(XLXN_2142), 
+                  .O(Re_485));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_405 (.I(XLXN_2123), 
+                  .O(ppi15));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_408 (.I(bus_int1), 
+                  .O(XLXN_2119));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_409 (.I(XLXN_2121), 
+                  .O(data_ppi12));
+   PULLUP  XLXI_414 (.O(XLXN_869));
+   (* HU_SET = "XLXI_419_19" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_419 (.C(XLXN_2057), 
+                                   .D(XLXN_2079), 
+                                   .Q(Tkp));
+   (* HU_SET = "XLXI_421_16" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_421 (.C(XLXN_2057), 
+                                   .D(XLXN_2081), 
+                                   .Q(Tnp));
+   (* HU_SET = "XLXI_422_21" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_422 (.C(XLXN_2057), 
+                                   .D(XLXN_2082), 
+                                   .Q(Tki));
+   (* HU_SET = "XLXI_423_24" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_423 (.C(XLXN_2057), 
+                                   .D(XLXN_2080), 
+                                   .Q(Tni));
+   (* HU_SET = "XLXI_424_17" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_424 (.C(XLXN_2057), 
+                                   .D(XLXN_2133), 
+                                   .Q(Tnc));
+   (* HU_SET = "XLXI_425_18" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_425 (.C(XLXN_2057), 
+                                   .D(XLXN_1577), 
+                                   .Q(TOBM));
+   (* HU_SET = "XLXI_430_22" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_430 (.C(XLXN_2057), 
+                                   .D(XLXN_2124), 
+                                   .Q(Tno));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_431 (.I(XLXN_2040), 
+                  .O(bus_t));
+   time_1us_2us  XLXI_434 (.clk20mhz(XLXN_2057), 
+                          .clk64(), 
+                          .tst_1sec(XLXN_1724), 
+                          .t1us_tau10(), 
+                          .t1us_20(XLXN_1357), 
+                          .t1us_64(), 
+                          .t1_min());
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_440 (.I(XLXN_1899), 
+                  .O(fs1));
+   control_TNO_TNC  XLXI_441 (.clk(XLXN_2057), 
+                             .clk1us(XLXN_1357), 
+                             .reset_TNC(XLXN_2133), 
+                             .reset_TNO(XLXN_2124), 
+                             .rst(XLXN_1729), 
+                             .Time_TNC(XLXN_1029[31:0]), 
+                             .Time_TNO(XLXN_1736[31:0]));
+   spi_32bx2  XLXI_467 (.clk(XLXN_2057), 
+                       .cs(XLXN_1131), 
+                       .d32p1(XLXN_1029[31:0]), 
+                       .d32p2(XLXN_1736[31:0]), 
+                       .enb(XLXN_2123), 
+                       .ERROR64(XLXN_2137), 
+                       .flag(XLXN_1528[15:0]), 
+                       .INT2(XLXN_2137), 
+                       .INT3(XLXN_2137), 
+                       .INT4(XLXN_2137), 
+                       .mosi(XLXN_1128), 
+                       .REZERV_M(XLXN_2122), 
+                       .sck(XLXN_1141), 
+                       .ALE1(), 
+                       .ALE2(), 
+                       .ALE3(), 
+                       .cs_out(XLXN_1139), 
+                       .ERROR(), 
+                       .event_int(), 
+                       .GBR(), 
+                       .miso(XLXN_1130), 
+                       .rst_event(), 
+                       .upr1(XLXN_2136), 
+                       .upr2(XLXN_2135));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_474 (.I(CLK_SPI_BF), 
+                  .O(XLXN_1614));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_475 (.I(XLXN_2139), 
+                  .O(RZV4));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_477 (.I(XLXN_1091), 
+                  .O(CLK_SPI_w5100));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_478 (.I(XLXN_1092), 
+                  .O(CS_SPI2_w5100));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_479 (.I(XLXN_1093), 
+                  .O(CS_SPI1_w5100));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_480 (.I(XLXN_1094), 
+                  .O(MOSI_w5100));
+   AND2  XLXI_481 (.I0(XLXN_1884), 
+                  .I1(XLXN_1098), 
+                  .O(XLXN_1091));
+   AND2  XLXI_484 (.I0(XLXN_1874), 
+                  .I1(XLXN_1098), 
+                  .O(XLXN_1094));
+   OR2  XLXI_485 (.I0(XLXN_379), 
+                 .I1(XLXN_1097), 
+                 .O(XLXN_1093));
+   OR2  XLXI_486 (.I0(XLXN_379), 
+                 .I1(XLXN_1097), 
+                 .O(XLXN_1092));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_488 (.I(T_5MIN_sinhro), 
+                  .O(XLXN_1109));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_492 (.I(), 
+                  .O(Rezerv_out));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_497 (.I(), 
+                  .O(RZV3));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_517 (.I(TSCLK), 
+                  .O(XLXN_1598));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_521 (.I(XLXN_1700), 
+                  .O(CS_SPI_BF));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_542 (.I(XLXN_2086), 
+                  .O(T_TEST1));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_544 (.I(XLXN_2087), 
+                  .O(T_TEST2));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_568 (.I(XLXN_1357), 
+                  .O(fs2));
+   PPI_recv  XLXI_569 (.clk(XLXN_2057), 
+                      .clk_ppi(XLXN_2057), 
+                      .fs1_in(XLXN_1899), 
+                      .ppi_data(XLXN_1478[7:0]), 
+                      .ppi_8_pf11(XLXN_2038), 
+                      .sync_FS1(XLXN_2039), 
+                      .data_bus(XLXN_1904[7:0]), 
+                      .FAIL(XLXN_1712), 
+                      .fs1(XLXN_1899), 
+                      .ppi_fs1(XLXN_1903), 
+                      .run(XLXN_1711), 
+                      .Rzv(XLXN_1581[31:0]), 
+                      .TKI(XLXN_1485[31:0]), 
+                      .TKP(XLXN_1487[31:0]), 
+                      .TNC(XLXN_1482[31:0]), 
+                      .TNI(XLXN_1484[31:0]), 
+                      .TNO(XLXN_1481[31:0]), 
+                      .TNP(XLXN_1486[31:0]), 
+                      .TOBM(XLXN_1483[31:0]), 
+                      .tst());
+   BUFG  XLXI_580 (.I(XLXN_1598), 
+                  .O(XLXN_1141));
+   BUFG  XLXI_588 (.I(XLXN_1614), 
+                  .O(XLXN_1884));
+   PULLUP  XLXI_590 (.O(XLXN_1618));
+   (* HU_SET = "XLXI_629_23" *) 
+   OFD_MXILINX_MainPage1 #( .INIT(1'b0) ) XLXI_629 (.C(XLXN_2057), 
+                                   .D(XLXN_1724), 
+                                   .Q(t1_4));
+   SPI_slave  XLXI_656 (.clk(XLXN_1867), 
+                       .data_in(XLXN_1890[7:0]), 
+                       .MOSI(), 
+                       .SCK(XLXN_1884), 
+                       .SSEL(XLXN_1889), 
+                       .data_out(), 
+                       .MISO(XLXN_1888), 
+                       .redy());
+   reset_modul  XLXI_661 (.clk(XLXN_2057), 
+                         .reset(XLXN_1856));
+   CS_key  XLXI_663 (.key(XLXN_1889), 
+                    .MISO_buf(XLXN_1888), 
+                    .MISO_w5100(XLXN_1887), 
+                    .MISO_BF(XLXN_1881));
+   (* HU_SET = "XLXI_665_25" *) 
+   OFD8_MXILINX_MainPage1  XLXI_665 (.C(XLXN_2057), 
+                                    .D(XLXN_1904[7:0]), 
+                                    .Q(BUS_ADDR[7:0]));
+   (* HU_SET = "XLXI_666_26" *) 
+   IFD8_MXILINX_MainPage1  XLXI_666 (.C(XLXN_2057), 
+                                    .D(data8_spi[7:0]), 
+                                    .Q(XLXN_1905[7:0]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFG  XLXI_667 (.I(data_ppi13), 
+                   .O(XLXN_1889));
+   PULLDOWN  XLXI_669 (.O(XLXN_2008));
+   PULLUP  XLXI_673 (.O(XLXN_2034));
+   PULLUP  XLXI_674 (.O(XLXN_2040));
+   tst_sg1  XLXI_681 (.TKI(XLXN_2134), 
+                     .TKP(XLXN_2131), 
+                     .TNC(XLXN_2133), 
+                     .TNI(XLXN_2129), 
+                     .TNO(XLXN_2124), 
+                     .TNP(XLXN_2130), 
+                     .TOBM(), 
+                     .upr1(XLXN_2136), 
+                     .upr2(XLXN_2135), 
+                     .sig1(XLXN_2086), 
+                     .sig2(XLXN_2087));
+   INT_control  XLXI_693 (.clk(XLXN_2057), 
+                         .INT(XLXN_2119), 
+                         .T1us(XLXN_1357), 
+                         .INT1(XLXN_2121), 
+                         .INT2(XLXN_2122));
+   GND  XLXI_694 (.G(XLXN_2137));
+endmodule

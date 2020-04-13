@@ -1,0 +1,20 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/tick_tack.v -lang verilog -prj B610_sinhron -o tick_tack.spl -module tick_tack -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w tick_tack.spl C:/Xilinx_project/B610_sinhron/tick_tack.sym 

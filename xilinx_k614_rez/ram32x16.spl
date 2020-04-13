@@ -1,0 +1,12 @@
+[Inputs]
+WE
+CLK
+=DATA[31:0]=
+=ADDRrd[3:0]=
+=ADDRwr[3:0]=
+[Outputs]
+=Q[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ram32x16
+

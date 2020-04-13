@@ -1,0 +1,6 @@
+vhdtdtfi -lib work C:/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pcim_top.v -lang verilog -prj B610_sinhron -o pcim_top.spl -module pcim_top -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pcim_top.spl C:/B610_sinhron/pcim_top.sym 
+vhdtdtfi -lib work C:/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pcim_top.v -lang verilog -prj B610_sinhron -o pcim_top.spl -module pcim_top -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pcim_top.spl C:/B610_sinhron/pcim_top.sym 
+vhdtdtfi -lib work C:/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pcim_top.v -lang verilog -prj B610_sinhron -o pcim_top.spl -module pcim_top -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pcim_top.spl C:/B610_sinhron/pcim_top.sym 

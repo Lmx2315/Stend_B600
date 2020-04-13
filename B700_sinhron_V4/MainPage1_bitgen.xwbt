@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Work\old_b660\fpga\B700_sinhron_V4\MainPage1.ncd
+OUTFILE=C:\Work\old_b660\fpga\B700_sinhron_V4\MainPage1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=C:\Work\old_b660\fpga\B700_sinhron_V4
+LICENSE=WebPack
+USER_INFO=__0_0_0

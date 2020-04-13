@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="data_ppi">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="data8_spi">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="BUS_ADDR">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="bus_int1" Dir="IN"/>
+		<Port Id="bus_int2" Dir="IN"/>
+		<Port Id="bus_int3" Dir="IN"/>
+		<Port Id="bus_int4" Dir="IN"/>
+		<Port Id="CLK_SPI_BF" Dir="IN"/>
+		<Port Id="CS_SPI_BF" Dir="IN"/>
+		<Port Id="data_ppi8" Dir="IN"/>
+		<Port Id="data_ppi9" Dir="IN"/>
+		<Port Id="data_ppi10" Dir="IN"/>
+		<Port Id="data_ppi11" Dir="IN"/>
+		<Port Id="data_ppi12" Dir="IN"/>
+		<Port Id="data_ppi13" Dir="IN"/>
+		<Port Id="DT0PRI" Dir="IN"/>
+		<Port Id="DT0SEC" Dir="IN"/>
+		<Port Id="fs1" Dir="IN"/>
+		<Port Id="fs2" Dir="IN"/>
+		<Port Id="fs3" Dir="IN"/>
+		<Port Id="f5MHz" Dir="IN"/>
+		<Port Id="F20MHz" Dir="IN"/>
+		<Port Id="F64MHz" Dir="IN"/>
+		<Port Id="INT_w5100" Dir="IN"/>
+		<Port Id="MISO_w5100" Dir="IN"/>
+		<Port Id="MOSI_BF" Dir="IN"/>
+		<Port Id="ppi15" Dir="IN"/>
+		<Port Id="TFS0" Dir="IN"/>
+		<Port Id="timer_bf" Dir="IN"/>
+		<Port Id="TSCLK" Dir="IN"/>
+		<Port Id="TX_DSP" Dir="IN"/>
+		<Port Id="TX_FTDI_1" Dir="IN"/>
+		<Port Id="T_5MIN_sinhro" Dir="IN"/>
+		<Port Id="UART_TX" Dir="IN"/>
+		<Port Id="BUS_RD" Dir="OUT"/>
+		<Port Id="BUS_WR" Dir="OUT"/>
+		<Port Id="clk_ppi" Dir="OUT"/>
+		<Port Id="CLK_SPI_w5100" Dir="OUT"/>
+		<Port Id="clk8_spi" Dir="OUT"/>
+		<Port Id="cs_get" Dir="OUT"/>
+		<Port Id="cs_izl" Dir="OUT"/>
+		<Port Id="CS_SPI1_w5100" Dir="OUT"/>
+		<Port Id="CS_SPI2_w5100" Dir="OUT"/>
+		<Port Id="cs_615" Dir="OUT"/>
+		<Port Id="DR0PRI" Dir="OUT"/>
+		<Port Id="ENABLE_BUS_IN" Dir="OUT"/>
+		<Port Id="ENABLE_BUS_OUT" Dir="OUT"/>
+		<Port Id="INT1_BfPPI14" Dir="OUT"/>
+		<Port Id="led1" Dir="OUT"/>
+		<Port Id="led2" Dir="OUT"/>
+		<Port Id="led3" Dir="OUT"/>
+		<Port Id="led4" Dir="OUT"/>
+		<Port Id="MISO_BF" Dir="OUT"/>
+		<Port Id="MOSI_w5100" Dir="OUT"/>
+		<Port Id="pwm1" Dir="OUT"/>
+		<Port Id="pwm2" Dir="OUT"/>
+		<Port Id="reset_mk" Dir="OUT"/>
+		<Port Id="RFS0" Dir="OUT"/>
+		<Port Id="RSCLK0" Dir="OUT"/>
+		<Port Id="RX_DSP" Dir="OUT"/>
+		<Port Id="RX_FTDI_1" Dir="OUT"/>
+		<Port Id="Tki" Dir="OUT"/>
+		<Port Id="Tkp" Dir="OUT"/>
+		<Port Id="Tnc" Dir="OUT"/>
+		<Port Id="Tni" Dir="OUT"/>
+		<Port Id="Tno" Dir="OUT"/>
+		<Port Id="Tnp" Dir="OUT"/>
+		<Port Id="TX_485_mg" Dir="OUT"/>
+		<Port Id="T_TEST1" Dir="OUT"/>
+		<Port Id="T_TEST2" Dir="OUT"/>
+		<Port Id="T_TEST3" Dir="OUT"/>
+		<Port Id="T_TEST4" Dir="OUT"/>
+		<Port Id="UART_RX" Dir="OUT"/>
+		<Port Id="wd_supervisor" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

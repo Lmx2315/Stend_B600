@@ -1,0 +1,5 @@
+set -tmpdir "C:/B610_sinhron/xst/projnav.tmp"
+set -xsthdpdir "C:/B610_sinhron/xst"
+elaborate
+-ifn ram16x256_v1.prj
+-ifmt mixed

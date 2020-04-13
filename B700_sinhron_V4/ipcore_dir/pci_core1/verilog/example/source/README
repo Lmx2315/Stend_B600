@@ -1,0 +1,15 @@
+================================================================================
+The files in this directory are (c) 2005-2008 Xilinx, Incorporated.  These files
+may not be modified other than as intended by Xilinx.  No part of these files
+may be transmitted to any third party, or used without a Xilinx programmable or
+hardwire device, without the prior written permission of Xilinx, Incorporated.
+================================================================================
+
+This directory contains the source files for the example design.  These
+files are required for both simulation and synthesis.  Note that the
+configuration file for the example design (the configuration file in this
+directory) is not updated by the configuration tool.
+
+When processing the example design, use this file.  When processing your
+custom designs, please make sure to use the file located in the "src/xpci"
+directory.

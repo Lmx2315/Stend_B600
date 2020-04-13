@@ -1,0 +1,38 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/Xilinx_project/B610_sinhron/reset_init.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/reset_init.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/reset_init.v -lang verilog -prj B610_sinhron -o reset_init.spl -module reset_init -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w reset_init.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/reset_init.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/test1.v -lang verilog -prj B610_sinhron -o test1.spl -module test1 -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w test1.spl C:/Xilinx_project/B610_sinhron/test1.sym 

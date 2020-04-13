@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx_project/B610_sinhron/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx_project/B610_sinhron/xst"
+elaborate
+-ifn mk_control.prj
+-ifmt mixed

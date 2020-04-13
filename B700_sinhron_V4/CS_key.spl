@@ -1,0 +1,10 @@
+[Inputs]
+key
+MISO_w5100
+MISO_buf
+[Outputs]
+MISO_BF
+[BiDir]
+[ATTRIBUTES]
+VeriModel CS_key
+

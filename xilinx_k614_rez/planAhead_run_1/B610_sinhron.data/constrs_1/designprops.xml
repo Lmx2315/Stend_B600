@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="3">
+	<CompatParts>
+	</CompatParts>
+	<ConfigModes>
+	</ConfigModes>
+	<PortProps>
+		<Port Name="data_ppi[15]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[14]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[13]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[12]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[11]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[10]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[9]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[8]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[7]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[6]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[5]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[4]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[3]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[2]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[1]" OffChipTerm="NONE"/>
+		<Port Name="data_ppi[0]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[7]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[6]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[5]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[4]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[3]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[2]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[1]" OffChipTerm="NONE"/>
+		<Port Name="data8_spi[0]" OffChipTerm="NONE"/>
+		<Port Name="clk_ppi" OffChipTerm="NONE"/>
+		<Port Name="fs1" OffChipTerm="NONE"/>
+		<Port Name="fs2" OffChipTerm="NONE"/>
+		<Port Name="fs3" OffChipTerm="NONE"/>
+		<Port Name="f5MHz" OffChipTerm="NONE"/>
+		<Port Name="F20MHz" OffChipTerm="NONE"/>
+		<Port Name="F64MHz" OffChipTerm="NONE"/>
+		<Port Name="T_5MIN_sinhro" OffChipTerm="NONE"/>
+		<Port Name="clk8_spi" OffChipTerm="NONE"/>
+		<Port Name="cs_get" OffChipTerm="NONE"/>
+		<Port Name="cs_izl" OffChipTerm="NONE"/>
+		<Port Name="cs_615" OffChipTerm="NONE"/>
+		<Port Name="Tki" OffChipTerm="NONE"/>
+		<Port Name="Tkp" OffChipTerm="NONE"/>
+		<Port Name="Tnc" OffChipTerm="NONE"/>
+		<Port Name="Tni" OffChipTerm="NONE"/>
+		<Port Name="Tno" OffChipTerm="NONE"/>
+		<Port Name="Tnp" OffChipTerm="NONE"/>
+	</PortProps>
+</Compat>
+

@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+reset_init
+pwrdwn
+[BiDir]
+[ATTRIBUTES]
+VeriModel reset_init
+

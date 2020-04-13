@@ -1,0 +1,154 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mk_easy.v -lang verilog -prj B610_sinhron -o mk_easy.spl -module mk_easy -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mk_easy.spl C:/Xilinx_project/B610_sinhron/mk_easy.sym 

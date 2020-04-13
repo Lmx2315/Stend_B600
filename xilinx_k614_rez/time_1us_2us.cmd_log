@@ -1,0 +1,48 @@
+vhdtdtfi -lib work C:/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e time_1us_2us.spl C:/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/Xilinx_project/B610_sinhron/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.v -lang verilog -prj B610_sinhron -o time_1us_2us.spl -module time_1us_2us -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w time_1us_2us.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/time_1us_2us.sym 

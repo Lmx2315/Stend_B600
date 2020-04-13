@@ -1,0 +1,104 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/Xilinx_project/B610_sinhron/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 
+vhdtdtfi -lib work C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ppi_rcv.v -lang verilog -prj B610_sinhron -o PPI_recv.spl -module PPI_recv -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_recv.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/PPI_recv.sym 

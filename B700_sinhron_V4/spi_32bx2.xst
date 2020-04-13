@@ -1,0 +1,5 @@
+set -tmpdir "C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/xst/projnav.tmp"
+set -xsthdpdir "C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/xst"
+elaborate
+-ifn spi_32bx2.prj
+-ifmt mixed

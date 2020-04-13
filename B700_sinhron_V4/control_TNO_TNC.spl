@@ -1,0 +1,13 @@
+[Inputs]
+clk
+clk1us
+reset_TNO
+reset_TNC
+rst
+[Outputs]
+=Time_TNC[31:0]=
+=Time_TNO[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel control_TNO_TNC
+

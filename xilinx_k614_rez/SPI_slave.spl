@@ -1,0 +1,14 @@
+[Inputs]
+clk
+SCK
+MOSI
+SSEL
+=data_in[7:0]=
+[Outputs]
+MISO
+redy
+=data_out[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel SPI_slave
+

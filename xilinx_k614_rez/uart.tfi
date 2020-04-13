@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+uart instance_name (
+    .rst_in(rst_in), 
+    .clk_in(clk_in), 
+    .data_in(data_in), 
+    .data_out(data_out), 
+    .send_in(send_in), 
+    .rx_ready_out(rx_ready_out), 
+    .tx_ready_out(tx_ready_out), 
+    .rxd_in(rxd_in), 
+    .txd_out(txd_out)
+    );
+
+

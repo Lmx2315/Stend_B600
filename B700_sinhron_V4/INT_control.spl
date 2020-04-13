@@ -1,0 +1,11 @@
+[Inputs]
+INT
+clk
+T1us
+[Outputs]
+INT1
+INT2
+[BiDir]
+[ATTRIBUTES]
+VeriModel INT_control
+

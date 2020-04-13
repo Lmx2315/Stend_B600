@@ -1,0 +1,9 @@
+[Inputs]
+locked_f1
+locked_f2
+[Outputs]
+f_select
+[BiDir]
+[ATTRIBUTES]
+VeriModel arbitr_dcm
+

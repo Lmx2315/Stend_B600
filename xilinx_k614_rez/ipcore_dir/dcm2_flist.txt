@@ -1,0 +1,4 @@
+# Output products list for <dcm2>
+dcm2_flist.txt
+dcm2_readme.txt
+dcm2_xmdf.tcl

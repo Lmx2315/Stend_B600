@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3e" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="T_5MIN" />
+        <signal name="T_5MIN_OUT" />
+        <signal name="F5MHZ_in" />
+        <signal name="f5MHZ_out" />
+        <signal name="F64MHz_in" />
+        <signal name="XLXN_123" />
+        <signal name="F32MHz" />
+        <signal name="XLXN_125" />
+        <signal name="f20MHz_in" />
+        <signal name="XLXN_130" />
+        <signal name="XLXN_131" />
+        <signal name="XLXN_132" />
+        <signal name="INVF64MHz" />
+        <signal name="XLXN_135" />
+        <signal name="f20MHz" />
+        <port polarity="Input" name="T_5MIN" />
+        <port polarity="Output" name="T_5MIN_OUT" />
+        <port polarity="Input" name="F5MHZ_in" />
+        <port polarity="Output" name="f5MHZ_out" />
+        <port polarity="Input" name="F64MHz_in" />
+        <port polarity="Output" name="F32MHz" />
+        <port polarity="Input" name="f20MHz_in" />
+        <port polarity="Output" name="INVF64MHz" />
+        <port polarity="Output" name="f20MHz" />
+        <blockdef name="ibufg">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="0" y2="-64" x1="64" />
+            <line x2="64" y1="-32" y2="0" x1="128" />
+            <line x2="128" y1="-64" y2="-32" x1="64" />
+            <line x2="128" y1="-32" y2="-32" x1="224" />
+            <line x2="64" y1="-32" y2="-32" x1="0" />
+        </blockdef>
+        <blockdef name="bufg">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="0" x1="64" />
+            <line x2="64" y1="-32" y2="-64" x1="128" />
+            <line x2="128" y1="0" y2="-32" x1="64" />
+            <line x2="128" y1="-32" y2="-32" x1="224" />
+            <line x2="64" y1="-32" y2="-32" x1="0" />
+        </blockdef>
+        <blockdef name="dcm2">
+            <timestamp>2015-6-3T14:54:21</timestamp>
+            <line x2="464" y1="864" y2="864" x1="400" />
+            <line x2="0" y1="480" y2="480" x1="64" />
+            <line x2="464" y1="352" y2="352" x1="400" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <line x2="464" y1="-32" y2="-32" x1="400" />
+            <rect width="336" x="64" y="-76" height="976" />
+        </blockdef>
+        <blockdef name="p_reset">
+            <timestamp>2012-5-3T10:30:44</timestamp>
+            <rect width="256" x="64" y="-64" height="64" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+        </blockdef>
+        <block symbolname="ibufg" name="XLXI_46">
+            <blockpin signalname="T_5MIN" name="I" />
+            <blockpin signalname="T_5MIN_OUT" name="O" />
+        </block>
+        <block symbolname="ibufg" name="XLXI_64">
+            <blockpin signalname="F5MHZ_in" name="I" />
+            <blockpin signalname="f5MHZ_out" name="O" />
+        </block>
+        <block symbolname="bufg" name="XLXI_69">
+            <blockpin signalname="XLXN_125" name="I" />
+            <blockpin signalname="F32MHz" name="O" />
+        </block>
+        <block symbolname="ibufg" name="XLXI_80">
+            <blockpin signalname="f20MHz_in" name="I" />
+            <blockpin signalname="f20MHz" name="O" />
+        </block>
+        <block symbolname="dcm2" name="XLXI_83">
+            <blockpin signalname="XLXN_131" name="USER_RST_IN" />
+            <blockpin signalname="F64MHz_in" name="CLKIN_IN" />
+            <blockpin signalname="XLXN_125" name="CLKDV_OUT" />
+            <blockpin name="CLK0_OUT" />
+            <blockpin signalname="INVF64MHz" name="CLKIN_IBUFG_OUT" />
+        </block>
+        <block symbolname="p_reset" name="XLXI_88">
+            <blockpin signalname="f20MHz" name="clk" />
+            <blockpin signalname="XLXN_131" name="reset" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <branch name="T_5MIN">
+            <wire x2="512" y1="1360" y2="1360" x1="480" />
+        </branch>
+        <branch name="T_5MIN_OUT">
+            <wire x2="768" y1="1360" y2="1360" x1="736" />
+        </branch>
+        <instance x="512" y="1392" name="XLXI_46" orien="R0" />
+        <instance x="512" y="1600" name="XLXI_64" orien="R0" />
+        <branch name="F5MHZ_in">
+            <wire x2="512" y1="1568" y2="1568" x1="432" />
+        </branch>
+        <branch name="f5MHZ_out">
+            <wire x2="864" y1="1568" y2="1568" x1="736" />
+        </branch>
+        <iomarker fontsize="28" x="480" y="1360" name="T_5MIN" orien="R180" />
+        <iomarker fontsize="28" x="768" y="1360" name="T_5MIN_OUT" orien="R0" />
+        <iomarker fontsize="28" x="432" y="1568" name="F5MHZ_in" orien="R180" />
+        <iomarker fontsize="28" x="864" y="1568" name="f5MHZ_out" orien="R0" />
+        <branch name="F64MHz_in">
+            <wire x2="1216" y1="736" y2="736" x1="1088" />
+        </branch>
+        <branch name="F32MHz">
+            <wire x2="2048" y1="1120" y2="1120" x1="2016" />
+        </branch>
+        <instance x="1792" y="1152" name="XLXI_69" orien="R0" />
+        <iomarker fontsize="28" x="2048" y="1120" name="F32MHz" orien="R0" />
+        <branch name="XLXN_125">
+            <wire x2="1792" y1="1120" y2="1120" x1="1680" />
+        </branch>
+        <branch name="f20MHz_in">
+            <wire x2="1328" y1="1968" y2="1968" x1="1104" />
+        </branch>
+        <iomarker fontsize="28" x="1088" y="736" name="F64MHz_in" orien="R180" />
+        <instance x="1216" y="768" name="XLXI_83" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="1808" y="1632" name="INVF64MHz" orien="R0" />
+        <instance x="1328" y="2000" name="XLXI_80" orien="R0" />
+        <iomarker fontsize="28" x="1776" y="1968" name="f20MHz" orien="R0" />
+        <iomarker fontsize="28" x="1104" y="1968" name="f20MHz_in" orien="R180" />
+        <branch name="XLXN_131">
+            <wire x2="1216" y1="1248" y2="1248" x1="1184" />
+        </branch>
+        <branch name="INVF64MHz">
+            <wire x2="1712" y1="1632" y2="1632" x1="1680" />
+            <wire x2="1808" y1="1632" y2="1632" x1="1712" />
+        </branch>
+        <instance x="800" y="1280" name="XLXI_88" orien="R0">
+        </instance>
+        <branch name="f20MHz">
+            <wire x2="176" y1="1248" y2="1728" x1="176" />
+            <wire x2="1568" y1="1728" y2="1728" x1="176" />
+            <wire x2="1568" y1="1728" y2="1968" x1="1568" />
+            <wire x2="1776" y1="1968" y2="1968" x1="1568" />
+            <wire x2="800" y1="1248" y2="1248" x1="176" />
+            <wire x2="1568" y1="1968" y2="1968" x1="1552" />
+        </branch>
+    </sheet>
+</drawing>

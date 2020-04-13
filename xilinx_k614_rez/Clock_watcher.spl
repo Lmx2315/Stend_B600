@@ -1,0 +1,12 @@
+[Inputs]
+clk
+str2
+we_a
+=usec[31:0]=
+=usx[31:0]=
+[Outputs]
+start
+[BiDir]
+[ATTRIBUTES]
+VeriModel Clock_watcher
+

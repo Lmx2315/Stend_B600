@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/spi.v -lang verilog -prj B610_sinhron -o spigpio.spl -module spigpio -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e spigpio.spl C:/B610_sinhron/spigpio.sym 

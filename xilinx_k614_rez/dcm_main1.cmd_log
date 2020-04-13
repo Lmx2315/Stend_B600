@@ -1,0 +1,2 @@
+xaw2spl {-intstyle ise} C:/B610_sinhron/ipcore_dir/dcm_main1.xaw 
+spl2sym -intstyle ise -family spartan3e dcm_main1.spl C:/B610_sinhron/dcm_main1.sym 

@@ -1,0 +1,19 @@
+[Inputs]
+clk
+upr1
+upr2
+upr3
+TNO
+TNC
+TNI
+TKI
+TNP
+TKP
+TOBM
+[Outputs]
+TST1
+TST2
+[BiDir]
+[ATTRIBUTES]
+VeriModel tst_sig1
+

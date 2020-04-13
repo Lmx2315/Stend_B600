@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Tue Nov 12 18:18:08 2013
+# Process ID: 10944
+# Log file: C:/Xilinx_project/B610_sinhron/planAhead_run_3/planAhead.log
+# Journal file: C:/Xilinx_project/B610_sinhron/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx_project/B610_sinhron/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

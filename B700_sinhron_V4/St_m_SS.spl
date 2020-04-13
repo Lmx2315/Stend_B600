@@ -1,0 +1,19 @@
+[Inputs]
+clk
+T8us
+Tnc
+=Dniu[15:0]=
+=Dni[15:0]=
+=Dii[15:0]=
+=Dnpu[15:0]=
+=Dnp[15:0]=
+=Dip[15:0]=
+[Outputs]
+Tni
+Tki
+Tnp
+Tkp
+[BiDir]
+[ATTRIBUTES]
+VeriModel St_m_SS
+

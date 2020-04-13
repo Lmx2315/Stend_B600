@@ -1,0 +1,76 @@
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf -ucf top_list.ucf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf -ucf top_list.ucf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf -ucf top_list.ucf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf -ucf top_list.ucf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  
+map -intstyle ise -p xc3s500e-pq208-4 -cm area -ir off -pr off -c 100 -o top_list_map.ncd top_list.ngd top_list.pcf 
+par -w -intstyle ise -ol high -t 1 top_list_map.ncd top_list.ncd top_list.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_list.twx top_list.ncd -o top_list.twr top_list.pcf -ucf top_list.ucf 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+xst -intstyle ise -ifn "C:/Work/Stend_B600/stend_b600/top_list.xst" -ofn "C:/Work/Stend_B600/stend_b600/top_list.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_list.ucf -p xc3s500e-pq208-4 top_list.ngc top_list.ngd  

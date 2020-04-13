@@ -1,0 +1,18 @@
+[Inputs]
+rts
+master_tx
+slave1_tx
+slave2_tx
+slave3_tx
+slave4_tx
+slave5_tx
+slave6_tx
+FTDI_TX
+[Outputs]
+master_rx
+slave_rx
+FTDI_RX
+[BiDir]
+[ATTRIBUTES]
+VeriModel uart_all
+

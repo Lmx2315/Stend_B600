@@ -1,0 +1,129 @@
+
+****** PlanAhead v14.4 (64-bit)
+  **** Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Xilinx_project/B610_sinhron/pa.fromHdl.tcl
+# create_project -name B610_sinhron -dir "C:/Xilinx_project/B610_sinhron/planAhead_run_2" -part xc3s500epq208-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "list1.ucf" [current_fileset -constrset]
+Adding file 'C:/Xilinx_project/B610_sinhron/list1.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {time_1us_2us.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {p_reset.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {dcm2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_all.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {tick_tack.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {test_led.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TEST_BLOK.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {reset_init.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ram_xlx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ram_read_control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PPI_Resiver.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Clock_watcher.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clock_nuke.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk_dcm_blok.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MainPage1.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top MainPage1 $srcset
+# add_files [list {list1.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500epq208-5
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/uart_all.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/time_1us_2us.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/tick_tack.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/test_led.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/TEST_BLOK.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/reset_init.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ram_xlx.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ram_read_control.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/p_reset.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/PPI_Resiver.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/dcm2.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/Clock_watcher.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/clock_nuke.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/MainPage1.vf" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [C:/Xilinx_project/B610_sinhron/list1.ucf]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'UART_RX' at site P71, Illegal to place instance XLXI_161 on site P71 [C:/Xilinx_project/B610_sinhron/list1.ucf:138]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'DR0PRI' at site P91, Illegal to place instance XLXI_164 on site P91 [C:/Xilinx_project/B610_sinhron/list1.ucf:174]
+Finished Parsing UCF File [C:/Xilinx_project/B610_sinhron/list1.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: ec2ef09d
+open_rtl_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 613.180 ; gain = 149.234
+update_compile_order -fileset sim_1
+set_property PULLUP {1} [get_ports MISO_w5100]
+set_property DRIVE {18} [get_ports MISO_w5100]
+set_property DRIVE {16} [get_ports MISO_w5100]
+set_property SLEW {fast} [get_ports MISO_w5100]
+set_property KEEPER {1} [get_ports MISO_w5100]
+set_property PULLUP {1} [get_ports MISO_w5100]
+save_constraints
+set_property PULLUP {1} [get_ports fs3]
+set_property DRIVE {16} [get_ports fs3]
+save_constraints
+set_property DRIVE {16} [get_ports CS_SPI1_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports CLK_SPI_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports CS_SPI2_w5100]
+save_constraints
+set_property PULLUP {1} [get_ports CS_SPI_BF]
+save_constraints
+set_property PULLUP {1} [get_ports INT_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports MOSI_w5100]
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Oct 25 14:39:57 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

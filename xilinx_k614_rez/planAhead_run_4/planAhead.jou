@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Mon May 18 17:25:38 2015
+# Process ID: 4276
+# Log file: C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/planAhead_run_4/planAhead.log
+# Journal file: C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

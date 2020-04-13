@@ -1,0 +1,1 @@
+sch2hdl,-sympath,C:/Work/old_b660/fpga/B700_sinhron_V4/ipcore_dir,-sympath,C:/Work/old_b660/fpga/B700_sinhron_V4/ipcore_dir/pci_core1/verilog/src/xpci,-intstyle,ise,-family,spartan3e,-verilog,C:/Work/old_b660/fpga/B700_sinhron_V4/MainPage1.vf,-w,C:/Work/old_b660/fpga/B700_sinhron_V4/MainPage1.sch

@@ -1,0 +1,12 @@
+[Inputs]
+upr
+TNC
+TNO
+TOBM
+[Outputs]
+TNC_o
+SIG
+[BiDir]
+[ATTRIBUTES]
+VeriModel switch1
+

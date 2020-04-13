@@ -1,0 +1,78 @@
+xaw2spl {-intstyle ise} C:/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e dcm2.spl C:/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/Xilinx_project/B610_sinhron/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/Xilinx_project/B610_sinhron/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V3/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 
+xaw2spl {-intstyle ise} C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/ipcore_dir/dcm2.xaw 
+spl2sym -intstyle ise -family spartan3e -w dcm2.spl C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/dcm2.sym 

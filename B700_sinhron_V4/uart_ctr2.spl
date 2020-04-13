@@ -1,0 +1,14 @@
+[Inputs]
+clk
+reset
+rs_clk1
+rs_clk2
+=rs_data1[7:0]=
+=rs_data2[7:0]=
+[Outputs]
+trs
+=test[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel uart_ctr2
+

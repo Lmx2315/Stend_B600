@@ -1,0 +1,33 @@
+vhdtdtfi -lib work C:/B610_sinhron/uart.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e uart.spl C:/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lang verilog -prj B610_sinhron -o C:/Xilinx_project/B610_sinhron/uart.tfi -lib work C:/Xilinx_project/B610_sinhron//uart_tst.v -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/uart_tst.v -lang verilog -prj B610_sinhron -o uart.spl -module uart -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w uart.spl C:/Xilinx_project/B610_sinhron/uart.sym 

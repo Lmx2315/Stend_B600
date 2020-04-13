@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/ram_xlx.v -lang verilog -prj B610_sinhron -o ram_xlx.spl -module ram_xlx -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ram_xlx.spl C:/B610_sinhron/ram_xlx.sym 

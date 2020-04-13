@@ -1,0 +1,14 @@
+[Inputs]
+clk
+avariya
+[Outputs]
+led1
+led2
+led3
+led4
+pwr1
+pwr2
+[BiDir]
+[ATTRIBUTES]
+VeriModel led_test
+

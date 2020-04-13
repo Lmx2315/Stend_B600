@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\SOFT_project\FPGA\Xilinx_project\Sinhron_B600\B700_sinhron_V2//sinhron_B700 -x xcf04s -u 00000000 C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/mainpage1.bit 
+
+PROM C:\SOFT_project\FPGA\Xilinx_project\Sinhron_B600\B700_sinhron_V2\sinhron_B700.prm map: Tue Apr 28 17:09:04 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03c84e1f
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Apr 28 17:07:44 2015 C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V2/mainpage1.bit

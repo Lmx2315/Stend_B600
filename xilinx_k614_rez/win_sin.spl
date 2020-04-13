@@ -1,0 +1,14 @@
+[Inputs]
+clk
+rst
+start
+=in12[11:0]=
+=addr[11:0]=
+[Outputs]
+rsto
+starto
+=out12[11:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel win_sin
+

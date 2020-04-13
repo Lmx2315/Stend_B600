@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="clk_dcm_blok">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-6-26T13:52:17</timestamp>
+    <pin polarity="Input" x="0" y="96" name="T_5MIN" />
+    <pin polarity="Input" x="0" y="32" name="F5MHZ_in" />
+    <pin polarity="Input" x="0" y="-176" name="F64MHz_in" />
+    <pin polarity="Input" x="0" y="464" name="reset_DCM" />
+    <pin polarity="Input" x="0" y="-112" name="f20MHz_in" />
+    <pin polarity="Output" x="384" y="96" name="T_5MIN_OUT" />
+    <pin polarity="Output" x="384" y="32" name="f5MHZ_out" />
+    <pin polarity="Output" x="384" y="208" name="F21MHz" />
+    <pin polarity="Output" x="384" y="336" name="F20MHz_dcm" />
+    <pin polarity="Output" x="384" y="-32" name="f20MHz" />
+    <pin polarity="Output" x="384" y="592" name="F64Mhz" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-264" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin T_5MIN" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin F5MHZ_in" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin F64MHz_in" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="464" type="pin reset_DCM" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin f20MHz_in" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="96" type="pin T_5MIN_OUT" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin f5MHZ_out" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="208" type="pin F21MHz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="336" type="pin F20MHz_dcm" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin f20MHz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="592" type="pin F64Mhz" />
+        <line x2="384" y1="592" y2="592" x1="320" />
+        <line x2="0" y1="464" y2="464" x1="64" />
+        <line x2="384" y1="336" y2="336" x1="320" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <line x2="384" y1="96" y2="96" x1="320" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+        <rect width="256" x="64" y="-256" height="868" />
+        <line x2="384" y1="208" y2="208" x1="320" />
+    </graph>
+</symbol>

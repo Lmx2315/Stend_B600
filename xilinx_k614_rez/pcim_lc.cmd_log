@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/ipcore_dir/pci_core1/verilog/src/wrap/pcim_lc_66_3_s.v -lang verilog -prj B610_sinhron -o pcim_lc.spl -module pcim_lc -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pcim_lc.spl C:/B610_sinhron/pcim_lc.sym 

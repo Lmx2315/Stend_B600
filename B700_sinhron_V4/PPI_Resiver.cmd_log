@@ -1,0 +1,52 @@
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PPI_Resiver.spl C:/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/PPI_Resiver.v -lang verilog -prj B610_sinhron -o PPI_Resiver.spl -module PPI_Resiver -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PPI_Resiver.spl C:/Xilinx_project/B610_sinhron/PPI_Resiver.sym 

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri Oct 25 14:25:41 2013
+# Process ID: 6968
+# Log file: C:/Xilinx_project/B610_sinhron/planAhead_run_2/planAhead.log
+# Journal file: C:/Xilinx_project/B610_sinhron/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilinx_project/B610_sinhron/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property PULLUP {1} [get_ports MISO_w5100]
+set_property DRIVE {18} [get_ports MISO_w5100]
+set_property DRIVE {16} [get_ports MISO_w5100]
+set_property SLEW {fast} [get_ports MISO_w5100]
+set_property KEEPER {1} [get_ports MISO_w5100]
+set_property PULLUP {1} [get_ports MISO_w5100]
+save_constraints
+set_property PULLUP {1} [get_ports fs3]
+set_property DRIVE {16} [get_ports fs3]
+save_constraints
+set_property DRIVE {16} [get_ports CS_SPI1_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports CLK_SPI_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports CS_SPI2_w5100]
+save_constraints
+set_property PULLUP {1} [get_ports CS_SPI_BF]
+save_constraints
+set_property PULLUP {1} [get_ports INT_w5100]
+save_constraints
+set_property DRIVE {16} [get_ports MOSI_w5100]
+save_constraints

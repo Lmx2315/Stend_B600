@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Tue Nov 06 15:18:38 2018">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="20C4C3378BF14AA89FC022B3F683D293" type="project"/>
+<property name="ProjectIteration" value="816" type="project"/>
+<property name="ProjectFile" value="C:/Work/Stend_B600/xilinx_k614_rez/B610_sinhron.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2012-05-03T12:12:51" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Timing Performance" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Performance with IOB Packing;C:/Xilinx/14.4/ISE_DS/ISE/spartan3e/data/spartan3e_performance_with_iobpacking.xds" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_OverwriteSym" value="true" type="process"/>
+<property name="PROP_PropSpecInProjFile" value="Store non-default values only" type="design"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/MainPage1" type="process"/>
+<property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
+<property name="PROP_SynthOptEffort" value="High" type="process"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="Schematic" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserBrowsedStrategyFiles" value="C:/Xilinx/14.4/ISE_DS/ISE/spartan3e/data/spartan3e_performance_with_iobpacking.xds" type="process"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2012-05-03T12:12:51" type="design"/>
+<property name="PROP_intWbtProjectID" value="20C4C3378BF14AA89FC022B3F683D293" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="816" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.MainPage1" type="process"/>
+<property name="PROP_xilxMapPackRegInto" value="For Inputs and Outputs" type="process"/>
+<property name="PROP_xilxMapTimingDrivenPacking" value="true" type="process"/>
+<property name="PROP_xilxPARplacerEffortLevel" value="High" type="process"/>
+<property name="PROP_xilxPARrouterEffortLevel" value="High" type="process"/>
+<property name="PROP_xilxSynthGlobOpt" value="Maximum Delay" type="process"/>
+<property name="PROP_xilxSynthRegBalancing" value="Yes" type="process"/>
+<property name="PROP_xstPackIORegister" value="Yes" type="process"/>
+<property name="PROP_AutoTop" value="false" type="design"/>
+<property name="PROP_DevFamily" value="Spartan3E" type="design"/>
+<property name="PROP_parTimingMode" value="Non Timing Driven" type="process"/>
+<property name="PROP_DevDevice" value="xc3s500e" type="design"/>
+<property name="PROP_DevFamilyPMName" value="spartan3e" type="design"/>
+<property name="PROP_MapExtraEffort" value="Normal" type="process"/>
+<property name="PROP_xilxPARextraEffortLevel" value="Normal" type="process"/>
+<property name="PROP_DevPackage" value="pq208" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-5" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="FILE_COREGEN" value="6" type="source"/>
+<property name="FILE_NGO" value="1" type="source"/>
+<property name="FILE_SCHEMATIC" value="2" type="source"/>
+<property name="FILE_UCF" value="1" type="source"/>
+<property name="FILE_VERILOG" value="53" type="source"/>
+<property name="FILE_XAW" value="2" type="source"/>
+</section>
+</application>
+</document>

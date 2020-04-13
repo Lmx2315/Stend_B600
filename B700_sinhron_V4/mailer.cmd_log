@@ -1,0 +1,34 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/mailer.v -lang verilog -prj B610_sinhron -o mailer.spl -module mailer -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w mailer.spl C:/Xilinx_project/B610_sinhron/mailer.sym 

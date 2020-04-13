@@ -1,0 +1,144 @@
+
+****** PlanAhead v14.4 (64-bit)
+  **** Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Xilinx_project/B610_sinhron/pa.fromHdl.tcl
+# create_project -name B610_sinhron -dir "C:/Xilinx_project/B610_sinhron/planAhead_run_3" -part xc3s500epq208-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "list1.ucf" [current_fileset -constrset]
+Adding file 'C:/Xilinx_project/B610_sinhron/list1.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/ram32x256v1.ngc}]
+# set hdlfile [add_files [list {time_1us_2us.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {reset_m.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {dcm2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_tst.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_all.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {tick_tack.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {test_led.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TEST_BLOK.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {reset_init.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {read_and_work.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ppi_rcv.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mk_easy.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mem8x256v3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mailer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/ram32x256v1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {const_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Clock_watcher.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clock_nuke.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk_dcm_blok.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MainPage1.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top MainPage1 $srcset
+# add_files [list {list1.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mem8x8_v2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mem_32x16_v2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ram32x256v1.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500epq208-5
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/uart_tst.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/uart_all.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/time_1us_2us.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/tick_tack.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/test_led.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/TEST_BLOK.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/reset_m.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/reset_init.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/read_and_work.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ppi_rcv.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mk_easy.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mem8x256v3.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/mailer.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/ipcore_dir/ram32x256v1.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/dcm2.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/const_1.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/Clock_watcher.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/clock_nuke.v" into library work
+Analyzing Verilog file "C:/Xilinx_project/B610_sinhron/MainPage1.vf" into library work
+Release 14.4 - ngc2edif P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design ram32x256v1.ngc ...
+WARNING:NetListWriters:298 - No output is written to ram32x256v1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ram32x256v1.edif ...
+ngc2edif: Total memory usage is 78588 kilobytes
+
+Reading core file 'C:/Xilinx_project/B610_sinhron/ipcore_dir/ram32x256v1.ngc' for (cell view 'ram32x256v1', library 'work', file 'ram32x256v1.v')
+Parsing EDIF File [./.Xil/PlanAhead-10944-lmx2315/ngc2edif/ram32x256v1.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-10944-lmx2315/ngc2edif/ram32x256v1.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [C:/Xilinx_project/B610_sinhron/list1.ucf]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'DR0PRI' at site P91, Illegal to place instance XLXI_164 on site P91 [C:/Xilinx_project/B610_sinhron/list1.ucf:182]
+Finished Parsing UCF File [C:/Xilinx_project/B610_sinhron/list1.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 601a8bb3
+open_rtl_design: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 615.375 ; gain = 160.094
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Nov 12 18:22:41 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

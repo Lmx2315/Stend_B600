@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Work\Stend_B600\xilinx_k614_rez\MainPage1.ncd
+OUTFILE=C:\Work\Stend_B600\xilinx_k614_rez\MainPage1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5pq208
+WORKINGDIR=C:\Work\Stend_B600\xilinx_k614_rez
+LICENSE=WebPack
+USER_INFO=__0_0_0

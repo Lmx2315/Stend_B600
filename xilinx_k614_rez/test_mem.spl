@@ -1,0 +1,15 @@
+[Inputs]
+clk
+[Outputs]
+we_a
+time_setup
+=data[15:0]=
+=addr[7:0]=
+=s[7:0]=
+=min[7:0]=
+=h[7:0]=
+=dni[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel test_mem
+

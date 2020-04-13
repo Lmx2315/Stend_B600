@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.49d
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.49d
+DATE            10/15/2015 - 16:13
+SOURCE          C:\SOFT_project\FPGA\Xilinx_project\Sinhron_B600\B700_sinhron_V4\Untitled.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x03D9FCB3
+START_ADDRESS   0x00000000 END_ADDRESS 0x0004547F DIRECTION_UP   "C:/SOFT_project/FPGA/Xilinx_project/Sinhron_B600/B700_sinhron_V4/mainpage1.bit" 3s500epq208

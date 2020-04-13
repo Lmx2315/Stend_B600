@@ -1,0 +1,11 @@
+[Inputs]
+clk
+cs
+sr_in
+[Outputs]
+sr_out
+=data_out[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel spigpio
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/B610_sinhron/ipcore_dir/pci_core1/verilog/src/xpci/pci_lc_i.v -lang verilog -prj B610_sinhron -o PCI_LC_I.spl -module PCI_LC_I -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PCI_LC_I.spl C:/B610_sinhron/PCI_LC_I.sym 

@@ -1,0 +1,14 @@
+[Inputs]
+=bus_clk[7:0]=
+[Outputs]
+clk5mhz
+TNC
+TNO
+TNP
+TKP
+TNI
+TKI
+[BiDir]
+[ATTRIBUTES]
+VeriModel bus_to_clk
+

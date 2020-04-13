@@ -1,0 +1,11 @@
+[Inputs]
+WE
+=DATA[7:0]=
+=ADDRrd[7:0]=
+=ADDRwr[7:0]=
+[Outputs]
+=Q[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mem1_8x8
+

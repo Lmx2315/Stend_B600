@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+flag1
+flag2
+[BiDir]
+[ATTRIBUTES]
+VeriModel tick_tack
+

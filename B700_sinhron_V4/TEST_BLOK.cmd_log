@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx_project/B610_sinhron/TEST_BLOK.v -lang verilog -prj B610_sinhron -o TEST_BLOK.spl -module TEST_BLOK -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w TEST_BLOK.spl C:/Xilinx_project/B610_sinhron/TEST_BLOK.sym 

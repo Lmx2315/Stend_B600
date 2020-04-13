@@ -1,0 +1,64 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 30 15:22:57 2018
+
+All signals are completely routed.
+
+WARNING:ParHelpers:362 - There are 14 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   BUS_ADDR<0>_OBUF
+   BUS_ADDR<1>_OBUF
+   BUS_ADDR<2>_OBUF
+   BUS_ADDR<3>_OBUF
+   BUS_ADDR<4>_OBUF
+   BUS_ADDR<5>_OBUF
+   BUS_ADDR<6>_OBUF
+   BUS_ADDR<7>_OBUF
+   CS_W5100_OBUF
+   ENABLE_EXT_VDD_OBUF
+   RD_W5100_OBUF
+   RZV3_OBUF
+   SCLK_OBUF
+   WR_W5100_OBUF
+WARNING:ParHelpers:361 - There are 35 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   BUS_CLK_IBUF
+   BUS_WR_IBUF
+   CLK_5_CMOS_IBUF
+   CS_SPARTAN_IBUF
+   EXT_A0_IBUF
+   EXT_A7_IBUF
+   MOSI_IBUF
+   PPI<0>_IBUF
+   PPI<1>_IBUF
+   PPI<2>_IBUF
+   PPI<3>_IBUF
+   PPI<4>_IBUF
+   PPI<5>_IBUF
+   PPI<6>_IBUF
+   PPI<7>_IBUF
+   PPI_CLK_IBUF
+   PPI_FRAM_SYN1_IBUF
+   PPI_FS3_IBUF
+   PPI_F_SYN2_IBUF
+   RS232_RX_VDD_IBUF
+   RS232_TX_VDD_IBUF
+   RX_485_MG_IBUF
+   RZV1_IBUF
+   RZV2_IBUF
+   TIMER_BF_IBUF
+   TKP1_IBUF
+   TKP_IBUF
+   TNP_IBUF
+   TSCLK_IBUF
+   TX_485_MG_IBUF
+   TX_DSP_IBUF
+   TX_FTDI_1_IBUF
+   data_PPI11_IBUF
+   data_PPI15_IBUF
+   data_PPI8_IBUF
+
+

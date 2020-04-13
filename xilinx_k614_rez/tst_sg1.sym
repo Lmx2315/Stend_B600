@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="tst_sg1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-10-1T12:36:41</timestamp>
+    <attr value="tst_sg1" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-416" name="TNO" />
+    <pin polarity="Input" x="0" y="-352" name="TNC" />
+    <pin polarity="Input" x="0" y="-288" name="TNI" />
+    <pin polarity="Input" x="0" y="-224" name="TKI" />
+    <pin polarity="Input" x="0" y="-160" name="TNP" />
+    <pin polarity="Input" x="0" y="-96" name="TKP" />
+    <pin polarity="Input" x="0" y="-32" name="TOBM" />
+    <pin polarity="Output" x="384" y="-480" name="sig1" />
+    <pin polarity="Output" x="384" y="-32" name="sig2" />
+    <pin polarity="Input" x="0" y="32" name="upr1" />
+    <pin polarity="Input" x="0" y="96" name="upr2" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-520" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin TNO" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin TNC" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin TNI" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin TKI" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin TNP" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin TKP" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin TOBM" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin sig1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin sig2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin upr1" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin upr2" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+        <rect width="256" x="64" y="-512" height="640" />
+    </graph>
+</symbol>

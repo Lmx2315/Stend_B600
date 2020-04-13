@@ -1,0 +1,11 @@
+[Inputs]
+clk
+[Outputs]
+tst1
+tst2
+tst3
+tst4
+[BiDir]
+[ATTRIBUTES]
+VeriModel TEST_BLOK
+

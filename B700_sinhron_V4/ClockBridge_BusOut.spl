@@ -1,0 +1,14 @@
+[Inputs]
+wr_in
+clk_out
+reset
+clk_in
+=Data_IN[15:0]=
+[Outputs]
+Data_in_rdy
+Data_out_rdy
+=Data_Out[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ClockBridge_BusOut
+

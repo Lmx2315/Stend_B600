@@ -1,0 +1,12 @@
+[Inputs]
+clk
+[Outputs]
+fs1
+fs2
+fs3
+clk_ppi
+=data_ppi[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel test_ppi
+

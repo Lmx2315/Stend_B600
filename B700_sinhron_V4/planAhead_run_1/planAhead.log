@@ -1,0 +1,572 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Thu Jun 07 14:49:44 2012
+# Process ID: 5576
+# Log file: C:/B610_sinhron/planAhead_run_1/planAhead.log
+# Journal file: C:/B610_sinhron/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -128 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source C:/B610_sinhron/pa.fromHdl.tcl
+# create_project -name B610_sinhron -dir "C:/B610_sinhron/planAhead_run_1" -part xc3s500epq208-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top MainPage1 $srcset
+# set_param project.paUcfFile  "list1.ucf"
+# set hdlfile [add_files [list {time_1us_2us.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {p_reset.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {dcm_main1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {arbitr_dcm.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ram_read_control_dds.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ram_read_control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ram16x256_v1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PPI_Resiver.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Clock_watcher.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clock_nuke.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk_dcm_blok.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MainPage1.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "list1.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500epq208-5
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\time_1us_2us.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <time_1us_2us>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\p_reset.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <p_reset>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\dcm_main1.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <dcm_main1>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\arbitr_dcm.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <arbitr_dcm>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\arbitr_dcm.v(28) Concatenation with unsized literal; will interpret as 32 bits
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\ram_read_control_dds.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <ram_read_control_dds>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\ram_read_control.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <ram_read_control>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\ram16x256_v1.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <ram16x256_v1>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\PPI_Resiver.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <PPI_Resiver>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\Clock_watcher.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <Clock_watcher>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\clock_nuke.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <clock_nuke>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\clk_dcm_blok.vf" into library work
+INFO: [HD-RTLIN 2] Parsing module <clk_dcm_blok>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\B610_sinhron\MainPage1.vf" into library work
+INFO: [HD-RTLIN 2] Parsing module <clk_dcm_blok_MUSER_MainPage1>.
+INFO: [HD-RTLIN 2] Parsing module <OBUF8_MXILINX_MainPage1>.
+INFO: [HD-RTLIN 2] Parsing module <IBUF16_MXILINX_MainPage1>.
+INFO: [HD-RTLIN 2] Parsing module <MainPage1>.
+INFO: [HD-RTLIN 2] Elaborating module <MainPage1>.
+INFO: [HD-RTLIN 2] Elaborating module <clk_dcm_blok_MUSER_MainPage1>.
+INFO: [HD-RTLIN 2] Elaborating module <dcm_main1>.
+INFO: [HD-RTLIN 2] Elaborating module <BUFGMUX>.
+INFO: [HD-RTLIN 2] Elaborating module <DCM_SP>.
+INFO: [HD-RTLIN 2] Elaborating module <IBUFG>.
+INFO: [HD-RTLIN 2] Elaborating module <BUFG>.
+INFO: [HD-RTLIN 2] Elaborating module <p_reset>.
+INFO: [HD-RTLIN 2] Elaborating module <AND2>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\arbitr_dcm.v(28) Concatenation with unsized literal; will interpret as 32 bits
+INFO: [HD-RTLIN 2] Elaborating module <arbitr_dcm>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\arbitr_dcm.v(28) Result of 32-bit expression is truncated to fit in 1-bit target.
+INFO: [HD-RTLIN 2] Elaborating module <BUF>.
+INFO: [HD-RTLIN 2] Elaborating module <time_1us_2us>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\time_1us_2us.v(44) Result of 9-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\time_1us_2us.v(48) Result of 9-bit expression is truncated to fit in 8-bit target.
+INFO: [HD-RTLIN 2] Elaborating module <ram16x256_v1>.
+INFO: [HD-RTLIN 2] Elaborating module <clock_nuke>.
+INFO: [HD-RTLIN 2] Elaborating module <PPI_Resiver>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(124) Result of 10-bit expression is truncated to fit in 9-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(95) Assignment to data_reg_ppi ignored, since the identifier is never used
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(141) Result of 9-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(185) Result of 16-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(186) Result of 16-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(187) Result of 16-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\PPI_Resiver.v(188) Result of 16-bit expression is truncated to fit in 8-bit target.
+INFO: [HD-RTLIN 2] Elaborating module <IBUF>.
+INFO: [HD-RTLIN 2] Elaborating module <IBUF16_MXILINX_MainPage1>.
+INFO: [HD-RTLIN 2] Elaborating module <ram_read_control_dds>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control_dds.v(73) Result of 9-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control_dds.v(76) Assignment to Data_ram1 ignored, since the identifier is never used
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control_dds.v(110) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control_dds.v(112) Result of 9-bit expression is truncated to fit in 8-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control_dds.v(91) Assignment to interval ignored, since the identifier is never used
+INFO: [HD-RTLIN 2] Elaborating module <OBUF>.
+INFO: [HD-RTLIN 2] Elaborating module <OBUF8_MXILINX_MainPage1>.
+INFO: [HD-RTLIN 2] Elaborating module <ram_read_control>.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(177) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(178) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(179) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(180) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(181) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(182) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(183) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(191) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(199) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(208) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(217) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(225) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(233) Result of 17-bit expression is truncated to fit in 16-bit target.
+WARN: [HD-RTLIN 1] C:\B610_sinhron\ram_read_control.v(241) Result of 17-bit expression is truncated to fit in 16-bit target.
+INFO: [HD-RTLIN 2] Elaborating module <Clock_watcher>.
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/pq208/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\list1.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\list1.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by Sergey on host lmx2315, pid 5576
+          on Thu Jun 07 14:50:02 2012
+
+REPORT SUMMARY
+            Netlist: MainPage1
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 38
+
+REPORT DETAILS
+ULMN#1
+Unknown block name - <no location>
+Block name RTL_GND is not a valid Unisim for the specified architecture. No block of type RTL_GND exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#2
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_16 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#3
+Unknown block name - <no location>
+Block name RTL_PWR is not a valid Unisim for the specified architecture. No block of type RTL_PWR exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#4
+Unknown block name - <no location>
+Block name RTL_mux_32 is not a valid Unisim for the specified architecture. No block of type RTL_mux_32 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#5
+Unknown block name - <no location>
+Block name RTL_equal_8 is not a valid Unisim for the specified architecture. No block of type RTL_equal_8 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#6
+Unknown block name - <no location>
+Block name RTL_add_8u_8u is not a valid Unisim for the specified architecture. No block of type RTL_add_8u_8u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#7
+Unknown block name - <no location>
+Block name RTL_not_equal_8 is not a valid Unisim for the specified architecture. No block of type RTL_not_equal_8 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#8
+Unknown block name - <no location>
+Block name RTL_FDRSE is not a valid Unisim for the specified architecture. No block of type RTL_FDRSE exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#9
+Unknown block name - <no location>
+Block name RTL_INV is not a valid Unisim for the specified architecture. No block of type RTL_INV exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#10
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_8 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_8 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#11
+Unknown block name - <no location>
+Block name RTL_ram_w_8_16_r_8_16 is not a valid Unisim for the specified architecture. No block of type RTL_ram_w_8_16_r_8_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#12
+Unknown block name - <no location>
+Block name RTL_equal_1 is not a valid Unisim for the specified architecture. No block of type RTL_equal_1 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#13
+Unknown block name - <no location>
+Block name RTL_equal_3 is not a valid Unisim for the specified architecture. No block of type RTL_equal_3 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#14
+Unknown block name - <no location>
+Block name RTL_LessThan_10u_10u is not a valid Unisim for the specified architecture. No block of type RTL_LessThan_10u_10u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#15
+Unknown block name - <no location>
+Block name RTL_mux_10 is not a valid Unisim for the specified architecture. No block of type RTL_mux_10 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#16
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_10 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_10 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#17
+Unknown block name - <no location>
+Block name RTL_equal_10 is not a valid Unisim for the specified architecture. No block of type RTL_equal_10 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#18
+Unknown block name - <no location>
+Block name RTL_add_10u_10u is not a valid Unisim for the specified architecture. No block of type RTL_add_10u_10u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#19
+Unknown block name - <no location>
+Block name RTL_mux_8 is not a valid Unisim for the specified architecture. No block of type RTL_mux_8 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#20
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_3 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_3 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#21
+Unknown block name - <no location>
+Block name RTL_AND is not a valid Unisim for the specified architecture. No block of type RTL_AND exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#22
+Unknown block name - <no location>
+Block name RTL_equal_9 is not a valid Unisim for the specified architecture. No block of type RTL_equal_9 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#23
+Unknown block name - <no location>
+Block name RTL_LessThan_9u_9u is not a valid Unisim for the specified architecture. No block of type RTL_LessThan_9u_9u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#24
+Unknown block name - <no location>
+Block name RTL_xor_16 is not a valid Unisim for the specified architecture. No block of type RTL_xor_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#25
+Unknown block name - <no location>
+Block name RTL_mux_16 is not a valid Unisim for the specified architecture. No block of type RTL_mux_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#26
+Unknown block name - <no location>
+Block name RTL_add_9u_9u is not a valid Unisim for the specified architecture. No block of type RTL_add_9u_9u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#27
+Unknown block name - <no location>
+Block name RTL_Decoder_8 is not a valid Unisim for the specified architecture. No block of type RTL_Decoder_8 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#28
+Unknown block name - <no location>
+Block name RTL_mux_9 is not a valid Unisim for the specified architecture. No block of type RTL_mux_9 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#29
+Unknown block name - <no location>
+Block name RTL_mux_4096 is not a valid Unisim for the specified architecture. No block of type RTL_mux_4096 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#30
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_4096 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_4096 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#31
+Unknown block name - <no location>
+Block name RTL_equal_16 is not a valid Unisim for the specified architecture. No block of type RTL_equal_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#32
+Unknown block name - <no location>
+Block name RTL_MUX is not a valid Unisim for the specified architecture. No block of type RTL_MUX exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#33
+Unknown block name - <no location>
+Block name RTL_wide_mux_8_4096 is not a valid Unisim for the specified architecture. No block of type RTL_wide_mux_8_4096 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#34
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_9 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_9 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#35
+Unknown block name - <no location>
+Block name RTL_add_16u_16u is not a valid Unisim for the specified architecture. No block of type RTL_add_16u_16u exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#36
+Unknown block name - <no location>
+Block name RTL_not_equal_16 is not a valid Unisim for the specified architecture. No block of type RTL_not_equal_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#37
+Unknown block name - <no location>
+Block name RTL_OR is not a valid Unisim for the specified architecture. No block of type RTL_OR exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+ULMN#38
+Unknown block name - <no location>
+Block name RTL_reduce_nor_16 is not a valid Unisim for the specified architecture. No block of type RTL_reduce_nor_16 exists in the Unisim library for the spartan3e architecture.
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+startgroup
+set_property loc PAD31 [get_ports F20MHz]
+set_property is_fixed true  [get_ports F20MHz]
+endgroup
+startgroup
+set_property loc IPAD29 [get_ports F64MHz]
+set_property is_fixed true  [get_ports F64MHz]
+endgroup
+startgroup
+set_property loc IPAD152 [get_ports T_5MIN_sinhro]
+set_property is_fixed true  [get_ports T_5MIN_sinhro]
+endgroup
+startgroup
+set_property loc PAD61 [get_ports Tki]
+set_property is_fixed true  [get_ports Tki]
+endgroup
+startgroup
+set_property loc PAD63 [get_ports Tkp]
+set_property is_fixed true  [get_ports Tkp]
+endgroup
+startgroup
+set_property loc PAD96 [get_ports Tnc]
+set_property is_fixed true  [get_ports Tnc]
+endgroup
+startgroup
+set_property loc PAD60 [get_ports Tni]
+set_property is_fixed true  [get_ports Tni]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports Tni]
+set_property IOSTANDARD LVCMOS33 [get_ports Tnc]
+set_property IOSTANDARD LVCMOS33 [get_ports Tkp]
+set_property IOSTANDARD LVCMOS33 [get_ports Tki]
+set_property IOSTANDARD LVCMOS33 [get_ports T_5MIN_sinhro]
+set_property IOSTANDARD LVCMOS33 [get_ports F64MHz]
+set_property IOSTANDARD LVCMOS33 [get_ports F20MHz]
+set_property IOSTANDARD LVCMOS33 [get_ports Tno]
+startgroup
+set_property loc PAD95 [get_ports Tno]
+set_property is_fixed true  [get_ports Tno]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports Tnp]
+startgroup
+set_property loc PAD62 [get_ports Tnp]
+set_property is_fixed true  [get_ports Tnp]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports clk8_spi]
+startgroup
+set_property loc PAD71 [get_ports clk8_spi]
+set_property is_fixed true  [get_ports clk8_spi]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports clk_ppi]
+startgroup
+set_property loc PAD27 [get_ports clk_ppi]
+set_property is_fixed true  [get_ports clk_ppi]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports cs_615]
+startgroup
+set_property loc PAD53 [get_ports cs_615]
+set_property is_fixed true  [get_ports cs_615]
+endgroup
+startgroup
+set_property loc PAD52 [get_ports cs_get]
+set_property is_fixed true  [get_ports cs_get]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports cs_get]
+set_property IOSTANDARD LVCMOS33 [get_ports cs_izl]
+startgroup
+set_property loc PAD49 [get_ports cs_izl]
+set_property is_fixed true  [get_ports cs_izl]
+endgroup
+startgroup
+set_property loc IPAD145 [get_ports f5MHz]
+set_property is_fixed true  [get_ports f5MHz]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports f5MHz]
+startgroup
+set_property loc PAD25 [get_ports fs1]
+set_property is_fixed true  [get_ports fs1]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports fs1]
+set_property IOSTANDARD LVCMOS33 [get_ports fs2]
+startgroup
+set_property loc PAD24 [get_ports fs2]
+set_property is_fixed true  [get_ports fs2]
+endgroup
+startgroup
+set_property loc PAD23 [get_ports fs3]
+set_property is_fixed true  [get_ports fs3]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports fs3]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[0]}]
+startgroup
+set_property loc PAD2 [get_ports {data_ppi[0]}]
+set_property is_fixed true  [get_ports {data_ppi[0]}]
+endgroup
+startgroup
+set_property loc PAD4 [get_ports {data_ppi[1]}]
+set_property is_fixed true  [get_ports {data_ppi[1]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[2]}]
+startgroup
+set_property loc PAD5 [get_ports {data_ppi[2]}]
+set_property is_fixed true  [get_ports {data_ppi[2]}]
+endgroup
+startgroup
+set_property loc PAD7 [get_ports {data_ppi[3]}]
+set_property is_fixed true  [get_ports {data_ppi[3]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[4]}]
+startgroup
+set_property loc PAD8 [get_ports {data_ppi[4]}]
+set_property is_fixed true  [get_ports {data_ppi[4]}]
+endgroup
+startgroup
+set_property loc PAD11 [get_ports {data_ppi[5]}]
+set_property is_fixed true  [get_ports {data_ppi[5]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[6]}]
+startgroup
+set_property loc PAD12 [get_ports {data_ppi[6]}]
+set_property is_fixed true  [get_ports {data_ppi[6]}]
+endgroup
+startgroup
+set_property loc PAD16 [get_ports {data_ppi[7]}]
+set_property is_fixed true  [get_ports {data_ppi[7]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[8]}]
+startgroup
+set_property loc IPAD28 [get_ports {data_ppi[8]}]
+set_property is_fixed true  [get_ports {data_ppi[8]}]
+endgroup
+startgroup
+set_property loc PAD30 [get_ports {data_ppi[9]}]
+set_property is_fixed true  [get_ports {data_ppi[9]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[9]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[10]}]
+startgroup
+set_property loc IPAD3 [get_ports {data_ppi[10]}]
+set_property is_fixed true  [get_ports {data_ppi[10]}]
+endgroup
+startgroup
+set_property loc IPAD13 [get_ports {data_ppi[11]}]
+set_property is_fixed true  [get_ports {data_ppi[11]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[11]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[12]}]
+startgroup
+set_property loc PAD32 [get_ports {data_ppi[12]}]
+set_property is_fixed true  [get_ports {data_ppi[12]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[13]}]
+startgroup
+set_property loc PAD34 [get_ports {data_ppi[13]}]
+set_property is_fixed true  [get_ports {data_ppi[13]}]
+endgroup
+startgroup
+set_property loc PAD40 [get_ports {data_ppi[14]}]
+set_property is_fixed true  [get_ports {data_ppi[14]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[14]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data_ppi[15]}]
+startgroup
+set_property loc PAD41 [get_ports {data_ppi[15]}]
+set_property is_fixed true  [get_ports {data_ppi[15]}]
+endgroup
+startgroup
+set_property loc PAD79 [get_ports {data8_spi[0]}]
+set_property is_fixed true  [get_ports {data8_spi[0]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[1]}]
+startgroup
+set_property loc PAD80 [get_ports {data8_spi[1]}]
+set_property is_fixed true  [get_ports {data8_spi[1]}]
+endgroup
+startgroup
+set_property loc PAD81 [get_ports {data8_spi[2]}]
+set_property is_fixed true  [get_ports {data8_spi[2]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[3]}]
+startgroup
+set_property loc PAD82 [get_ports {data8_spi[3]}]
+set_property is_fixed true  [get_ports {data8_spi[3]}]
+endgroup
+startgroup
+set_property loc PAD84 [get_ports {data8_spi[4]}]
+set_property is_fixed true  [get_ports {data8_spi[4]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[5]}]
+startgroup
+set_property loc PAD85 [get_ports {data8_spi[5]}]
+set_property is_fixed true  [get_ports {data8_spi[5]}]
+endgroup
+startgroup
+set_property loc PAD86 [get_ports {data8_spi[6]}]
+set_property is_fixed true  [get_ports {data8_spi[6]}]
+endgroup
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data8_spi[7]}]
+startgroup
+set_property loc PAD87 [get_ports {data8_spi[7]}]
+set_property is_fixed true  [get_ports {data8_spi[7]}]
+endgroup
+save_design

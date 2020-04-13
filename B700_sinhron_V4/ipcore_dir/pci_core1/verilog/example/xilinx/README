@@ -1,0 +1,16 @@
+================================================================================
+The files in this directory are (c) 2005-2008 Xilinx, Incorporated.  These files
+may not be modified other than as intended by Xilinx.  No part of these files
+may be transmitted to any third party, or used without a Xilinx programmable or
+hardwire device, without the prior written permission of Xilinx, Incorporated.
+================================================================================
+
+This directory contains script files for the physical implementation of the
+example design after it has been synthesized.  Please consult the Getting
+Started Guide for more information about this step.
+
+The script files demonstrate basic 'bitgen' usage.  Please be aware that the
+bitstream generation step will vary based on the desired configuration method
+and clock rate.  Consult the development system reference guide and the FPGA
+device datasheet to understand the configuration options for the targeted
+device.  Additional information is available in the Getting Started Guide.

@@ -1,0 +1,10 @@
+[Inputs]
+clk
+fs1
+[Outputs]
+pf11
+=ppi[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel test1
+

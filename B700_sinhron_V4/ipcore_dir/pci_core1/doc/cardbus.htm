@@ -1,0 +1,310 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.77 [en]C-CCK-MCD   (Windows NT 5.0; U) [Netscape]">
+   <title>CardBus Implementation Information</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>
+<a NAME="CardBus"></a>CardBus Implementation Information&nbsp;
+<hr ALIGN=LEFT NOSHADE WIDTH="596"></h1>
+
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+Table of Contents</h2>
+
+<blockquote><a href="#10">1.0.&nbsp; Introduction</a>
+<br><a href="#20">2.0.&nbsp; Guidelines</a>
+<blockquote><a href="#21">2.1.&nbsp; Physical Differences</a>
+<br><a href="#22">2.2.&nbsp; Interface Differences</a>
+<br><a href="#23">2.3.&nbsp; Functional Differences</a>
+<br><a href="#24">2.4.&nbsp; Electrical Differences</a>
+<br><a href="#25">2.5.&nbsp; Configuration Differences</a></blockquote>
+<a href="#30">3.0.&nbsp; Summary</a></blockquote>
+
+<h4>
+<a href="#CardBus">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<hr ALIGN=LEFT NOSHADE WIDTH="596">
+<br>&nbsp;
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+1.0.<a NAME="10"></a> Introduction</h2>
+The Xilinx PCI and PCI-X interfaces support CardBus card implementations.&nbsp;
+CardBus is derived from the 32-bit, 3.3 volt, PCI interface.&nbsp; This
+document addresses design issues specific to CardBus.&nbsp; If you are
+implementing a CardBus design, please read this document carefully.
+<p>Xilinx does not recommend using the Xilinx PCI and PCI-X interfaces
+to implement CardBus host controllers or PCI-to-CardBus bridges.
+<p>For additional information, please refer to the <i>PC Card Standard,
+Release 8</i>.&nbsp; This document is published by, and available from,
+the <a href="http://www.pc-card.com">PCMCIA special interest group</a>.
+<h4>
+<a href="#CardBus">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<table COLS=1 WIDTH="596" >
+<tr>
+<td>
+<h2>
+2.0.&nbsp;<a NAME="20"></a>Guidelines</h2>
+The <i>PC Card Standard, Release 8</i>, provides guidelines for common
+silicon requirements between PCI and CardBus.&nbsp; This information is
+present in Volume 9, Section 2.1.&nbsp; The information is summarized in
+this section, with additional information regarding the Xilinx interface.&nbsp;
+For the complete guideline text, please refer to the <i>PC Card Standard,
+Release 8</i>.&nbsp;
+<h3>
+2.1.&nbsp;<a NAME="21"></a>Physical Differences</h3>
+CardBus applications have unique physical requirements.&nbsp; While standard
+PCI implementations generally allow the use of any device package, CardBus
+does not.&nbsp; Before making a final package selection for your implementation,
+verify that the package meets the physical requirements of the form factor.
+<h3>
+2.2.&nbsp;<a NAME="22"></a>Interface Differences</h3>
+There are a number of differences between the CardBus interface
+and a standard PCI interface.&nbsp; Most of these differences relate to
+the removal or addition of signals on the physical CardBus interface.&nbsp;
+Those that require particular attention are shown in red text.
+<ul>
+<li>
+<font color="#FF0000">The current version of the PCI/PCI-X specification
+provides a guaranteed minimum delay between power good and reset deassertion
+of 100 ms, which is useful for FPGA configuration at power-on.  CardBus does
+not provide this guarantee.  As a result, you must take steps to configure
+the FPGA as rapidly as possible at power-on to minimize the possibility of
+your design failing to respond to initial configuration accesses.</font></li>
+
+<li>
+<font color="#FF0000">CardBus does not make use of the IDSEL signal, as
+CardBus is a point-to-point interface.&nbsp; For a CardBus design using
+the Xilinx interface, simply pull up the IDSEL input using an external
+resistor.</font></li>
+
+<li>
+CardBus signal names are nominally different from those defined in PCI;
+most signals have a "C" or "CB" prefix.&nbsp; The functional relationship
+is one-to-one, and obvious from inspection.</li>
+
+<li>
+CardBus does not have SBO# or SDONE.&nbsp; For a CardBus design using the
+Xilinx interface, this is of no concern.&nbsp; The Xilinx interface
+does not support SBO# or SDONE.</li>
+
+<li>
+CardBus does not support the 64-bit PCI extension.&nbsp; Use a 32-bit PCI
+interface for CardBus.</li>
+
+<li>
+CardBus does not implement the JTAG pins.&nbsp; For a CardBus design using
+the Xilinx interface, this is of no concern.</li>
+
+<li>
+CardBus has a CSTSCHG pin for card status change.&nbsp; This is not required
+in an implementation unless the card needs to signal an asynchronous change
+of state or other condition that requires attention from the host.&nbsp;
+This optional feature may be accommodated by implementing it as a pin in
+the the user application.&nbsp; Otherwise, this is of no concern.</li>
+
+<li>
+CardBus has a CAUDIO pin for access to the speaker.&nbsp; This is not required
+in an implementation unless the card needs access to the speaker for audio
+applications.&nbsp; This optional feature may be accommodated by implementing
+it as a pin in the user application.&nbsp; Otherwise, this is of no concern.</li>
+
+<li>
+CardBus has a CCLKRUN# signal.&nbsp; This signal is used for a card to
+signal that it needs the system clock restarted.&nbsp; The Xilinx interface
+can tolerate any change in the system clock.&nbsp; If the user application
+cannot tolerate this clocking behavior, this optional feature may be accommodated
+by implementing it as a pin in the user application.&nbsp; Otherwise, this
+is of no concern.</li>
+
+<li>
+CardBus has only one interrupt pin, CINT#.&nbsp; The Xilinx interface
+supports one interrupt pin, INTA#.</li>
+
+<li>
+CardBus does not provide exceptions to supporting CPERR# and CSERR# while
+in some PCI implementations, these signals are optional.&nbsp; The Xilinx
+interface implements these signals and does not take advantage of the
+relaxed error detection and reporting rules.</li>
+</ul>
+
+<h3>
+2.3.&nbsp;<a NAME="23"></a>Functional Differences</h3>
+There are a number of trivial differences between CardBus functionality
+and standard PCI functionality.&nbsp; Most of these differences relate
+to PCI functions that are not supported in CardBus.&nbsp; Those that require
+particular attention are shown in red text.
+<ul>
+<li>
+CardBus does not support the PCI Interrupt Acknowledge command.&nbsp; Do
+not use this command in CardBus designs.</li>
+
+<li>
+CardBus does not support the PCI Dual Address Cycle command.&nbsp; Do not
+use this command in CardBus designs.</li>
+
+<li>
+CardBus does not support some aspects of target cacheability.&nbsp; This
+is not an issue.</li>
+
+<li>
+CardBus imposes additional usage rules on CBLOCK#.&nbsp; The Xilinx
+interface does not implement LOCK#, which is an optional in both PCI and
+CardBus.</li>
+
+<li>
+CardBus does not support some PCI configuration mechanisms.&nbsp; Since
+CardBus is point-to-point, an expansion card never needs to issue configuration
+transactions as an initiator.&nbsp; Do not attempt this in CardBus designs.</li>
+
+<li>
+CardBus requires parity checking and error reporting.&nbsp; The Xilinx
+interface implements these features and does not take advantage of
+the relaxed error detection and reporting rules.</li>
+
+<li>
+Implementation of the CSTSCHG signal requires user registers.&nbsp; If
+the optional CSTSCHG signal is not used, there is no concern.&nbsp; This
+optional feature may be accommodated by implementing it in the the user
+application.</li>
+
+<li>
+CardBus does not require bus parking.&nbsp; Bus parking behavior is acceptable,
+however, as the CardBus system controller is required to not park the bus
+on other agents.</li>
+</ul>
+
+<h3>
+2.4.&nbsp;<a NAME="24"></a>Electrical Differences</h3>
+There are a few differences between the CardBus electrical specifications
+and standard PCI electrical specifications.&nbsp; Those that require particular
+attention are shown in red text.
+<ul>
+<li>
+<font color="#FF0000">CardBus requires slew rate controlled output buffers.&nbsp;
+The reduced slew rate in CardBus is specified to reduce switching noise
+during output driver transitions.&nbsp; The physical CardBus interface
+has a reduced number of power and ground connections.&nbsp; By limiting
+the output slew rate, instantaneous current requirements are reduced, as
+is the switching noise.&nbsp; Consult the <i>PC Card Standard, Release
+8</i>, Volume 9, Section 2.1.3.3.1 for suggestions on how to use a standard
+PCI component in a CardBus environment.</font></li>
+
+<li>
+<font color="#FF0000">An alternate approach for slew rate control is to
+modify one of the standard wrapper files shipped with the Xilinx interface
+to use an alternate SelectIO standard, such as LVTTL.&nbsp; An appropriate
+buffer type is {I,O,IO}BUF_S_4.&nbsp; This is possible because CardBus
+does not use reflected wave switching and does not require compliance with
+the PCI output driver V/I specifications.&nbsp; However, such a modification
+also requires modification of the I/O time constraints used with the design,
+as LVTTL SelectIO modes are slower than the PCI SelectIO modes.&nbsp; Consult
+the <i>PC Card Standard, Release 8</i> for appropriate time constraints.</font></li>
+
+<li>
+<font color="#FF0000">CardBus requires clamp diodes on the bus signal pins.&nbsp;
+Clamp diodes are automatically enabled when the PCI SelectIO modes are
+used.&nbsp; When an alternate SelectIO standard is used, such as {I,O,IO}BUF_S_4,
+you must make sure clamp diodes are enabled.&nbsp; For Spartan-IIE, Spartan-3, 
+Spartan-3E, Virtex-E, Virtex-II, Virtex-II Pro, and Virtex-4, the clamp diodes
+are enabled automatically.&nbsp; For Spartan-II
+and Virtex, the clamp diodes are not enabled automatically; for these devices,
+contact your local FAE for assistance.</font></li>
+
+<li>
+<font color="#FF0000">CardBus specifies a maximum current following power
+application or reset.&nbsp; Due to the nature of FPGA implementation technology,
+it is impossible to guarantee that the Xilinx interface, when coupled
+with a user design, will meet this requirement.&nbsp; Use a power estimation
+tool or verify the power consumption of your finished design.</font></li>
+
+<li>
+Cardbus does not support the 5.0 volt bus environment.&nbsp; Use an appropriate
+3.3 volt wrapper file for the Xilinx interface.</li>
+
+<li>
+Some timing specifications are relaxed as CardBus is a point-to-point connection.&nbsp;
+However, there is no need to modify the timing specifications shipped with
+the Xilinx interface unless you elect to change the SelectIO standard
+used in the wrapper files.</li>
+
+<li>
+The CardBus connector pin ordering is different than standard PCI.&nbsp;
+With a PCI pinout, signals may cross over each other in a CardBus implementation.&nbsp;
+If this is not acceptable, it is possible to modify some pinout constraints.&nbsp;
+Consult Xilinx technical support for more information.</li>
+</ul>
+
+<h3>
+2.5.&nbsp;<a NAME="25"></a>Configuration Differences</h3>
+There are a number of trivial differences between CardBus configuration
+and standard PCI configuration.&nbsp; Those that require particular attention
+are shown in red text.
+<ul>
+<li>
+<font color="#FF0000">CardBus requires implementation of the CIS Pointer.&nbsp;
+The Xilinx interface implements the CIS Pointer.&nbsp; The CIS Pointer
+value is set through the CFG bus in the HDL configuration file.&nbsp; The
+method for determining the correct value is specified in the <i>PC Card
+Standard, Release 8</i>.&nbsp; The CIS Pointer points to "tuple" space
+which is similar in nature to the PCI Capabilities List.&nbsp; The designer
+must implement "tuple" space in user configuration space, memory space,
+or expansion ROM space.</font></li>
+
+<li>
+CardBus does not define all of the standard PCI type zero configuration
+header.&nbsp; This is not an issue.</li>
+
+<li>
+Certain command register fields are not optional in CardBus.&nbsp; The
+Xilinx interface implements all required fields.</li>
+
+<li>
+Certain status register fields are not optional in CardBus.&nbsp; The Xilinx
+interface implements all required fields.</li>
+
+<li>
+CardBus requires a MEM BAR whenever an IO BAR is used so that all functions
+are accessible through memory space only.</li>
+</ul>
+
+<h4>
+<a href="#CardBus">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+<table COLS=1 WIDTH="597" >
+<tr>
+<td>
+<h2>
+3.0.&nbsp;<a NAME="30"></a>Summary</h2>
+The Xilinx PCI and PCI-X interfaces support CardBus implementations.&nbsp;
+However, some extra design work may be required depending on the specific
+requirements of your CardBus implementation.&nbsp; No modifications to
+the standard Xilinx interface are required.
+<p>For additional information, please refer to the <i>PC Card Standard,
+Release 8</i>.&nbsp; This document is published by, and available from,
+the <a href="http://www.pc-card.com">PCMCIA special interest group</a>.&nbsp;
+<h4>
+<a href="#CardBus">Back to Top</a></h4>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
